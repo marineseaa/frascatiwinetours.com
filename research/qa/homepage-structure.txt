@@ -1,0 +1,4 @@
+Pages with booking/timeline/comparison components checked: 3
+Homepage sequence: hero → highlights → availability → how-it-works → timeline → gallery → comparison → experiences → guide → reviews → cta → alternatives → faq → explore
+Section words: {"timeline": 296, "guide": 914, "faq": 450}
+PASS: homepage structure and Explore inventory

@@ -1,0 +1,68 @@
+title: Three Ways to Spend Your Wine Day
+subtitle: Choose by experience and transport, then compare the final price for your
+  date.
+columns:
+- label: Town & Farmhouse
+  highlight: false
+  cta: Check Dates
+  url: https://www.getyourguide.com/frascati-l2108/from-rome-frascati-half-day-trip-by-train-wine-tasting-t410821/
+- label: Pasta & Vineyard
+  url: https://www.getyourguide.com/frascati-l2108/from-rome-pasta-masterclass-wine-tour-in-the-vineyard-t601703/
+  cta: Check Pasta Dates
+  highlight: true
+  badge: THIS EXPERIENCE
+- label: Private Driver
+  url: https://www.getyourguide.com/rome-l33/rome-countryside-wine-tasting-tour-with-private-driver-t848244/
+  cta: Check Pickup Dates
+  highlight: false
+rows:
+- label: Best fit
+  values:
+  - Town, wine and a full meal
+  - Hands-on cooks who also want a vineyard
+  - Visitors prioritising transport from Rome
+- label: Operator
+  values:
+  - Minardi Wine Farmhouse
+  - Minardi Wine Farmhouse
+  - Rome Grand Tour
+- label: Starting Price
+  values:
+  - "From \u20AC84 per person"
+  - "From \u20AC84 per person"
+  - "From \u20AC139 per person"
+- label: Advertised duration
+  values:
+  - 4 hours
+  - 4 hours
+  - 3 hours
+- label: Meeting
+  values:
+  - Frascati station
+  - Confirm station; Saturday differs
+  - Pickup in Rome; confirm address
+- label: Rome transport
+  values:
+  - Train booked separately
+  - Train booked separately
+  - Pickup and drop-off included
+- label: Wine experience
+  values:
+  - 3 wines at the farmhouse
+  - Boutique wines and olive oil
+  - Wine selection with food pairings
+- label: Food
+  values:
+  - Chef-prepared lunch
+  - Pasta class followed by lunch
+  - Snacks; no full lunch stated
+- label: Main activity
+  values:
+  - Town walk, vineyard and cellar
+  - Cooking, vineyard and cellar
+  - Vineyard and cellar visit
+- label: Trade-off
+  values:
+  - You arrange the train journey
+  - Less time focused on the town
+  - Higher price; shorter tasting visit

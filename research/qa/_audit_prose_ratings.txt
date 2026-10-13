@@ -1,0 +1,8 @@
+========================================================================
+PROSE-RATING AUDIT: frascatiwinetours.com
+========================================================================
+  files scanned            : 26
+  ratings templates render : 4.8, 4.9
+
+  OK: every rating figure in the copy matches a rendered value
+

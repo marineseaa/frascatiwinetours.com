@@ -1,0 +1,104 @@
+{{ $tour := .tour | default dict }}
+{{ $site := .Site }}
+{{ $page := .Page }}
+
+
+{{ $hasLocalSections := or $page.IsHome (eq $page.Type "landing") }}
+{{ $anchorPrefix := cond $hasLocalSections "" "/" }}
+
+
+{{ $primaryID := $site.Params.primaryTourID | default $site.Params.featuredTourID | int }}
+{{ $primaryTour := dict }}
+{{ $allTours := index $site.Data $site.Params.offersDataKey }}
+{{ range $allTours }}
+  {{ if eq (int .id) $primaryID }}
+    {{ $primaryTour = . }}
+  {{ end }}
+{{ end }}
+
+
+
+{{ $contactAddress := $page.Params.contactAddress | default $site.Params.contactAddress | default "" }}
+{{ if not $contactAddress }}
+  {{ $candidate := "" }}
+  {{ if and (eq $page.Type "landing") $tour.meetingPointAddress }}
+    {{ $candidate = $tour.meetingPointAddress }}
+  {{ else }}
+    {{ $candidate = $primaryTour.meetingPointAddress }}
+  {{ end }}
+  
+  {{ if and $candidate (findRE `[0-9]` $candidate) (in $candidate ",") }}
+    {{ $contactAddress = $candidate }}
+  {{ end }}
+{{ end }}
+
+<footer class="site-footer" aria-label="Site footer">
+  <div class="container">
+    <div class="footer-grid">
+
+      
+      <div class="footer-col footer-brand">
+        <a href="/" class="footer-logo" aria-label="{{ $site.Params.siteName }} — home">
+          <span class="footer-logo-text">{{ upper $site.Params.siteName }}</span>
+        </a>
+        <p class="footer-brand-desc">{{ $site.Params.footerDescription }}</p>
+      </div>
+
+      
+      <div class="footer-col">
+        <h3 class="footer-col-title">Quick Links</h3>
+        <ul class="footer-links" role="list">
+          {{ range $site.Params.footerQuickLinks }}
+            {{ $href := .href }}
+            
+            {{ if and $hasLocalSections (hasPrefix $href "/#") }}
+              {{ $href = strings.TrimPrefix "/" $href }}
+            {{ end }}
+            <li><a href="{{ $href }}" class="footer-link">{{ .label }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+
+      
+      <div class="footer-col">
+        <h3 class="footer-col-title">Booking & Information</h3>
+        <ul class="footer-links" role="list">
+          <li><a href="https://www.getyourguide.com/contact/" class="footer-link">GetYourGuide booking support</a></li>
+          <li>
+            <a href="{{ $anchorPrefix }}#availability" class="footer-link">
+              Book Online
+            </a>
+          </li>
+          {{ with $contactAddress }}
+          <li>
+            <address class="footer-address">
+              {{ . }}
+            </address>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  {{ partial "footer-seo-links.html" (dict "Site" $site "Page" $page) }}
+
+  <div class="footer-bottom">
+    <div class="container">
+      
+      {{ with $site.Params.affiliateDisclosure }}
+      <p class="footer-disclosure">{{ . }}</p>
+      {{ end }}
+      <p class="footer-copy">
+        &copy; {{ now.Year }} {{ $site.Params.siteName }}. All rights reserved.
+      </p>
+      <nav class="footer-legal" aria-label="Legal links">
+        {{ range $site.Params.footerLegalLinks }}
+        <a href="{{ .href }}" class="footer-legal-link">{{ .label }}</a>
+        {{ end }}
+      </nav>
+    </div>
+  </div>
+
+</footer>

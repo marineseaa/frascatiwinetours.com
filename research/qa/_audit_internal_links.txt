@@ -1,0 +1,7 @@
+================================================================
+INTERNAL-LINK AUDIT: /mnt/c/Users/Marina/Documents/Travel Websites Hugo/frascatiwinetours/frascatiwinetours.com
+================================================================
+  pages 15 | internal hrefs examined 556 | DEAD 0
+
+All internal-link checks PASS
+

@@ -1,0 +1,46 @@
+[
+  {
+    "path": "/tours/frascati-wine-tour-farmhouse-lunch/",
+    "group": "tours"
+  },
+  {
+    "path": "/tours/pasta-masterclass-wine-tour-vineyard/",
+    "group": "combos"
+  },
+  {
+    "path": "/tours/rome-wine-tasting-private-driver/",
+    "group": "tours"
+  },
+  {
+    "path": "/private-frascati-wine-tours/",
+    "group": "tours"
+  },
+  {
+    "path": "/frascati-pasta-and-wine/",
+    "group": "combos"
+  },
+  {
+    "path": "/guides/choose-frascati-wine-tour/",
+    "group": "guides"
+  },
+  {
+    "path": "/guides/rome-to-frascati-wine-tour/",
+    "group": "guides"
+  },
+  {
+    "path": "/guides/what-to-expect-frascati-wine-tasting/",
+    "group": "guides"
+  },
+  {
+    "path": "/guides/frascati-wines-and-food-pairings/",
+    "group": "guides"
+  },
+  {
+    "path": "/tours/",
+    "group": "tours"
+  },
+  {
+    "path": "/guides/",
+    "group": "guides"
+  }
+]

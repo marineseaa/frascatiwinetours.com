@@ -1,0 +1,211 @@
+{{ define "main" }}
+{{ $site := .Site }}
+{{ $tour := .Scratch.Get "tour" | default dict }}
+{{ $price := (partial "price-display.html" $tour) | default "Check price" }}
+
+
+{{ $widgetTourID := .Params.featuredTourId | default $site.Params.featuredTourID | int }}
+{{ $allTours := index $site.Data $site.Params.offersDataKey }}
+{{ $widgetTour := dict }}
+{{ range $allTours }}
+  {{ if eq (int .id) $widgetTourID }}
+    {{ $widgetTour = . }}
+  {{ end }}
+{{ end }}
+
+{{ $locationSlug := "" }}
+{{ with $widgetTour.url }}
+  {{ $extracted := replaceRE `^.*getyourguide\.com/([a-z0-9-]+-l[0-9]+)/.*$` "$1" . }}
+  {{ if ne $extracted . }}{{ $locationSlug = $extracted }}{{ end }}
+{{ end }}
+{{ if not $locationSlug }}
+  
+  {{ $locationSlug = $site.Params.gygLocationSlug | default "" }}
+{{ end }}
+
+
+{{ $intro := .Summary }}
+{{ $rest := "" }}
+{{ if .Truncated }}
+  {{ $rest = strings.TrimPrefix $intro .Content }}
+{{ else }}
+  {{ $rest = .Content }}
+  {{ $intro = "" }}
+{{ end }}
+{{ $parts := strings.Split $rest "<h2" }}
+{{ $aboveAuto := $rest }}
+{{ $belowAuto := "" }}
+{{ if gt (len $parts) 3 }}
+  {{ $aboveAuto = printf "%s<h2%s<h2%s" (index $parts 0) (index $parts 1) (index $parts 2) }}
+  {{ $belowAuto = printf "<h2%s" (delimit (after 3 $parts) "<h2") }}
+{{ end }}
+
+<article class="guide-article">
+
+  
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="container container-narrow">
+      <ol class="breadcrumb-list">
+        <li><a href="/">Home</a></li>
+        <li><a href="/guides/">Guides</a></li>
+        <li aria-current="page">{{ .Params.h1 | default .Title }}</li>
+      </ol>
+    </div>
+  </nav>
+
+  
+  <header class="guide-header">
+    <div class="container container-narrow">
+      <h1 class="guide-title">{{ .Params.h1 | default .Title }}</h1>
+      {{ with .Params.description }}
+      <p class="guide-subtitle">{{ . }}</p>
+      {{ end }}
+      <p class="guide-meta">Updated {{ .Params.dateModified | default (.Date.Format "January 2006") }}</p>
+    </div>
+  </header>
+
+  
+  {{ if $intro }}
+  <div class="guide-body guide-body-intro">
+    <div class="container container-narrow">
+      <div class="prose">{{ $intro | safeHTML }}</div>
+    </div>
+  </div>
+  {{ end }}
+
+  
+  <section class="section section--slim guide-availability" id="guide-availability">
+    <div class="container container-narrow">
+      <p class="section-overline">Check Availability</p><h2 class="guide-booking-title">{{ $widgetTour.title }}</h2><p>{{ $widgetTour.abstract }}</p>
+      <div class="booking-widget-wrapper fade-up">
+        <div data-gyg-href="https://widget.getyourguide.com/default/availability.frame"
+             data-gyg-tour-id="{{ $widgetTourID }}"
+             data-gyg-locale-code="en-US"
+             data-gyg-currency="EUR"
+             data-gyg-widget="availability"
+             data-gyg-variant="vertical"
+             data-gyg-partner-id="{{ $site.Params.gygPartnerID }}"
+             data-gyg-cmp="{{ $site.Params.gygCampaign }}">
+          <span class="gyg-fallback">Powerd by <a target="_blank" rel="sponsored noopener" href="{{ $widgetTour.url }}" data-gyg-href="{{ $widgetTour.url }}">GetYourGuide</a></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  {{ if $aboveAuto }}
+  <div class="guide-body guide-body-above-auto">
+    <div class="container container-narrow">
+      <div class="prose">{{ $aboveAuto | safeHTML }}</div>
+    </div>
+  </div>
+  {{ end }}
+
+  
+  <section class="section alt-tours-section guide-auto-widget" aria-labelledby="guide-auto-heading">
+    <div class="container container-narrow">
+      <div class="section-header fade-up">
+        <p class="section-overline">Other Experiences</p>
+        <h2 class="section-title" id="guide-auto-heading">Other experiences you might enjoy</h2>
+        <p class="section-subtitle">{{ $site.Params.guideAutoWidgetIntro | default "More ways to explore the area — all bookable with free cancellation." }}</p>
+      </div>
+      <div class="booking-widget-wrapper fade-up">
+        <div data-gyg-widget="auto"
+             data-gyg-partner-id="{{ $site.Params.gygPartnerID }}"
+             data-gyg-cmp="{{ $site.Params.gygCampaign }}"></div>
+      </div>
+    </div>
+  </section>
+
+  
+  {{ if $belowAuto }}
+  <div class="guide-body">
+    <div class="container container-narrow">
+      <div class="prose">{{ $belowAuto | safeHTML }}</div>
+    </div>
+  </div>
+  {{ end }}
+
+  
+  <section class="cta-band" aria-labelledby="guide-cta-heading">
+    <div class="container">
+      <div class="cta-band-inner">
+        <h2 class="cta-title" id="guide-cta-heading">Plan Your Frascati Experience</h2>
+        
+        <p class="cta-body">{{ $widgetTour.abstract }}</p>
+        <a href="#guide-availability" class="btn-primary btn-lg cta-btn">
+          {{ .Site.Params.ctaButton | default "Check Availability & Book" }}
+        </a>
+      </div>
+    </div>
+  </section>
+
+</article>
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Params.h1 | default .Title }}",
+  "description": "{{ .Description }}",
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  
+  "dateModified": "{{ .Params.dateModifiedISO | default (.Lastmod.Format "2006-01-02") }}",
+  "author": {
+    "@type": "Organization",
+    "name": "{{ $site.Params.siteName }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ $site.Params.siteName }}"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }
+}
+</script>
+
+
+{{ $faqBlock := "" }}
+{{ $split := split .Content "frequently-asked-questions" }}
+{{ if gt (len $split) 1 }}
+  {{ $faqBlock = index (split (index $split 1) "<hr") 0 }}
+{{ end }}
+{{ $faqs := slice }}
+{{ range $i, $chunk := (split $faqBlock "<h3") }}
+  {{ if gt $i 0 }}
+    {{ $item := printf "<h3%s" $chunk }}
+    {{ $q := trim ($item | replaceRE `(?s)^<h3[^>]*>(.*?)</h3>.*$` "$1" | plainify | htmlUnescape) " \n\t" }}
+    {{ $a := trim ($item | replaceRE `(?s)^<h3[^>]*>.*?</h3>(.*)$` "$1" | plainify | htmlUnescape) " \n\t" }}
+    {{ if and (ne $q "") (ne $a "") }}
+      {{ $faqs = $faqs | append (dict "q" $q "a" $a) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ with $faqs }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+{{- range $i, $f := . }}{{ if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": {{ $f.q | jsonify | safeJS }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ $f.a | jsonify | safeJS }}
+      }
+    }
+{{- end }}
+  ]
+}
+</script>
+{{ end }}
+
+{{ end }}

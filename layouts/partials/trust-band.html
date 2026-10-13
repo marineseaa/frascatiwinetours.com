@@ -1,0 +1,65 @@
+{{ $tour := .tour | default dict }}
+{{ $site := .Site }}
+{{ $page := .Page }}
+
+{{ $rating      := $tour.rating      | default 0 }}
+{{ $reviewCount := $tour.reviewCount | default 0 }}
+{{ $duration    := $tour.duration    | default "" }}
+{{ $freeCancellation := $tour.freeCancellation | default false }}
+
+
+{{ $dishesMetric := $page.Params.trustDishesMetric | default $site.Params.trustDishesMetric | default "Top Rated" }}
+{{ $dishesLabel  := $page.Params.trustDishesLabel  | default $site.Params.trustDishesLabel  | default "Verified Reviews" }}
+{{ $guideMetric  := $page.Params.trustGuideMetric  | default $site.Params.trustGuideMetric  | default "Instant" }}
+{{ $guideLabel   := $page.Params.trustGuideLabel   | default $site.Params.trustGuideLabel   | default "Confirmation" }}
+
+<section class="trust-band" aria-label="Trust signals">
+  <div class="container">
+    <ul class="trust-grid" role="list">
+
+      {{ if $rating }}
+      <li class="trust-item fade-up">
+        <div class="trust-text">
+          <span class="trust-metric">{{ printf "%.1f" $rating }} / 5</span>
+          <span class="trust-label">{{ if $reviewCount }}{{ lang.FormatNumber 0 $reviewCount }}+ Reviews{{ else }}Top Rated{{ end }}</span>
+        </div>
+      </li>
+      {{ end }}
+
+      {{ if $duration }}
+      <li class="trust-item fade-up">
+        <div class="trust-text">
+          <span class="trust-metric">{{ $duration }}</span>
+          <span class="trust-label">Duration</span>
+        </div>
+      </li>
+      {{ end }}
+
+      
+      <li class="trust-item fade-up">
+        <div class="trust-text">
+          <span class="trust-metric">{{ $dishesMetric }}</span>
+          <span class="trust-label">{{ $dishesLabel }}</span>
+        </div>
+      </li>
+
+      
+      <li class="trust-item fade-up">
+        <div class="trust-text">
+          <span class="trust-metric">{{ $guideMetric }}</span>
+          <span class="trust-label">{{ $guideLabel }}</span>
+        </div>
+      </li>
+
+      {{ if $freeCancellation }}
+      <li class="trust-item fade-up">
+        <div class="trust-text">
+          <span class="trust-metric">Free</span>
+          <span class="trust-label">Cancellation</span>
+        </div>
+      </li>
+      {{ end }}
+
+    </ul>
+  </div>
+</section>

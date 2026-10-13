@@ -1,0 +1,59 @@
+==============================================================================
+INBOUND-LINK AUDIT: frascatiwinetours.com
+==============================================================================
+  source pages walked : 15
+  landing spokes      : 2
+
+  /frascati-pasta-and-wine/            4 inbound  (4 contextual)
+      editorial body       x1    
+      explore hub          x3    
+
+  /private-frascati-wine-tours/        5 inbound  (5 contextual)
+      article body         x2    
+      explore hub          x3    
+
+All spokes reachable -- no orphans
+
+127.0.0.1 - - [13/Oct/2026 21:28:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:01] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:01] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:01] "GET /images/hero.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:01] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:01] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:01] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:01] "GET /404.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:01] "GET /frascati-pasta-and-wine/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:01] "GET /images/gyg/601703-g1.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:01] "GET /images/gyg/601703-g0.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:01] "GET /images/gyg/601703-g2.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:01] "GET /images/gyg/601703-g3.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:01] "GET /images/gyg/601703-g4.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:01] "GET /guides/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:01] "GET /guides/choose-frascati-wine-tour/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:01] "GET /images/choose-frascati-wine-tour-hook.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:02] "GET /guides/frascati-wines-and-food-pairings/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:02] "GET /images/frascati-wines-and-food-pairings-hook.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:02] "GET /guides/rome-to-frascati-wine-tour/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:02] "GET /images/rome-to-frascati-wine-tour-hook.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:02] "GET /guides/what-to-expect-frascati-wine-tasting/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:02] "GET /images/what-to-expect-frascati-wine-tasting-hook.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:02] "GET /pages/privacy/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:02] "GET /pages/terms/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:02] "GET /private-frascati-wine-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /images/gyg/848244-g3.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /images/gyg/848244-g0.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /images/gyg/848244-g1.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /images/gyg/848244-g2.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /images/gyg/848244-g4.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /images/gyg/410821.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /images/gyg/601703.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /images/gyg/848244.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /tours/frascati-wine-tour-farmhouse-lunch/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /images/gyg/410821-g0.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /images/gyg/410821-g1.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /images/gyg/410821-g2.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /images/gyg/410821-g3.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /images/gyg/410821-g4.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /tours/pasta-masterclass-wine-tour-vineyard/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /tours/rome-wine-tasting-private-driver/ HTTP/1.1" 200 -

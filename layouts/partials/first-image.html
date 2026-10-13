@@ -1,0 +1,18 @@
+
+{{- $imgs := . | default slice -}}
+{{- $first := "" -}}
+{{- range $imgs -}}
+  {{- if not $first -}}
+    {{- /* Support both plain string URLs and {src, alt} object form from portable scraper v7 */}}
+    {{- $url := "" -}}
+    {{- if reflect.IsMap . -}}
+      {{- $url = index . "src" | default "" -}}
+    {{- else -}}
+      {{- $url = printf "%v" . -}}
+    {{- end -}}
+    {{- if not (or (strings.Contains $url ".m3u8") (strings.Contains $url "cloudflarestream")) -}}
+      {{- $first = $url -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $first -}}

@@ -1,0 +1,110 @@
+baseURL = "https://frascatiwinetours.com/"
+title = "Frascati Wine Tours | Vineyard Tastings & Farmhouse Lunches"
+theme = "travel-niche"
+languageCode = "en-US"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+buildFuture = true
+enableGitInfo = false
+[markup.goldmark.renderer]
+unsafe = true
+[params]
+siteName = "Frascati Wine Tours"
+siteTagline = "FRASCATI · ITALY"
+description = "Compare Frascati wine tours, vineyard lunches and pasta classes. Plan your trip from Rome, check inclusions and book your preferred date."
+featuredTourID = "410821"
+gygWidgetTourID = "410821"
+offersDataKey = "gyg_frascati_offers"
+gygPartnerID = "1MSALBX"
+gygCampaign = "frascatiwinetours"
+gygLocationSlug = "frascati-l2108"
+heroImage = "/images/hero.webp"
+ogImage = "/images/hero.webp"
+heroOverline = "A TASTE OF THE ROMAN COUNTRYSIDE"
+heroSubtitle = "Leave the city for vineyard rows, local wines and a long farmhouse lunch. Find your kind of Frascati, just beyond Rome."
+heroCTAPrimary = "Find Your Wine Tour"
+heroCTASecondary = "Plan Your Visit"
+bookingOverline = "YOUR TABLE IN THE VINEYARD"
+bookingHeading = "Choose a Date, Make It Frascati"
+featuredTourPitch = "For a first visit, our featured farmhouse experience brings together a town walk, a three-wine tasting and lunch. Select your date and participants below; meet in Frascati and book the train from Rome separately."
+sitePriceFrom = "€35"
+highlightsTitle = "Town, Vines & a Farmhouse Table"
+highlightsSubtitle = "Our featured half-day combines a guided walk in Frascati with a wine-farmhouse visit and lunch."
+trustDishesMetric = "3 wines"
+trustDishesLabel = "Farmhouse tasting"
+trustGuideMetric = "Lunch"
+trustGuideLabel = "At the farmhouse"
+howItWorksTitle = "From a Good Idea to a Booked Day"
+howItWorksSubtitle = "Choose the experience first, then arrange the journey around its meeting point."
+galleryTitle = "A Little Further from the Everyday"
+gallerySubtitle = "Photographs from the featured experience’s GetYourGuide listing."
+experiencesTitle = "Find Your Kind of Wine Day"
+experiencesSubtitle = "A farmhouse lunch, a cooking lesson or a driver from Rome: compare what each reservation includes."
+reviewsTitle = "Notes from the Farmhouse Guests"
+reviewsSource = "GetYourGuide reviews"
+reviewsDisclaimer = "Ratings checked 13 October 2026. Cards below are short summaries of individual verified GetYourGuide reviews, not verbatim quotations."
+ctaTitle = "Make Room for a Day in Frascati"
+ctaBody = "A town walk, a vineyard visit, three wines and a farmhouse lunch. Choose a date for the featured half-day experience."
+ctaButton = "Check Dates & Availability"
+exploreHubSubtitle = "Explore the experiences, compare the formats and plan the journey from Rome."
+guideAutoWidgetIntro = "Browse other activities and check the inclusions and cancellation terms of your chosen option."
+footerDescription = "An independent guide to wine experiences in Frascati and the Roman countryside. Compare the details, then book with GetYourGuide."
+affiliateDisclosure = "We may earn a commission when you book through our GetYourGuide links, at no extra cost to you. We are an independent guide, not a tour operator."
+twitterCard = "summary_large_image"
+schemaLat = "41.8085"
+schemaLong = "12.6817"
+schemaPriceRange = "€€"
+schemaAddressLocality = "Frascati"
+schemaCountry = "IT"
+
+[[params.exploreHubColumns]]
+key = "tours"
+label = "Vineyards & Wine Tours"
+
+[[params.exploreHubColumns]]
+key = "combos"
+label = "Pasta & Wine Experiences"
+
+[[params.exploreHubColumns]]
+key = "guides"
+label = "Plan Your Frascati Visit"
+
+[[params.footerQuickLinks]]
+label = "All Wine Tours"
+href = "/tours/"
+
+[[params.footerQuickLinks]]
+label = "Compare Experiences"
+href = "/#comparison"
+
+[[params.footerQuickLinks]]
+label = "Rome to Frascati"
+href = "/guides/rome-to-frascati-wine-tour/"
+
+[[params.footerQuickLinks]]
+label = "Planning Guides"
+href = "/guides/"
+
+[[params.footerLegalLinks]]
+label = "Privacy"
+href = "/pages/privacy/"
+
+[[params.footerLegalLinks]]
+label = "Terms & Disclosure"
+href = "/pages/terms/"
+
+[[params.steps]]
+title = "Choose your experience"
+body = "Start with the kind of day you want: a town walk and farmhouse lunch, a hands-on pasta class, or a tasting with a private driver. Compare the meeting point as well as the price. A Rome departure and a Frascati meeting are different bookings."
+
+[[params.steps]]
+title = "Check your date and group"
+body = "Select your date and everyone travelling, then read the available option\u2019s language, inclusions and cancellation deadline. Tell the operator about dietary or access requirements before committing. The final booking screen is the place to confirm the total for your party."
+
+[[params.steps]]
+title = "Keep the confirmation handy"
+body = "Save the booking confirmation and read the meeting instructions carefully. For the featured tour, meet outside Frascati station rather than at Roma Termini. Check whether your selected day changes the recommended train, and allow time to find the correct host."
+
+[[params.steps]]
+title = "Arrange the journey"
+body = "For station-meeting tours, buy your train tickets separately and check the return service. If you chose a private-driver experience, confirm the pickup address and time instead. Keep the rest of the afternoon flexible enough to enjoy the day without rushing back."

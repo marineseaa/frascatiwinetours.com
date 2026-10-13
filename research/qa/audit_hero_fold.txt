@@ -1,0 +1,17 @@
+==============================================================================
+HERO FOLD AUDIT (F5 + F6): frascatiwinetours.com
+==============================================================================
+  /                                            1440x900  hero= 900 strip= 900  F5 OK   F6 OK
+  /                                            1280x800  hero= 800 strip= 800  F5 OK   F6 OK
+  /                                             390x844  hero= 844 strip= 844  F5 OK   F6 OK
+  /frascati-pasta-and-wine/                    1440x900  hero= 900 strip= 900  F5 OK   F6 OK
+  /frascati-pasta-and-wine/                    1280x800  hero= 800 strip= 800  F5 OK   F6 OK
+  /frascati-pasta-and-wine/                     390x844  hero= 844 strip= 844  F5 OK   F6 OK
+  /private-frascati-wine-tours/                1440x900  hero= 900 strip= 900  F5 OK   F6 OK
+  /private-frascati-wine-tours/                1280x800  hero= 800 strip= 800  F5 OK   F6 OK
+  /private-frascati-wine-tours/                 390x844  hero= 844 strip= 844  F5 OK   F6 OK
+
+  hero-bearing page loads examined: 9
+
+All hero-fold checks PASS — the strip renders opaque on first paint and clears the fold on every hero-bearing page.
+

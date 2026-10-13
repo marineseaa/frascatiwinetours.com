@@ -1,0 +1,11 @@
+================================================================
+GALLERY DUPLICATE AUDIT: /mnt/c/Users/Marina/Documents/Travel Websites Hugo/frascatiwinetours/frascatiwinetours.com
+================================================================
+  tour pages checked : 3
+  gallery photos     : 15
+  threshold          : 6 (0 = pixel-identical)
+
+  OK: no photo is shared between two tour galleries
+
+All gallery-duplicate checks PASS
+

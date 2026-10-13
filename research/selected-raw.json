@@ -1,0 +1,106 @@
+[
+  {
+    "@type": "Event",
+    "url": "https://www.getyourguide.com/rome-l33/frascati-homemade-italian-cooking-class-wine-tasting-t415496/",
+    "name": "Rome: Pasta Making - Premium Wine Tasting, Roman Wine Cave",
+    "startDate": "2026-10-14T10:30:00+02:00",
+    "image": [
+      "https://cdn.getyourguide.com/img/tour/623e20f467427.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/63c2b4408febc.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/63c2b440edd76.jpeg/68.jpg"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingCount": 1166,
+      "ratingValue": 4.934017
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": 34.8
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Rome"
+    }
+  },
+  {
+    "@type": "Event",
+    "url": "https://www.getyourguide.com/frascati-l2108/from-rome-frascati-half-day-trip-by-train-wine-tasting-t410821/",
+    "name": "From Rome: Half-Day Frascati Wine Tour with Farmhouse Lunch",
+    "startDate": "2026-10-17T10:30:00+02:00",
+    "image": [
+      "https://cdn.getyourguide.com/img/tour/f81582fab68ee47e.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/5883d129368fe9b4.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/854f3a81e9a79430.jpeg/68.jpg"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingCount": 524,
+      "ratingValue": 4.9197745
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": 84
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Frascati"
+    }
+  },
+  {
+    "@type": "Event",
+    "url": "https://www.getyourguide.com/rome-l33/rome-countryside-wine-tasting-tour-with-private-driver-t848244/",
+    "name": "Rome Countryside: Wine Tasting Tour with Private Driver",
+    "startDate": "2026-10-14T09:15:00+02:00",
+    "image": [
+      "https://cdn.getyourguide.com/img/tour/0fcf0572c88fbe440a838ad65c714eeea115c6dd1d6aa4e68515220fc07a7186.jpg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/0eaa46bdde9231e6eae7cf1f807eea1841de0b835f01601332142f895db3b3b4.jpg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/16cbb26423c0059bfaaa29bf141be90fe8ce10b477670f57f64af461786d052c.jpg/68.jpg"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingCount": 65,
+      "ratingValue": 4.837736
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": 139
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Rome"
+    }
+  },
+  {
+    "@type": "Event",
+    "url": "https://www.getyourguide.com/frascati-l2108/from-rome-pasta-masterclass-wine-tour-in-the-vineyard-t601703/",
+    "name": "From Rome: Pasta Masterclass & Wine Tour in the Vineyard",
+    "startDate": "2026-10-17T10:30:00+02:00",
+    "image": [
+      "https://cdn.getyourguide.com/img/tour/0425716f95effbf2409bf8f86d70568ee4b4769a24d49ae2df357ca8c2b02803.jpg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/62355f4a36b1eff820c9f152c6d3de458624fb964fa5779846ed7b6ed349fee8.jpg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/7f562a48734828e24a1d338a656d779b3afc2e9acdabb9906a335c5eb91aeaba.jpg/68.jpg"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingCount": 182,
+      "ratingValue": 4.917726
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": 84
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Frascati"
+    }
+  }
+]

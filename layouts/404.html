@@ -1,0 +1,28 @@
+{{ define "main" }}
+<meta name="robots" content="noindex">
+<section class="section clears-header" style="min-height: 60vh; display: flex; align-items: center;">
+  <div class="container container-narrow">
+    <div class="section-header fade-up" style="text-align: center;">
+      <p class="section-overline">404 Error</p>
+      <h1 class="section-title">Page Not Found</h1>
+      <p class="section-subtitle" style="max-width: 600px; margin-inline: auto;">
+        
+        The page you're looking for doesn't exist or has been moved. Let's get you back on track.
+      </p>
+    </div>
+
+    
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-3); margin-top: var(--space-8);">
+      <a href="/" class="btn-outline btn-lg">
+        Back to Home
+      </a>
+      <a href="/tours/" class="btn-outline btn-lg">
+        {{ .Site.Params.tourBackLinkText | default "Browse All Tours" }}
+      </a>
+      <a href="/#availability" class="btn-primary btn-lg">
+        {{ .Site.Params.ctaButton | default "Check Availability & Book" }}
+      </a>
+    </div>
+  </div>
+</section>
+{{ end }}

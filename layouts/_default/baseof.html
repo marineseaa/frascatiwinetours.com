@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+  
+  {{ $tour := dict }}
+  {{ if eq .Type "tour" }}
+    
+    {{ $allTours := index .Site.Data .Site.Params.offersDataKey }}
+    {{ $tourID := .Params.tourId }}
+    {{ range $allTours }}
+      {{ if eq (int .id) (int $tourID) }}
+        {{ $tour = . }}
+      {{ end }}
+    {{ end }}
+  {{ else if eq .Type "landing" }}
+    
+    {{ $tourID := .Params.tourId | default "" }}
+    {{ if $tourID }}
+      {{ $key := printf "gyg_activity_%s" $tourID }}
+      {{ $tour = index .Site.Data $key | default dict }}
+      {{ if and (eq (len $tour) 0) .Params.dataKey }}
+        {{ $allTours := index .Site.Data .Params.dataKey }}
+        {{ range $allTours }}
+          {{ if eq (int .id) (int $tourID) }}
+            {{ $tour = . }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ else }}
+    
+    {{ $tourID := .Params.featuredTourId | default .Site.Params.featuredTourID | int }}
+    {{ $allTours := index .Site.Data .Site.Params.offersDataKey }}
+    {{ range $allTours }}
+      {{ if eq (int .id) $tourID }}
+        {{ $tour = . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ .Scratch.Set "tour" $tour }}
+  {{ partial "head.html" (dict "Site" .Site "Page" . "tour" $tour) }}
+</head>
+<body>
+  {{ $tour := .Scratch.Get "tour" | default dict }}
+  {{ partial "header.html" (dict "Site" .Site "Page" . "tour" $tour) }}
+
+  <main id="main-content">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  {{ partial "footer.html"          (dict "Site" .Site "Page" . "tour" $tour) }}
+  
+  {{ if or .IsHome (and .IsPage (or (eq .Type "tour") (eq .Type "guides") (eq .Type "landing"))) }}
+    {{ partial "sticky-cta.html" (dict "Site" .Site "Page" . "tour" $tour) }}
+  {{ end }}
+  {{ partial "structured-data.html" (dict "Site" .Site "Page" . "tour" $tour) }}
+
+  <script src="/js/main.js?v={{ now.Unix }}" defer></script>
+</body>
+</html>

@@ -1,0 +1,418 @@
+[
+  {
+    "@type": "Event",
+    "url": "https://www.getyourguide.com/rome-l33/frascati-homemade-italian-cooking-class-wine-tasting-t415496/",
+    "name": "Rome: Pasta Making - Premium Wine Tasting, Roman Wine Cave",
+    "startDate": "2026-10-14T10:30:00+02:00",
+    "image": [
+      "https://cdn.getyourguide.com/img/tour/623e20f467427.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/63c2b4408febc.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/63c2b440edd76.jpeg/68.jpg"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingCount": 1166,
+      "ratingValue": 4.934017
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": 34.8
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Rome"
+    }
+  },
+  {
+    "@type": "Event",
+    "url": "https://www.getyourguide.com/frascati-l2108/from-rome-frascati-half-day-trip-by-train-wine-tasting-t410821/",
+    "name": "From Rome: Half-Day Frascati Wine Tour with Farmhouse Lunch",
+    "startDate": "2026-10-17T10:30:00+02:00",
+    "image": [
+      "https://cdn.getyourguide.com/img/tour/f81582fab68ee47e.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/5883d129368fe9b4.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/854f3a81e9a79430.jpeg/68.jpg"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingCount": 524,
+      "ratingValue": 4.9197745
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": 84
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Frascati"
+    }
+  },
+  {
+    "@type": "Event",
+    "url": "https://www.getyourguide.com/rome-l33/from-rome-private-castelli-romani-wine-and-lunch-tour-t172221/",
+    "name": "Frascati Wine Road from Rome: Tasting & Lunch",
+    "startDate": "2026-10-15T10:19:00+02:00",
+    "image": [
+      "https://cdn.getyourguide.com/img/tour/e5c3bdad70211554.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/575691b0a4f7425d.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/69edce7f80fa1123.jpeg/68.jpg"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingCount": 271,
+      "ratingValue": 4.725146
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": 106.67
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Rome"
+    }
+  },
+  {
+    "@type": "Event",
+    "url": "https://www.getyourguide.com/rome-l33/frascati-half-day-wine-tour-t963399/",
+    "name": "Frascati: Half-Day Wine Tour at a 16th-Century Winery",
+    "startDate": "2026-10-14T10:20:00+02:00",
+    "image": [
+      "https://cdn.getyourguide.com/img/tour/19c0183c3c4f3a0cc048424e941374eac5868531c2bdf9442cd2788eea2298a1.jpg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/9a11cd027833af91656a545eaee832f5fa3b0356507b67f62734ec5fd65a1d12.jpg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/a71d3aebbb2e189cb71cc9b5e1ab981f3c8f45b213f6c9811f5658c7f64fadfb.jpg/68.jpg"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingCount": 15,
+      "ratingValue": 4.839719
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": 95
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Rome"
+    }
+  },
+  {
+    "@type": "Event",
+    "url": "https://www.getyourguide.com/rome-l33/an-excursion-to-castelli-romani-in-a-fiat-500-from-the-villas-of-frascati-to-the-lakes-t1032771/",
+    "name": "Fiat 500 tour in the Castelli Romani \u2013 from the villas of Frascati to the lakes",
+    "startDate": "2026-10-13T12:30:00+02:00",
+    "image": [
+      "https://cdn.getyourguide.com/img/tour/4e78ffb166ad11db7c9a639e8a06ec9f76952721dfc6f183a76b701773db4148.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/200e6e5060a486234227b0fcaa9a0448bbcca3c172e8454aa8a56a531f17244e.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/cd357a140ac636e2cd2d71597ee00d15267310224566c86edf6f4637c554e68c.jpeg/68.jpg"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingCount": 4,
+      "ratingValue": 5
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": 100
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Rome"
+    }
+  },
+  {
+    "@type": "Event",
+    "url": "https://www.getyourguide.com/frascati-l2108/rome-private-countryside-wine-tasting-tour-t69913/",
+    "name": "Countryside Wine Tasting with Local Family & Food Pairing",
+    "startDate": "2026-10-14T09:45:00+02:00",
+    "image": [
+      "https://cdn.getyourguide.com/img/tour/e7a64b01ee24dc5a.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/16a382f62551e69e.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/624dfbb49322b.jpeg/68.jpg"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingCount": 208,
+      "ratingValue": 4.77163
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": 89
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Frascati"
+    }
+  },
+  {
+    "@type": "Event",
+    "url": "https://www.getyourguide.com/rome-l33/roman-countryside-indulgence-exclusive-wine-tasting-t427359/",
+    "name": "From Rome: Private Castelli Romani Wine Tasting Tour",
+    "startDate": "2026-10-14T09:40:00+02:00",
+    "image": [
+      "https://cdn.getyourguide.com/img/tour/08ab72bfb130ad4beb87d6fa455d7fd445562ed299371cdea3ed5a1808dc207a.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/41038967ea33573ebdc5a5bc95c4853eac57a32b3af84d3f1479a84aec70ad41.jpg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/63f508d04271a.jpeg/68.jpg"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingCount": 93,
+      "ratingValue": 4.7593317
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": 65
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Rome"
+    }
+  },
+  {
+    "@type": "Event",
+    "url": "https://www.getyourguide.com/rome-l33/rome-countryside-wine-tasting-tour-with-private-driver-t848244/",
+    "name": "Rome Countryside: Wine Tasting Tour with Private Driver",
+    "startDate": "2026-10-14T09:15:00+02:00",
+    "image": [
+      "https://cdn.getyourguide.com/img/tour/0fcf0572c88fbe440a838ad65c714eeea115c6dd1d6aa4e68515220fc07a7186.jpg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/0eaa46bdde9231e6eae7cf1f807eea1841de0b835f01601332142f895db3b3b4.jpg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/16cbb26423c0059bfaaa29bf141be90fe8ce10b477670f57f64af461786d052c.jpg/68.jpg"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingCount": 65,
+      "ratingValue": 4.837736
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": 139
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Rome"
+    }
+  },
+  {
+    "@type": "Event",
+    "url": "https://www.getyourguide.com/rome-l33/from-rome-wine-tour-farmhouse-lunch-in-the-vineyard-t929228/",
+    "name": "From Rome: Wine Tour & Farmhouse Lunch in the Vineyard",
+    "startDate": "2026-10-18T12:00:00+02:00",
+    "image": [
+      "https://cdn.getyourguide.com/img/tour/f81582fab68ee47e.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/5883d129368fe9b4.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/854f3a81e9a79430.jpeg/68.jpg"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingCount": 20,
+      "ratingValue": 4.9063854
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": 69
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Rome"
+    }
+  },
+  {
+    "@type": "Event",
+    "url": "https://www.getyourguide.com/frascati-l2108/from-rome-pasta-masterclass-wine-tour-in-the-vineyard-t601703/",
+    "name": "From Rome: Pasta Masterclass & Wine Tour in the Vineyard",
+    "startDate": "2026-10-17T10:30:00+02:00",
+    "image": [
+      "https://cdn.getyourguide.com/img/tour/0425716f95effbf2409bf8f86d70568ee4b4769a24d49ae2df357ca8c2b02803.jpg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/62355f4a36b1eff820c9f152c6d3de458624fb964fa5779846ed7b6ed349fee8.jpg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/7f562a48734828e24a1d338a656d779b3afc2e9acdabb9906a335c5eb91aeaba.jpg/68.jpg"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingCount": 182,
+      "ratingValue": 4.917726
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": 84
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Frascati"
+    }
+  },
+  {
+    "@type": "Event",
+    "url": "https://www.getyourguide.com/frascati-l2108/frascati-sightseeing-e-bike-tour-with-wine-tasting-t458865/",
+    "name": "Frascati: Tour in E-Bike with Wine Tasting",
+    "startDate": "2026-10-14T10:00:00+02:00",
+    "image": [
+      "https://cdn.getyourguide.com/img/tour/cf5fc36ec8818b297813127497bb02386ec9a2382ecd11ac237fcc7bbda3a78c.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/643d442332737.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/643d448a3d6a1.jpeg/68.jpg"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingCount": 45,
+      "ratingValue": 4.9550056
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": 80
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Frascati"
+    }
+  },
+  {
+    "@type": "Event",
+    "url": "https://www.getyourguide.com/rome-l33/rome-experience-the-castelli-romani-among-lakes-villages-and-flavors-t1239718/",
+    "name": "Rome: Experience the Castelli Romani among lakes, villages, and flavors",
+    "startDate": "2026-10-17T09:00:00+02:00",
+    "image": [
+      "https://cdn.getyourguide.com/img/tour/bbbca34cca1a36eb2408197e5eb4fdf5e8167f936a422da8f5fde3b05f18616e.jpg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/413bd569dbfdb281dc199b55e0199cad938983883fb23dd6bc65ffd9e7695394.jpg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/a351938da2ca34d6cbd7f3b298ef62ed9d3ab9066df05515a2624e306e2e0795.jpg/68.jpg"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingCount": 9,
+      "ratingValue": 5
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": 160
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Rome"
+    }
+  },
+  {
+    "@type": "Event",
+    "url": "https://www.getyourguide.com/rome-l33/frascati-guided-walking-tour-with-food-and-wine-tasting-t1192704/",
+    "name": "From Rome: Frascati Walking Tour with Food and Wine Tasting",
+    "startDate": "2026-10-14T10:00:00+02:00",
+    "image": [
+      "https://cdn.getyourguide.com/img/tour/931045ad4d74245894e9e458d48fe27d17825d0f4118d6d2278fe2a3f649889f.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/ae6c4775f71f9d089d01b10050ff63814e4ad667654df05b883efaf45257d2f3.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/2db4f2ab29931eb16650d4fa60c156dc318831f22320aaa0d3cd68746782ad06.jpeg/68.jpg"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingCount": 3,
+      "ratingValue": 4.6757603
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": 75
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Rome"
+    }
+  },
+  {
+    "@type": "Event",
+    "url": "https://www.getyourguide.com/rome-l33/4-hour-lazio-wine-tour-from-rome-t61616/",
+    "name": "Rome: Private Castelli Romani Wine Tasting Tour",
+    "startDate": "2026-10-13T14:10:00+02:00",
+    "image": [
+      "https://cdn.getyourguide.com/img/tour/603a15aa6a782.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/646b916c85b81.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/56b5cfdfe7167.jpeg/68.jpg"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingCount": 48,
+      "ratingValue": 4.614424
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": 84
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Rome"
+    }
+  },
+  {
+    "@type": "Event",
+    "url": "https://www.getyourguide.com/rome-l33/dolce-frascati-course-on-typical-castelli-romani-pastries-t1152677/",
+    "name": "Frascati: Typical Castelli Romani Pastry Course",
+    "startDate": "2026-10-14T14:00:00+02:00",
+    "image": [
+      "https://cdn.getyourguide.com/img/tour/60e9c74e27486142ada1075c290177a3a1f2e751951c45fc02aa8ee4b1613556.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/e7c5378acb867f6eeaea6c152882f0e31fd0c66eb1963495384e0ce45917ba30.jpeg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/847e043106a6880f9868c91f7853bf6d36ea61142fa70cbd07d6666fb89e256a.jpeg/68.jpg"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingCount": 1,
+      "ratingValue": 5
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": 55
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Rome"
+    }
+  },
+  {
+    "@type": "Event",
+    "url": "https://www.getyourguide.com/rome-l33/from-rome-frascati-wine-tour-with-lunch-and-vineyard-tour-t639941/",
+    "name": "From Rome: Frascati Wine Tour with Lunch and Vineyard tour",
+    "startDate": "2026-10-15T10:20:00+02:00",
+    "image": [
+      "https://cdn.getyourguide.com/img/tour/b5d0abba23df74828aef992bd4a4f5faf1327a9f17631600f0146e1d9ddc6e62.jpg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/0fcde3650773cb75de330b51335ab082994d671facc5e46d190fdbc53038af5e.jpg/68.jpg",
+      "https://cdn.getyourguide.com/img/tour/64cef189177596ae1e12b15e1fe6469898db0441989e607b9f6521506ac4e48e.jpeg/68.jpg"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingCount": 19,
+      "ratingValue": 4.7417955
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": 109
+    },
+    "location": {
+      "@type": "Place",
+      "name": "Rome"
+    }
+  }
+]

@@ -1,0 +1,108 @@
+{{ $tour := .tour | default dict }}
+{{ $site := .Site }}
+{{ $page := .Page }}
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+{{ $title := $page.Title | default $site.Params.siteName }}
+{{ if $page.IsHome }}
+  {{ if $page.Title }}
+    {{ $title = $page.Title }}
+  {{ else }}
+    {{ $tourTitle := $tour.title | default "" }}
+    {{ if $tourTitle }}
+      {{ $title = printf "%s | %s" $tourTitle $site.Params.siteName }}
+    {{ else }}
+      {{ $title = $site.Params.siteName }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+<title>{{ $title }}</title>
+
+
+{{ $desc := $page.Params.description | default $page.Description | default $site.Params.description | default $tour.abstract }}
+{{ with $desc }}<meta name="description" content="{{ . }}">{{ end }}
+{{ with $page.Params.keywords }}<meta name="keywords" content="{{ if reflect.IsSlice . }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}">{{ end }}
+{{ if $page.Params.noindex }}<meta name="robots" content="noindex, nofollow">{{ end }}
+
+
+{{ $canonical := $page.Permalink }}
+{{ with $page.Params.canonicalURL }}{{ $canonical = . }}{{ end }}
+<link rel="canonical" href="{{ $canonical }}">
+
+
+{{ range $page.Params.alternates }}
+<link rel="alternate" hreflang="{{ .lang }}" href="{{ .url }}">
+{{ end }}
+<link rel="alternate" hreflang="x-default" href="{{ $site.BaseURL }}">
+
+
+
+
+
+{{ $ogImage := $page.Params.ogImage | default $site.Params.ogImage }}
+{{ if not $ogImage }}
+  {{ $ogImageRaw := partial "first-image.html" $tour.images }}
+  {{ $ogImage = (partial "img-src.html" (dict "src" $ogImageRaw "alt" "" "Site" $site)).src }}
+{{ end }}
+<meta property="og:type"        content="{{ if or $page.IsHome (eq $page.Type "landing") }}website{{ else }}article{{ end }}">
+<meta property="og:site_name"   content="{{ $site.Params.siteName }}">
+<meta property="og:title"       content="{{ $page.Params.ogTitle | default $title }}">
+<meta property="og:description" content="{{ $page.Params.ogDescription | default $desc }}">
+<meta property="og:url"         content="{{ $canonical }}">
+{{ with $ogImage }}<meta property="og:image" content="{{ absURL . }}">{{ end }}
+
+
+<meta name="twitter:card"        content="{{ $site.Params.twitterCard | default "summary_large_image" }}">
+<meta name="twitter:title"       content="{{ $page.Params.ogTitle | default $title }}">
+<meta name="twitter:description" content="{{ $page.Params.ogDescription | default $desc }}">
+{{ with $site.Params.twitterSite }}<meta name="twitter:site" content="{{ . }}">{{ end }}
+{{ with $ogImage }}<meta name="twitter:image" content="{{ absURL . }}">{{ end }}
+
+
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png"     href="/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon"          href="/apple-touch-icon.png">
+<link rel="manifest"                  href="/site.webmanifest">
+
+<link rel="stylesheet" href="/fonts/fonts.css">
+<script>document.documentElement.classList.add('js')</script>
+
+{{ if or $page.IsHome (eq $page.Type "landing") }}
+  
+  {{ $heroImg := $page.Params.heroImage | default $site.Params.heroImage | default "" }}
+  {{ if not $heroImg }}
+    {{ $heroImgRaw := partial "first-image.html" $tour.images }}
+    {{ $heroImg = (partial "img-src.html" (dict "src" $heroImgRaw "alt" "" "Site" $site)).src }}
+  {{ end }}
+  {{ with $heroImg }}
+    
+    {{ $base := strings.TrimSuffix (path.Ext .) . }}
+    {{ $variant800 := printf "%s-800w%s" $base (path.Ext .) }}
+    {{ $variant1200 := printf "%s-1200w%s" $base (path.Ext .) }}
+    {{ if and (not (hasPrefix . "http")) (fileExists (printf "static%s" $variant800)) (fileExists (printf "static%s" $variant1200)) }}
+    <link rel="preload" as="image" type="image/webp" href="{{ . }}"
+          imagesrcset="{{ $variant800 }} 800w, {{ $variant1200 }} 1200w, {{ . }} 1536w"
+          imagesizes="100vw" fetchpriority="high">
+    {{ else }}
+    <link rel="preload" as="image" type="image/webp" href="{{ . }}" fetchpriority="high">
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+
+{{ $cssVer := now.Unix }}
+<link rel="stylesheet" href="/css/main.css?v={{ $cssVer }}">
+
+{{ if eq $site.Params.affiliateProvider "viator" }}
+<link rel="stylesheet" href="/css/provider-viator.css?v={{ $cssVer }}">
+{{ end }}
+
+
+{{ with $site.Params.gygPartnerID }}
+<script async defer
+        src="https://widget.getyourguide.com/dist/pa.umd.production.min.js"
+        data-gyg-partner-id="{{ . }}"></script>
+{{ end }}

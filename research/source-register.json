@@ -1,0 +1,121 @@
+{
+  "checked": "2026-10-13",
+  "partner_source": "../gyg_analytics_head_code.txt",
+  "partner_id": "1MSALBX",
+  "campaign": "frascatiwinetours",
+  "featured_id": 410821,
+  "products": [
+    {
+      "id": 410821,
+      "title": "From Rome: Half-Day Frascati Wine Tour with Farmhouse Lunch",
+      "url": "https://www.getyourguide.com/frascati-l2108/from-rome-frascati-half-day-trip-by-train-wine-tasting-t410821/",
+      "startingPrice": 84,
+      "currency": "EUR",
+      "rating": 4.9197745,
+      "reviewCount": 524,
+      "duration": "4 hours",
+      "includes": [
+        "Guided town visit — an English-speaking guide introduces the historic centre before the farmhouse visit.",
+        "Town tasting — local wine and a traditional snack are included on the Frascati walking portion.",
+        "Local transfers — the operator takes you from Frascati to the farmhouse and back to the station.",
+        "Vineyard and cellar visit — see the farmhouse’s wine setting with a guided introduction on site.",
+        "Three-wine tasting — the farmhouse visit includes a guided tasting of three boutique wines.",
+        "Farmhouse lunch — a chef-prepared meal is served at the farmhouse as part of your booking."
+      ],
+      "excludes": [
+        "Train tickets between Rome and Frascati."
+      ],
+      "meetingPoint": "Outside Frascati railway station, behind the yellow taxi stand, Piazzale Sandro Pertini. Follow the time and meeting instructions on your booking confirmation.",
+      "goodToKnow": [
+        "The experience starts in Frascati, despite “From Rome” in its title.",
+        "Book rail travel separately and check the current timetable; suggested trains differ by day.",
+        "Ask the operator about dietary needs before booking; do not assume that every menu can be adapted."
+      ],
+      "sourceChecked": "2026-10-13"
+    },
+    {
+      "id": 601703,
+      "title": "From Rome: Pasta Masterclass & Wine Tour in the Vineyard",
+      "url": "https://www.getyourguide.com/frascati-l2108/from-rome-pasta-masterclass-wine-tour-in-the-vineyard-t601703/",
+      "startingPrice": 84,
+      "currency": "EUR",
+      "rating": 4.917726,
+      "reviewCount": 182,
+      "duration": "4 hours",
+      "includes": [
+        "Pasta class — the chef guides preparation of three local pasta varieties at the farmhouse.",
+        "Wine and olive-oil tasting — sample the farmhouse’s wines and extra-virgin olive oil during the visit.",
+        "Vineyard and cellar tour — learn about the property alongside an English-speaking licensed wine taster.",
+        "Chef lunch — eat the pasta prepared during the class with accompanying food and wine.",
+        "Station transfers — car or minivan transport links the station and farmhouse for guests arriving by train."
+      ],
+      "excludes": [
+        "Train tickets to and from Rome."
+      ],
+      "meetingPoint": "Normally outside Frascati station. The listing gives different Saturday instructions via Tor Vergata; confirm your exact station with the operator for your date.",
+      "goodToKnow": [
+        "The advertised small group is limited to 15 participants.",
+        "The listing offers dietary adaptations on request; tell the operator when booking.",
+        "Saturday arrival instructions differ from other days. Check your confirmation before buying train tickets."
+      ],
+      "sourceChecked": "2026-10-13"
+    },
+    {
+      "id": 848244,
+      "title": "Rome Countryside: Wine Tasting Tour with Private Driver",
+      "url": "https://www.getyourguide.com/rome-l33/rome-countryside-wine-tasting-tour-with-private-driver-t848244/",
+      "startingPrice": 139,
+      "currency": "EUR",
+      "rating": 4.837736,
+      "reviewCount": 65,
+      "duration": "3 hours",
+      "includes": [
+        "Return transport — pickup, a private driver and drop-off are included in this Rome departure.",
+        "Vineyard and cellar visit — the guided experience introduces the wine setting and production story.",
+        "Wine tasting — sample a selection of wines with explanations during the visit.",
+        "Food pairings — snacks accompany the tasting; the listing does not promise a full lunch."
+      ],
+      "excludes": [],
+      "meetingPoint": "Pickup in Rome. Confirm the eligible collection address and time with Rome Grand Tour after choosing your date.",
+      "goodToKnow": [
+        "The listing offers English, Italian and Spanish; check the language available for your selected departure.",
+        "Wear comfortable shoes because the visit includes walking.",
+        "A private driver does not by itself guarantee exclusive use of the winery or tasting room."
+      ],
+      "sourceChecked": "2026-10-13"
+    },
+    {
+      "id": 415496,
+      "title": "Rome: Pasta Making - Premium Wine Tasting, Roman Wine Cave",
+      "url": "https://www.getyourguide.com/rome-l33/frascati-homemade-italian-cooking-class-wine-tasting-t415496/",
+      "startingPrice": 34.8,
+      "currency": "EUR",
+      "rating": 4.934017,
+      "reviewCount": 1166,
+      "duration": "2.5 hours",
+      "includes": [
+        "Pasta cooking class and homemade meal.",
+        "Tasting of two wines and wine cave visit."
+      ],
+      "excludes": [
+        "Travel from Rome."
+      ],
+      "meetingPoint": "At the Frascati sign outside the main exit of Frascati station; follow the confirmation for your date.",
+      "goodToKnow": [
+        "The listing states that the route climbs 100 steps with no lift."
+      ],
+      "sourceChecked": "2026-10-13"
+    }
+  ],
+  "additional_sources": [
+    "https://www.trenitalia.com/en/connections/castelli-romani-line.html",
+    "https://www.visitlazio.com/vino-frascati/",
+    "https://www.visitlazio.com/cannellino-di-frascati/"
+  ],
+  "limitations": [
+    "Product prices and aggregate ratings are dated snapshots, not real-time availability.",
+    "Only three fully documented products have detail pages; product 415496 is a contextual alternative.",
+    "Private transport does not establish exclusive winery access.",
+    "This is a local build; no domain, hosting or live redirect checks were performed."
+  ]
+}

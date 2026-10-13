@@ -1,0 +1,378 @@
+==============================================================================
+HERO CONTRAST AUDIT: /mnt/c/Users/Marina/Documents/Travel Websites Hugo/frascatiwinetours/frascatiwinetours.com
+==============================================================================
+  candidate pages: 14  |  widths: 1440, 1024, 768, 390, 320
+
+  /
+    [1440px] trust-metric             16px fg=rgb(255, 255, 255)     5.09:1  need 4.5  OK
+    [1440px] hero-title               70px fg=rgb(255, 255, 255)     7.89:1  need 3.0  OK
+    [1440px] hero-overline            13px fg=rgb(255, 255, 255)     8.90:1  need 4.5  OK
+    [1440px] btn-primary btn-lg       15px fg=rgb(255, 255, 255)     9.21:1  need 4.5  OK
+    [1440px] trust-label              11px fg=rgb(255, 255, 255)     9.70:1  need 4.5  OK
+    [1440px] price-per                12px fg=rgb(255, 255, 255)    10.73:1  need 4.5  OK
+    [1440px] price-amount             32px fg=rgb(255, 255, 255)    12.16:1  need 3.0  OK
+    [1440px] price-from               12px fg=rgb(255, 255, 255)    14.24:1  need 4.5  OK
+    [1440px] btn-secondary btn-lg     15px fg=rgb(255, 255, 255)    16.85:1  need 4.5  OK
+    [1024px] trust-metric             16px fg=rgb(255, 255, 255)     5.24:1  need 4.5  OK
+    [1024px] hero-title               63px fg=rgb(255, 255, 255)     8.10:1  need 3.0  OK
+    [1024px] hero-overline            13px fg=rgb(255, 255, 255)     8.76:1  need 4.5  OK
+    [1024px] btn-primary btn-lg       15px fg=rgb(255, 255, 255)     9.21:1  need 4.5  OK
+    [1024px] trust-label              11px fg=rgb(255, 255, 255)     9.73:1  need 4.5  OK
+    [1024px] price-per                12px fg=rgb(255, 255, 255)    10.89:1  need 4.5  OK
+    [1024px] price-amount             32px fg=rgb(255, 255, 255)    12.60:1  need 3.0  OK
+    [1024px] price-from               12px fg=rgb(255, 255, 255)    14.38:1  need 4.5  OK
+    [1024px] btn-secondary btn-lg     15px fg=rgb(255, 255, 255)    16.99:1  need 4.5  OK
+    [ 768px] trust-metric             16px fg=rgb(255, 255, 255)     5.88:1  need 4.5  OK
+    [ 768px] hero-title               48px fg=rgb(255, 255, 255)     8.64:1  need 3.0  OK
+    [ 768px] hero-overline            13px fg=rgb(255, 255, 255)     8.88:1  need 4.5  OK
+    [ 768px] btn-primary btn-lg       15px fg=rgb(255, 255, 255)     9.21:1  need 4.5  OK
+    [ 768px] trust-label              11px fg=rgb(255, 255, 255)     9.93:1  need 4.5  OK
+    [ 768px] price-per                12px fg=rgb(255, 255, 255)    13.51:1  need 4.5  OK
+    [ 768px] price-amount             32px fg=rgb(255, 255, 255)    13.77:1  need 3.0  OK
+    [ 768px] price-from               12px fg=rgb(255, 255, 255)    14.64:1  need 4.5  OK
+    [ 768px] btn-secondary btn-lg     15px fg=rgb(255, 255, 255)    17.71:1  need 4.5  OK
+    [ 390px] trust-metric             13px fg=rgb(255, 255, 255)     4.80:1  need 4.5  OK
+    [ 390px] trust-label               9px fg=rgb(255, 255, 255)     5.75:1  need 4.5  OK
+    [ 390px] hero-title               35px fg=rgb(255, 255, 255)     8.45:1  need 3.0  OK
+    [ 390px] btn-primary btn-lg       15px fg=rgb(255, 255, 255)     9.21:1  need 4.5  OK
+    [ 390px] hero-overline            13px fg=rgb(255, 255, 255)    10.43:1  need 4.5  OK
+    [ 390px] price-per                12px fg=rgb(255, 255, 255)    10.55:1  need 4.5  OK
+    [ 390px] price-amount             32px fg=rgb(255, 255, 255)    10.89:1  need 3.0  OK
+    [ 390px] price-from               12px fg=rgb(255, 255, 255)    14.07:1  need 4.5  OK
+    [ 390px] btn-secondary btn-lg     15px fg=rgb(255, 255, 255)    15.59:1  need 4.5  OK
+    [ 320px] trust-metric             13px fg=rgb(255, 255, 255)     4.67:1  need 4.5  OK
+    [ 320px] trust-label               9px fg=rgb(255, 255, 255)     6.55:1  need 4.5  OK
+    [ 320px] hero-title               35px fg=rgb(255, 255, 255)     8.55:1  need 3.0  OK
+    [ 320px] btn-primary btn-lg       15px fg=rgb(255, 255, 255)     9.21:1  need 4.5  OK
+    [ 320px] price-per                12px fg=rgb(255, 255, 255)    10.06:1  need 4.5  OK
+    [ 320px] price-amount             32px fg=rgb(255, 255, 255)    10.55:1  need 3.0  OK
+    [ 320px] hero-overline            13px fg=rgb(255, 255, 255)    11.16:1  need 4.5  OK
+    [ 320px] price-from               12px fg=rgb(255, 255, 255)    13.51:1  need 4.5  OK
+    [ 320px] btn-secondary btn-lg     15px fg=rgb(255, 255, 255)    15.28:1  need 4.5  OK
+
+  /frascati-pasta-and-wine/
+    [1440px] trust-metric             16px fg=rgb(255, 255, 255)     6.35:1  need 4.5  OK
+    [1440px] hero-title               70px fg=rgb(255, 255, 255)     6.93:1  need 3.0  OK
+    [1440px] btn-primary btn-lg       15px fg=rgb(255, 255, 255)     9.21:1  need 4.5  OK
+    [1440px] price-per                12px fg=rgb(255, 255, 255)    10.24:1  need 4.5  OK
+    [1440px] price-amount             32px fg=rgb(255, 255, 255)    10.56:1  need 3.0  OK
+    [1440px] trust-label              11px fg=rgb(255, 255, 255)    10.97:1  need 4.5  OK
+    [1440px] price-from               12px fg=rgb(255, 255, 255)    11.18:1  need 4.5  OK
+    [1440px] hero-overline            13px fg=rgb(255, 255, 255)    12.67:1  need 4.5  OK
+    [1440px] btn-secondary btn-lg     15px fg=rgb(255, 255, 255)    15.17:1  need 4.5  OK
+    [1024px] trust-metric             16px fg=rgb(255, 255, 255)     6.42:1  need 4.5  OK
+    [1024px] hero-title               63px fg=rgb(255, 255, 255)     6.87:1  need 3.0  OK
+    [1024px] btn-primary btn-lg       15px fg=rgb(255, 255, 255)     9.21:1  need 4.5  OK
+    [1024px] price-per                12px fg=rgb(255, 255, 255)    10.39:1  need 4.5  OK
+    [1024px] price-amount             32px fg=rgb(255, 255, 255)    10.69:1  need 3.0  OK
+    [1024px] trust-label              11px fg=rgb(255, 255, 255)    10.97:1  need 4.5  OK
+    [1024px] price-from               12px fg=rgb(255, 255, 255)    11.36:1  need 4.5  OK
+    [1024px] hero-overline            13px fg=rgb(255, 255, 255)    12.67:1  need 4.5  OK
+    [1024px] btn-secondary btn-lg     15px fg=rgb(255, 255, 255)    15.50:1  need 4.5  OK
+    [ 768px] trust-metric             16px fg=rgb(255, 255, 255)     6.45:1  need 4.5  OK
+    [ 768px] hero-title               48px fg=rgb(255, 255, 255)     7.21:1  need 3.0  OK
+    [ 768px] btn-primary btn-lg       15px fg=rgb(255, 255, 255)     9.21:1  need 4.5  OK
+    [ 768px] trust-label              11px fg=rgb(255, 255, 255)    10.97:1  need 4.5  OK
+    [ 768px] price-per                12px fg=rgb(255, 255, 255)    11.04:1  need 4.5  OK
+    [ 768px] price-amount             32px fg=rgb(255, 255, 255)    11.35:1  need 3.0  OK
+    [ 768px] hero-overline            13px fg=rgb(255, 255, 255)    12.15:1  need 4.5  OK
+    [ 768px] price-from               12px fg=rgb(255, 255, 255)    13.63:1  need 4.5  OK
+    [ 768px] btn-secondary btn-lg     15px fg=rgb(255, 255, 255)    16.19:1  need 4.5  OK
+    [ 390px] trust-metric             13px fg=rgb(255, 255, 255)     5.26:1  need 4.5  OK
+    [ 390px] trust-label               9px fg=rgb(255, 255, 255)     6.81:1  need 4.5  OK
+    [ 390px] hero-title               35px fg=rgb(255, 255, 255)     8.64:1  need 3.0  OK
+    [ 390px] btn-primary btn-lg       15px fg=rgb(255, 255, 255)     9.21:1  need 4.5  OK
+    [ 390px] price-per                12px fg=rgb(255, 255, 255)    11.04:1  need 4.5  OK
+    [ 390px] price-amount             32px fg=rgb(255, 255, 255)    11.34:1  need 3.0  OK
+    [ 390px] hero-overline            13px fg=rgb(255, 255, 255)    12.85:1  need 4.5  OK
+    [ 390px] price-from               12px fg=rgb(255, 255, 255)    13.63:1  need 4.5  OK
+    [ 390px] btn-secondary btn-lg     15px fg=rgb(255, 255, 255)    16.47:1  need 4.5  OK
+    [ 320px] trust-metric             13px fg=rgb(255, 255, 255)     5.58:1  need 4.5  OK
+    [ 320px] trust-label               9px fg=rgb(255, 255, 255)     6.35:1  need 4.5  OK
+    [ 320px] btn-primary btn-lg       15px fg=rgb(255, 255, 255)     9.21:1  need 4.5  OK
+    [ 320px] hero-title               35px fg=rgb(255, 255, 255)     9.25:1  need 3.0  OK
+    [ 320px] price-per                12px fg=rgb(255, 255, 255)    10.39:1  need 4.5  OK
+    [ 320px] price-amount             32px fg=rgb(255, 255, 255)    10.69:1  need 3.0  OK
+    [ 320px] price-from               12px fg=rgb(255, 255, 255)    11.35:1  need 4.5  OK
+    [ 320px] hero-overline            13px fg=rgb(255, 255, 255)    12.56:1  need 4.5  OK
+    [ 320px] btn-secondary btn-lg     15px fg=rgb(255, 255, 255)    17.52:1  need 4.5  OK
+
+  /private-frascati-wine-tours/
+    [1440px] trust-metric             16px fg=rgb(255, 255, 255)     5.84:1  need 4.5  OK
+    [1440px] hero-title               70px fg=rgb(255, 255, 255)     7.33:1  need 3.0  OK
+    [1440px] btn-primary btn-lg       15px fg=rgb(255, 255, 255)     9.21:1  need 4.5  OK
+    [1440px] hero-overline            13px fg=rgb(255, 255, 255)    10.02:1  need 4.5  OK
+    [1440px] trust-label              11px fg=rgb(255, 255, 255)    10.28:1  need 4.5  OK
+    [1440px] price-amount             32px fg=rgb(255, 255, 255)    13.66:1  need 3.0  OK
+    [1440px] price-per                12px fg=rgb(255, 255, 255)    13.70:1  need 4.5  OK
+    [1440px] btn-secondary btn-lg     15px fg=rgb(255, 255, 255)    14.35:1  need 4.5  OK
+    [1440px] price-from               12px fg=rgb(255, 255, 255)    14.41:1  need 4.5  OK
+    [1024px] trust-metric             16px fg=rgb(255, 255, 255)     5.79:1  need 4.5  OK
+    [1024px] hero-title               63px fg=rgb(255, 255, 255)     7.54:1  need 3.0  OK
+    [1024px] btn-primary btn-lg       15px fg=rgb(255, 255, 255)     9.21:1  need 4.5  OK
+    [1024px] trust-label              11px fg=rgb(255, 255, 255)    10.33:1  need 4.5  OK
+    [1024px] hero-overline            13px fg=rgb(255, 255, 255)    10.80:1  need 4.5  OK
+    [1024px] price-amount             32px fg=rgb(255, 255, 255)    13.61:1  need 3.0  OK
+    [1024px] price-per                12px fg=rgb(255, 255, 255)    13.70:1  need 4.5  OK
+    [1024px] btn-secondary btn-lg     15px fg=rgb(255, 255, 255)    14.50:1  need 4.5  OK
+    [1024px] price-from               12px fg=rgb(255, 255, 255)    15.03:1  need 4.5  OK
+    [ 768px] trust-metric             16px fg=rgb(255, 255, 255)     5.79:1  need 4.5  OK
+    [ 768px] hero-title               48px fg=rgb(255, 255, 255)     8.15:1  need 3.0  OK
+    [ 768px] btn-primary btn-lg       15px fg=rgb(255, 255, 255)     9.21:1  need 4.5  OK
+    [ 768px] trust-label              11px fg=rgb(255, 255, 255)    10.34:1  need 4.5  OK
+    [ 768px] hero-overline            13px fg=rgb(255, 255, 255)    11.46:1  need 4.5  OK
+    [ 768px] price-per                12px fg=rgb(255, 255, 255)    13.66:1  need 4.5  OK
+    [ 768px] price-amount             32px fg=rgb(255, 255, 255)    14.17:1  need 3.0  OK
+    [ 768px] price-from               12px fg=rgb(255, 255, 255)    14.18:1  need 4.5  OK
+    [ 768px] btn-secondary btn-lg     15px fg=rgb(255, 255, 255)    15.16:1  need 4.5  OK
+    [ 390px] trust-metric             13px fg=rgb(255, 255, 255)     5.79:1  need 4.5  OK
+    [ 390px] trust-label               9px fg=rgb(255, 255, 255)     6.85:1  need 4.5  OK
+    [ 390px] btn-primary btn-lg       15px fg=rgb(255, 255, 255)     9.21:1  need 4.5  OK
+    [ 390px] hero-title               35px fg=rgb(255, 255, 255)     9.57:1  need 3.0  OK
+    [ 390px] hero-overline            13px fg=rgb(255, 255, 255)    11.65:1  need 4.5  OK
+    [ 390px] price-amount             32px fg=rgb(255, 255, 255)    13.66:1  need 3.0  OK
+    [ 390px] price-per                12px fg=rgb(255, 255, 255)    13.84:1  need 4.5  OK
+    [ 390px] price-from               12px fg=rgb(255, 255, 255)    14.36:1  need 4.5  OK
+    [ 390px] btn-secondary btn-lg     15px fg=rgb(255, 255, 255)    14.54:1  need 4.5  OK
+    [ 320px] trust-metric             13px fg=rgb(255, 255, 255)     5.88:1  need 4.5  OK
+    [ 320px] trust-label               9px fg=rgb(255, 255, 255)     6.79:1  need 4.5  OK
+    [ 320px] hero-title               35px fg=rgb(255, 255, 255)     9.11:1  need 3.0  OK
+    [ 320px] btn-primary btn-lg       15px fg=rgb(255, 255, 255)     9.21:1  need 4.5  OK
+    [ 320px] hero-overline            13px fg=rgb(255, 255, 255)     9.77:1  need 4.5  OK
+    [ 320px] price-per                12px fg=rgb(255, 255, 255)    12.77:1  need 4.5  OK
+    [ 320px] price-from               12px fg=rgb(255, 255, 255)    13.66:1  need 4.5  OK
+    [ 320px] price-amount             32px fg=rgb(255, 255, 255)    13.70:1  need 3.0  OK
+    [ 320px] btn-secondary btn-lg     15px fg=rgb(255, 255, 255)    14.76:1  need 4.5  OK
+
+  hero-bearing pages measured: 3 of 14 candidate(s)
+  no hero (skipped): /guides/, /tours/, /guides/choose-frascati-wine-tour/, /guides/frascati-wines-and-food-pairings/, /guides/rome-to-frascati-wine-tour/, /guides/what-to-expect-frascati-wine-tasting/, /pages/privacy/, /pages/terms/, /tours/frascati-wine-tour-farmhouse-lunch/, /tours/pasta-masterclass-wine-tour-vineyard/, /tours/rome-wine-tasting-private-driver/
+  OK: all 135 hero text run(s) clear AA over the composited hero, on every
+      hero-bearing page.
+
+All hero-contrast checks PASS
+
+127.0.0.1 - - [13/Oct/2026 21:27:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:17] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:17] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:17] "GET /images/hero.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:17] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:17] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:18] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:21] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:21] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:21] "GET /images/hero-1200w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:21] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:21] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:21] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:25] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:25] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:25] "GET /images/hero-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:25] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:25] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:25] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:28] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:28] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:28] "GET /images/hero-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:28] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:28] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:28] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:31] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:31] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:31] "GET /images/hero-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:31] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:31] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:31] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:34] "GET /frascati-pasta-and-wine/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:34] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:34] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:34] "GET /images/gyg/601703-g1.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:34] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:34] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:34] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:34] "GET /images/gyg/601703-g0.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:34] "GET /images/gyg/601703-g2.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:34] "GET /images/gyg/601703-g3.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:34] "GET /images/gyg/601703-g4.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:37] "GET /frascati-pasta-and-wine/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:37] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:37] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:37] "GET /images/gyg/601703-g1-1200w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:37] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:37] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:37] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:37] "GET /images/gyg/601703-g0.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:37] "GET /images/gyg/601703-g1.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:37] "GET /images/gyg/601703-g2.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:37] "GET /images/gyg/601703-g3.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:37] "GET /images/gyg/601703-g4.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:41] "GET /frascati-pasta-and-wine/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:41] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:41] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:41] "GET /images/gyg/601703-g1-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:41] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:41] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:41] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:41] "GET /images/gyg/601703-g0.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:41] "GET /images/gyg/601703-g1.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:41] "GET /images/gyg/601703-g2.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:41] "GET /images/gyg/601703-g3.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:41] "GET /images/gyg/601703-g4.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:43] "GET /frascati-pasta-and-wine/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:43] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:43] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:43] "GET /images/gyg/601703-g1-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:43] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:43] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:43] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:45] "GET /frascati-pasta-and-wine/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:45] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:45] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:45] "GET /images/gyg/601703-g1-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:45] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:45] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:45] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:47] "GET /guides/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:47] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:47] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:47] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:47] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:47] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:49] "GET /private-frascati-wine-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:49] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:49] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:49] "GET /images/gyg/848244-g3.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:49] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:49] "GET /images/gyg/848244-g0.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:49] "GET /images/gyg/848244-g1.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:49] "GET /images/gyg/848244-g2.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:49] "GET /images/gyg/848244-g4.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:49] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:49] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:51] "GET /private-frascati-wine-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:51] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:51] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:51] "GET /images/gyg/848244-g3-1200w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:51] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:52] "GET /images/gyg/848244-g0.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:52] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:52] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:52] "GET /images/gyg/848244-g1.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:52] "GET /images/gyg/848244-g2.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:52] "GET /images/gyg/848244-g3.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:52] "GET /images/gyg/848244-g4.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:54] "GET /private-frascati-wine-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:54] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:54] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:54] "GET /images/gyg/848244-g3-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:54] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:54] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:54] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:54] "GET /images/gyg/848244-g0.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:54] "GET /images/gyg/848244-g1.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:54] "GET /images/gyg/848244-g2.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:54] "GET /images/gyg/848244-g3.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:54] "GET /images/gyg/848244-g4.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:56] "GET /private-frascati-wine-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:56] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:56] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:56] "GET /images/gyg/848244-g3-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:56] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:56] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:56] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:58] "GET /private-frascati-wine-tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:58] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:58] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:58] "GET /images/gyg/848244-g3-800w.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:58] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:58] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:27:58] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:00] "GET /tours/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:00] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:00] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:00] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:00] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:00] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:00] "GET /images/gyg/410821.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:00] "GET /images/gyg/601703.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:00] "GET /images/gyg/848244.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:02] "GET /guides/choose-frascati-wine-tour/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:02] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:02] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:02] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:02] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:02] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:02] "GET /images/choose-frascati-wine-tour-hook.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /guides/frascati-wines-and-food-pairings/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:03] "GET /images/frascati-wines-and-food-pairings-hook.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:05] "GET /guides/rome-to-frascati-wine-tour/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:05] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:05] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:05] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:05] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:05] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:05] "GET /images/rome-to-frascati-wine-tour-hook.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:07] "GET /guides/what-to-expect-frascati-wine-tasting/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:07] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:07] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:07] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:07] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:07] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:07] "GET /images/what-to-expect-frascati-wine-tasting-hook.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:10] "GET /pages/privacy/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:10] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:10] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:10] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:10] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:10] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:12] "GET /pages/terms/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:12] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:12] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:12] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:12] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:12] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:14] "GET /tours/frascati-wine-tour-farmhouse-lunch/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:14] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:14] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:14] "GET /images/gyg/410821-g0.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:14] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:14] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:14] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:14] "GET /images/gyg/410821-g1.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:14] "GET /images/gyg/410821-g2.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:14] "GET /images/gyg/410821-g3.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:14] "GET /images/gyg/410821-g4.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:14] "GET /images/gyg/601703.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:14] "GET /images/gyg/848244.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:15] "GET /tours/pasta-masterclass-wine-tour-vineyard/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:15] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:15] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:15] "GET /images/gyg/601703-g0.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:15] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:15] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:15] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:15] "GET /images/gyg/601703-g1.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:15] "GET /images/gyg/601703-g2.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:15] "GET /images/gyg/601703-g3.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:15] "GET /images/gyg/601703-g4.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:17] "GET /tours/rome-wine-tasting-private-driver/ HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:17] "GET /fonts/fonts.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:17] "GET /css/main.css?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:17] "GET /images/gyg/848244-g0.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:17] "GET /js/main.js?v=1791919609 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:17] "GET /images/gyg/848244-g1.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:17] "GET /fonts/wine-variable-3.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:17] "GET /fonts/wine-variable-1.woff2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:17] "GET /images/gyg/848244-g2.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:17] "GET /images/gyg/848244-g3.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:17] "GET /images/gyg/848244-g4.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:17] "GET /images/gyg/410821.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Oct/2026 21:28:17] "GET /images/gyg/601703.webp HTTP/1.1" 200 -

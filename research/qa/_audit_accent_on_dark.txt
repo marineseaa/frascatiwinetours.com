@@ -1,0 +1,10 @@
+====================================================================
+ACCENT-ON-DARK CONTRAST AUDIT: frascatiwinetours.com
+====================================================================
+  page types swept   : 5 (home, tour, tourshub, 404, guide)
+  dark-surface texts : 240
+
+  OK: all 240 dark-surface texts clear their AA threshold
+
+All accent-on-dark checks PASS
+

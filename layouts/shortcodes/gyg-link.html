@@ -1,0 +1,13 @@
+
+{{- $site := .Site -}}
+{{- $id   := .Get "tour" -}}
+{{- $tour := dict -}}
+{{- range (index $site.Data $site.Params.offersDataKey) -}}
+  {{- if eq (int .id) (int $id) -}}{{- $tour = . -}}{{- end -}}
+{{- end -}}
+{{- $url := index (split ($tour.url | default "") "?") 0 -}}
+{{- $label := trim (.Inner | default "") " \n\t" | default ($tour.title | default "") -}}
+{{- if not $url -}}
+  {{- errorf "gyg-link: tour %q not found in data/%s.json (page %s)" $id $site.Params.offersDataKey .Page.File.Path -}}
+{{- end -}}
+<a href="{{ $url }}" data-gyg-href="{{ $url }}" target="_blank" rel="sponsored nofollow noopener noreferrer">{{ .Page.RenderString $label }}</a>

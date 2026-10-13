@@ -1,0 +1,43 @@
+{{ $site := .Site }}
+{{ $columns := $site.Params.exploreHubColumns | default (slice (dict "key" "tours" "label" "Tours & Experiences") (dict "key" "combos" "label" "Combos & Day Trips") (dict "key" "guides" "label" "Planning & Comparisons")) }}
+{{ $groups := dict }}
+{{ range $site.Pages }}
+  {{ $group := .Params.exploreGroup | default "" }}
+  {{ if not $group }}
+    {{ if eq .Section "tours" }}{{ $group = "tours" }}
+    {{ else if or (eq .Section "guides") (eq .Section "landing") }}{{ $group = "guides" }}{{ end }}
+  {{ end }}
+  {{ if $group }}
+    {{ $items := index $groups $group | default slice }}
+    {{ $groups = merge $groups (dict $group ($items | append .)) }}
+  {{ end }}
+{{ end }}
+{{ if $groups }}
+<section class="section explore-section" id="explore" aria-labelledby="explore-heading">
+  <div class="container">
+    <div class="section-header fade-up">
+      <p class="section-overline">Keep Exploring</p>
+      <h2 class="section-title" id="explore-heading">Explore More</h2>
+      <p class="section-subtitle">{{ $site.Params.exploreHubSubtitle | default "Choose your experience, then plan the details." }}</p>
+    </div>
+    <div class="highlights-grid explore-grid">
+      {{ range $columns }}
+      {{ $items := index $groups .key }}
+      {{ if $items }}
+      <div class="highlights-col" data-explore-group="{{ .key }}">
+        <h3 class="highlights-col-title">{{ .label }}</h3>
+        <ul class="highlights-list" role="list">
+          {{ range sort $items "Weight" }}
+          <li class="highlight-item">
+            <svg class="highlight-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="16" height="16" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            <span><a href="{{ .RelPermalink }}">{{ .Params.exploreTitle | default .Params.h1 | default .Title }}</a></span>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

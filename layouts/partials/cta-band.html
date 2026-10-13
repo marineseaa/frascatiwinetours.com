@@ -1,0 +1,26 @@
+
+{{ $site := .Site }}
+{{ $page := .Page }}
+{{ $tour := .tour | default dict }}
+{{ $price := (partial "price-display.html" $tour) | default "" }}
+{{ $ctaTitle  := $page.Params.ctaTitle  | default $site.Params.ctaTitle }}
+{{ $ctaBody   := $page.Params.ctaBody   | default $site.Params.ctaBody }}
+{{ $ctaButton := $page.Params.ctaButton | default $site.Params.ctaButton | default "Book Now" }}
+
+<section class="cta-band" aria-labelledby="cta-heading">
+  <div class="container">
+    <div class="cta-band-inner fade-up">
+      <p class="section-overline" aria-hidden="true">Limited Availability</p>
+      <h2 class="cta-title" id="cta-heading">{{ $ctaTitle }}</h2>
+      
+      <p class="cta-body">{{ $ctaBody }}{{ with $price }} Starting from <strong>{{ . }}</strong> {{ $tour.priceCategory | default "per person" }}.{{ end }}</p>
+      
+      
+      <a href="{{ $tour.url | default "/" }}"
+         class="btn-primary btn-lg cta-btn"
+         {{ with $tour.url }}data-gyg-href="{{ . }}"{{ else }}data-gyg-link{{ end }}>
+        {{ $ctaButton }}
+      </a>
+    </div>
+  </div>
+</section>

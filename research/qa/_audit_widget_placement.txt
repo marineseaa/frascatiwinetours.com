@@ -1,0 +1,11 @@
+page                                            avail%   auto%  h2btw  verdict
+------------------------------------------------------------------------------------------------
+choose-frascati-wine-tour                        12.4%   52.4%      2  OK
+frascati-wines-and-food-pairings                 14.1%   52.6%      2  OK
+rome-to-frascati-wine-tour                       13.9%   54.0%      2  OK
+what-to-expect-frascati-wine-tasting             12.8%   49.1%      2  OK
+
+skipped (template-placed widgets, no article body flow): frascati-pasta-and-wine, guides, private-frascati-wine-tours
+
+0 of 4 widget-bearing pages failing placement
+

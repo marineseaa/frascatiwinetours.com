@@ -1,0 +1,60 @@
+{{ $tour := .tour | default dict }}
+{{ $site := .Site }}
+{{ $page := .Page }}
+{{ $price := (partial "price-display.html" $tour) | default "" }}
+{{ $per   := $tour.priceCategory | default "per person" }}
+
+
+{{ $widgetAnchor := "#availability" }}
+{{ $isTour := false }}
+
+{{ if eq $page.Type "guides" }}
+  {{ $widgetAnchor = "#guide-availability" }}
+{{ else if and (eq $page.Type "tour") $tour.url }}
+  {{ $widgetAnchor = $tour.url }}
+  {{ $isTour = true }}
+{{ end }}
+
+<div class="sticky-cta" id="sticky-cta" aria-label="Sticky booking bar" aria-hidden="true">
+  <div class="sticky-cta-inner">
+    <div class="sticky-cta-price">
+      {{ if $price }}
+      <span class="sticky-price-from">From</span>
+      <span class="sticky-price-amount">{{ $price }}</span>
+      
+      <span class="sticky-price-per">{{ $per }}</span>
+      {{ else }}
+      <span class="sticky-price-amount">Book Now</span>
+      {{ end }}
+    </div>
+    <a href="{{ $widgetAnchor }}"
+       class="btn-primary sticky-cta-btn"
+       {{ if $isTour }}data-gyg-href="{{ $tour.url }}"{{ end }}>
+      Book Now
+    </a>
+  </div>
+</div>
+<script>
+(function(){
+  var cta = document.getElementById('sticky-cta');
+  var hero = document.getElementById('hero');
+  var widget = document.getElementById('availability') || document.getElementById('guide-availability');
+  if (!cta || !hero) return;
+  var lastY = 0;
+  var scrollingDown = false;
+  window.addEventListener('scroll', function(){
+    var y = window.scrollY;
+    scrollingDown = y > lastY;
+    lastY = y;
+    var pastHero = y > hero.offsetHeight;
+    var widgetVisible = false;
+    if (widget) {
+      var r = widget.getBoundingClientRect();
+      widgetVisible = r.top < window.innerHeight && r.bottom > 0;
+    }
+    var show = pastHero && scrollingDown && !widgetVisible;
+    cta.classList.toggle('visible', show);
+    cta.setAttribute('aria-hidden', String(!show));
+  }, {passive:true});
+})();
+</script>

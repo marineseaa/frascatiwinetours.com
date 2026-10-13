@@ -1,0 +1,13 @@
+
+{{- $site := .Site -}}
+{{- $id   := .Get "tour" -}}
+{{- $tour := dict -}}
+{{- range (index $site.Data $site.Params.offersDataKey) -}}
+  {{- if eq (string .id) (string $id) -}}{{- $tour = . -}}{{- end -}}
+{{- end -}}
+{{- $url := index (split ($tour.url | default "") "?") 0 -}}
+{{- $label := strings.TrimSpace (.Inner | default "") | default ($tour.title | default "") -}}
+{{- if not $url -}}
+  {{- errorf "tour-link: tour %q not found in data/%s.json (page %s)" $id $site.Params.offersDataKey .Page.File.Path -}}
+{{- end -}}
+<a href="{{ $url }}" data-affiliate-href="{{ $url }}" target="_blank" rel="sponsored nofollow noopener noreferrer">{{ .Page.RenderString $label }}</a>

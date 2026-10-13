@@ -1,0 +1,119 @@
+
+{{ if or .Page.IsHome (eq .Page.Type "landing") }}
+{{ $tour := .tour | default dict }}
+{{ $site := .Site }}
+{{ $page := .Page }}
+{{ $isLanding   := eq $page.Type "landing" }}
+{{ $pageURL     := cond $isLanding $page.Permalink $site.BaseURL }}
+{{ $idBase      := cond $isLanding $page.Permalink $site.BaseURL }}
+{{ $tourURL     := $tour.url         | default "" }}
+{{ $heroImg     := (partial "img-src.html" (dict "src" (partial "first-image.html" $tour.images) "alt" "" "Site" $site)).src }}
+{{ $heroImgAbs  := cond (hasPrefix $heroImg "http") $heroImg (printf "%s%s" ($site.BaseURL | strings.TrimSuffix "/") $heroImg) }}
+{{ $faqKey      := $page.Params.faqDataKey | default "faq" }}
+{{ $faqData     := index $site.Data $faqKey }}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "{{ $site.BaseURL }}#business",
+      "name": "{{ $site.Params.siteName }}",
+      "description": "{{ $page.Params.businessDescription | default $page.Description | default $site.Params.description }}",
+      "url": "{{ $site.BaseURL }}"{{ with $heroImgAbs }},
+      "image": "{{ . }}"{{ end }}
+    },
+    {{ $fields := partial "schema-tour-fields.html" $tour }}
+    {{ if or $fields.offers $fields.aggregateRating }}
+    {{ $product := dict "@type" "Product" "@id" (printf "%s#tour" $idBase) "name" ($tour.title | default $site.Params.siteName) "description" ($tour.abstract | default $site.Params.description) "url" $tourURL }}
+    {{ with $heroImgAbs }}{{ $product = merge $product (dict "image" .) }}{{ end }}
+    {{ merge $product $fields | jsonify | safeJS }},
+    {{ end }}
+    {
+      "@type": "FAQPage",
+      "@id": "{{ $idBase }}#faq",
+      "mainEntity": [
+        {{ range $i, $item := $faqData.items }}{{ if $i }},{{ end }}
+        {
+          "@type": "Question",
+          "name": "{{ $item.question }}",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "{{ $item.answer }}"
+          }
+        }
+        {{ end }}
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ $site.BaseURL }}#website",
+      "url": "{{ $site.BaseURL }}",
+      "name": "{{ $site.Params.siteName }}",
+      "description": "{{ $site.Params.description }}",
+      "dateModified": "{{ now.Format "2006-01-02" }}"
+    }
+  ]
+}
+</script>
+{{ else if eq .Page.Type "tour" }}
+
+{{ $site := .Site }}
+{{ $page := .Page }}
+{{ $tour := dict }}
+{{ range (index $site.Data $site.Params.offersDataKey) }}
+  {{ if eq (int .id) (int $page.Params.tourId) }}{{ $tour = . }}{{ end }}
+{{ end }}
+{{ $img := "" }}
+{{ with $tour.galleryImages }}{{ $img = (index . 0).src }}{{ else }}{{ with $tour.images }}{{ $img = index . 0 }}{{ end }}{{ end }}
+{{ $imgResolved := partial "img-src.html" (dict "src" $img "alt" $tour.title "Site" $site) }}
+{{ $fields := partial "schema-tour-fields.html" $tour }}
+{{ if or $fields.offers $fields.aggregateRating }}
+{{ $product := dict "@context" "https://schema.org" "@type" "Product" "@id" (printf "%s#tour" $page.Permalink) "name" $tour.title "description" (index ($tour.fullDescription | default (slice $tour.abstract)) 0) "url" $tour.url }}
+{{ with $imgResolved.src }}{{ $product = merge $product (dict "image" (cond (hasPrefix . "http") . (printf "%s%s" ($site.BaseURL | strings.TrimSuffix "/") .))) }}{{ end }}
+<script type="application/ld+json">{{ merge $product $fields | jsonify | safeJS }}</script>
+{{ end }}
+{{ with $tour.faq }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{ range $i, $q := . }}{{ if $i }},{{ end }}{
+      "@type": "Question",
+      "name": {{ $q.q | jsonify | safeJS }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ $q.a | jsonify | safeJS }} }
+    }{{ end }}
+  ]
+}
+</script>
+{{ end }}
+{{ else }}
+{{ $site := .Site }}
+{{ $page := .Page }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "{{ $page.Permalink }}#article",
+  "headline": "{{ $page.Title }}",
+  "description": "{{ $page.Params.description | default $page.Summary }}",
+  "url": "{{ $page.Permalink }}",
+  "dateModified": "{{ now.Format "2006-01-02" }}",
+  "author": {
+    "@type": "Organization",
+    "name": "{{ $site.Params.siteName }}",
+    "url": "{{ $site.BaseURL }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ $site.Params.siteName }}",
+    "url": "{{ $site.BaseURL }}"
+  },
+  "isPartOf": {
+    "@id": "{{ $site.BaseURL }}#website"
+  }
+}
+</script>
+{{ end }}

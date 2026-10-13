@@ -1,0 +1,173 @@
+{
+  "@context": "https://schema.org/",
+  "@type": [
+    "Product",
+    "TouristTrip"
+  ],
+  "name": "From Rome: Half-Day Frascati Wine Tour with Farmhouse Lunch",
+  "image": [
+    "https://cdn.getyourguide.com/img/tour/f81582fab68ee47e.jpeg/53.jpg",
+    "https://cdn.getyourguide.com/img/tour/f81582fab68ee47e.jpeg/132.jpg",
+    "https://cdn.getyourguide.com/img/tour/f81582fab68ee47e.jpeg/68.jpg"
+  ],
+  "description": "Be welcomed to Frascati on a half-day trip from Rome. Explore this charming city with a guided stroll, relax at the Wine Farmhouse in the vineyards, taste boutique wines and enjoy a chef's lunch.",
+  "sku": "410821",
+  "brand": {
+    "@type": "Brand",
+    "name": "GetYourGuide"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.91977433942603,
+    "bestRating": 5,
+    "reviewCount": 524
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5,
+        "bestRating": 5
+      },
+      "reviewBody": "We had an incredible tour from start to finish! Our guide was super friendly, extremely welcoming, and shared so much fascinating information about the area throughout the day. The wine and olive oil tastings were delicious, but the highlight was definitely the lunch. The atmosphere was vibrant and amazing, especially with the private live music performance, which was such a wonderful unexpected surprise! As a small suggestion for improvement: while the biscuits served after lunch were delicious, but many people at our table were hoping for a classic local dessert (like a tiramisu, for instance). Also, while the lunch was very tasty, the portion sizes felt a bit small for those with larger appetites, particularly some of the men in our group. Overall, it was a memorable and fantastic experience. Highly recommended!",
+      "author": {
+        "@type": "Person",
+        "name": "Mariana"
+      },
+      "datePublished": "2026-10-11T12:44:41+02:00"
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5,
+        "bestRating": 5
+      },
+      "reviewBody": "Excellent trip , exceeded my expectations, highly recommended.",
+      "author": {
+        "@type": "Person",
+        "name": "Barbara"
+      },
+      "datePublished": "2026-10-11T01:06:34+02:00"
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5,
+        "bestRating": 5
+      },
+      "reviewBody": "Exceptional! We have done a few wine tours throughout Europe but this was by far the best. Informative walk around Frascati, local wine in the Taverna followed by sampling of the white and red wines at the farm and a fantastic, very filling lunch and entertainment provided by Antonio! Would highly recommend.",
+      "author": {
+        "@type": "Person",
+        "name": "John"
+      },
+      "datePublished": "2026-10-09T10:18:09+02:00"
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5,
+        "bestRating": 5
+      },
+      "reviewBody": "It was a super. tour. Very relaxed. Brilliant funny and witty hosts. We had plenty of food and drink and entertainment. Lots of lovely people from all over the world especially the lovely Brazilians. They got us back in time fir the train. It was great to be in the countryside away from Rome. I'll do it again next year.",
+      "author": {
+        "@type": "Person",
+        "name": "Kevin"
+      },
+      "datePublished": "2026-10-09T08:43:54+02:00"
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5,
+        "bestRating": 5
+      },
+      "reviewBody": "Such a beautiful tour and our guide was truly amazing! Lovely day trip to get out of the hustle and bustle of Rome city centre. You got to have more than enough wine and the lunch was filling too! The vineyard itself was lovely, there was a great atmosphere. Highly recommend!",
+      "author": {
+        "@type": "Person",
+        "name": "Agata"
+      },
+      "datePublished": "2026-10-03T12:52:27+02:00"
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5,
+        "bestRating": 5
+      },
+      "reviewBody": "A very pleasant tour, and our tour guide was incredibly good at telling us everything from the winemaking process to the history of Frascati. Wonderful wines, and the lunch with entertainment by Tony was fantastic! The tour was the highlight of our trip to Rome! I can highly recommend it! We will definitely return. Susann and Peter",
+      "author": {
+        "@type": "Person",
+        "name": "Susann"
+      },
+      "datePublished": "2026-10-03T06:48:04+02:00"
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5,
+        "bestRating": 5
+      },
+      "reviewBody": "Everything was beyond wonderful! Our guide was very knowledgeable and very friendly! The wine and food are exceptional! Well worth the experience!",
+      "author": {
+        "@type": "Person",
+        "name": "Jesus"
+      },
+      "datePublished": "2026-09-30T07:23:09+02:00"
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5,
+        "bestRating": 5
+      },
+      "reviewBody": "There was a lot of wine. Maybe too much. There were participants who multiplied it. The vulgarity of the single female participants was surprising. But that's up to the organizers. Well, unless too much wine influenced it.",
+      "author": {
+        "@type": "Person",
+        "name": "Robertas"
+      },
+      "datePublished": "2026-09-28T05:43:54+02:00"
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5,
+        "bestRating": 5
+      },
+      "reviewBody": "We had an absolute blast on our tour yesterday! Michelle the guide was exceptionally knowledgeable, friendly and funny! It was a great day outside the busy day to day in Rome, but we still got to see a beautiful part of Italy, enjoyed the winery experience and the history of Frascati! Would recommend!",
+      "author": {
+        "@type": "Person",
+        "name": "Aimee"
+      },
+      "datePublished": "2026-09-27T05:19:18+02:00"
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": 5,
+        "bestRating": 5
+      },
+      "reviewBody": "Just a superb experience from start to finish. Michelle our guide was so knowledgeable and communicated everything in such a fun and relatable way. Frascati was wonderful , the Vineyard, its owners its wine and its food were just so perfect. The music and singing at the end of the meal just rounded the whole event off perfectly. If you enjoy wine then this is a must do experience during your time in Rome. It was fab and a 10/10 day.",
+      "author": {
+        "@type": "Person",
+        "name": "Kevin"
+      },
+      "datePublished": "2026-09-26T15:33:14+02:00"
+    }
+  ],
+  "offers": {
+    "@type": "AggregateOffer",
+    "priceCurrency": "EUR",
+    "lowPrice": 84
+  },
+  "url": "https://www.getyourguide.com/frascati-l2108/from-rome-frascati-half-day-trip-by-train-wine-tasting-t410821/"
+}

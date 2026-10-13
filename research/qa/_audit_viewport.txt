@@ -1,0 +1,16 @@
+================================================================
+VIEWPORT / COMPUTED-STYLE AUDIT: /mnt/c/Users/Marina/Documents/Travel Websites Hugo/frascatiwinetours/frascatiwinetours.com
+================================================================
+  page types : 9 (404, guide, guideshub, home, landing, legal, legalshub, tour, tourshub)
+  widths     : [1440, 1024, 768, 600, 390, 320]
+
+  [1] :root tokens      60/60 compute (used AND defined by this CSS)
+      body background: rgb(251, 248, 241)
+
+  [2] breakpoint sweep
+      9 page types x 6 widths swept
+
+  [3] /404.html CTAs    5 found
+
+All viewport / computed-style checks PASS
+

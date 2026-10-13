@@ -1,0 +1,16 @@
+================================================================
+PRICE-BASIS AUDIT: frascatiwinetours.com
+================================================================
+  offers                       : 4
+  per-GROUP / per-vehicle tours: none
+  per-PERSON tours             : 4
+
+  [A] pages selling a per-GROUP tour : 0
+      N/A — no tour in this catalogue is priced per group.
+  [B] pages selling only per-PERSON tours: 8
+      OK: no page describes a per-person tour in per-group language
+  [C] pages selling a CAPPED per-group tour: 0
+      N/A - no page renders a per-group tour with a stated cap.
+
+All price-basis checks PASS
+

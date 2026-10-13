@@ -1,0 +1,36 @@
+{{ $site := .Site }}
+{{ $page := .Page }}
+{{ $hiwTitle    := $page.Params.howItWorksTitle    | default $site.Params.howItWorksTitle    | default "How It Works" }}
+{{ $hiwSubtitle := $page.Params.howItWorksSubtitle | default $site.Params.howItWorksSubtitle | default "Four simple steps to your booking." }}
+{{ $steps       := $page.Params.steps              | default $site.Params.steps }}
+
+
+{{ $stepCount := len $steps }}
+{{ $stepCols  := int (math.Ceil (div $stepCount 2.0)) }}
+
+<section class="section how-it-works" id="how-it-works" aria-labelledby="how-it-works-heading">
+  <div class="container">
+
+    <div class="section-header fade-up">
+      <h2 class="section-title" id="how-it-works-heading">{{ $hiwTitle }}</h2>
+      <p class="section-subtitle">{{ $hiwSubtitle }}</p>
+    </div>
+
+    <ol class="steps-grid" role="list" style="--steps-cols: {{ $stepCols }};">
+      {{ range $i, $step := $steps }}
+      <li class="step-card fade-up">
+        <div class="step-number" aria-hidden="true">{{ add $i 1 }}</div>
+        <h3 class="step-title">{{ .title }}</h3>
+        <p class="step-body">{{ .body | default .description }}</p>
+      </li>
+      {{ end }}
+    </ol>
+
+    <div class="steps-cta fade-up">
+      <a href="#availability" class="btn-primary btn-lg">
+        Check Availability & Prices
+      </a>
+    </div>
+
+  </div>
+</section>
