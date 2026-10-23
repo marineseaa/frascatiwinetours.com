@@ -22,7 +22,7 @@ A tour can be convenient from Rome without including transport from Rome. For th
 
 ## What makes the farmhouse format different
 
-Think of the featured reservation as several connected experiences. The town visit provides the introduction; the wine-and-snack stop makes it tangible. At the farmhouse, the vineyard and cellar visit set up the three-wine tasting. Lunch is a reason to stay and enjoy the setting, rather than a quick extra before the return journey.
+Think of the featured reservation as several connected experiences. The town visit provides the introduction; the wine-and-snack stop makes it tangible. At the farmhouse, the vineyard and cellar visit set up the three-wine tasting. Lunch is a reason to stay and enjoy the setting, rather than a quick extra before the return journey. Our guide to [wine tasting with lunch](/guides/frascati-wine-tasting-with-lunch/) compares the other ways to eat well with Frascati wine.
 
 That rhythm is a good fit for couples, friends and solo travellers who enjoy a shared table. It is less suited to someone seeking a technical appointment with a named winemaker or exclusive use of an estate. Neither should be inferred from attractive vineyard pictures. Read the stated itinerary, and ask the operator if a particular wine, producer or access arrangement is essential to your plans.
 

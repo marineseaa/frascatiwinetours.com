@@ -84,6 +84,6 @@ Train travel from Rome is excluded from the class price. Travellers arriving by 
 
 ## Which combination offers the right value?
 
-At the 13 October 2026 check, the farmhouse class started at €84 per person, while the separate town-cellar class started at €35. The farmhouse listing advertises four hours and a group limited to 15; the town activity advertises two and a half hours. Compare the specific option available for your date before deciding.
+At the 13 October 2026 check, the farmhouse class started at €84 per person, while the separate town-cellar class started at €35. The farmhouse listing advertises four hours and a group limited to 15; the town activity advertises two and a half hours. Compare the specific option available for your date before deciding. For tastings with a sit-down meal rather than a class, see our guide to [Frascati wine tasting with lunch](/guides/frascati-wine-tasting-with-lunch/).
 
 The better choice depends on the part you most want to remember: a vineyard setting and an extended farmhouse meal, or a shorter cooking experience in town. Read the [format guide](/guides/choose-frascati-wine-tour/) for the wider comparison, then choose the reservation that actually contains your preferred combination.

@@ -37,7 +37,7 @@ A small bag is easier than bringing luggage through a walking visit. Keep your c
 
 ## Lunch, snacks and cooking are different inclusions
 
-The featured experience includes a chef-prepared farmhouse lunch. The private-driver tasting includes food pairings described as snacks. The farmhouse pasta class includes the cooking lesson and a meal. Decide how much food you want from the activity before comparing their durations or prices.
+The featured experience includes a chef-prepared farmhouse lunch. The private-driver tasting includes food pairings described as snacks. The farmhouse pasta class includes the cooking lesson and a meal. Decide how much food you want from the activity before comparing their durations or prices. Our [wine tasting with lunch guide](/guides/frascati-wine-tasting-with-lunch/) sets out the meal on each option.
 
 Dietary requests deserve a specific conversation. The pasta-class listing invites vegetarian, vegan and gluten-free requests at booking, but the exact accommodation should be confirmed with the host. A general statement that a tour serves lunch is not confirmation that every ingredient can be changed.
 

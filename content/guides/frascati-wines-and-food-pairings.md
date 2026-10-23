@@ -7,6 +7,7 @@ date: '2026-10-13'
 dateModified: October 2026
 featuredTourId: '601703'
 exploreGroup: guides
+autoWidgetAfterSections: 1
 exploreTitle: Wines & food pairings
 weight: 40
 ogImage: /images/frascati-wines-and-food-pairings-hook.webp

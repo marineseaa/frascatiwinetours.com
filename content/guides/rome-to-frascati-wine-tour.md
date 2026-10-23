@@ -7,6 +7,7 @@ date: '2026-10-13'
 dateModified: October 2026
 featuredTourId: '410821'
 exploreGroup: guides
+autoWidgetAfterSections: 1
 exploreTitle: 'Rome to Frascati: getting there'
 weight: 20
 ogImage: /images/rome-to-frascati-wine-tour-hook.webp
@@ -37,7 +38,7 @@ If you prefer a journey that begins at an agreed Rome address, compare the [priv
 
 ## Leave room in the rest of the day
 
-The featured experience is listed at four hours. Add both journeys, station time and some flexibility when judging whether it fits between other plans. Avoid treating the return train as a guaranteed connection after an exact finish minute. If another timed reservation is important, discuss the expected return with the operator before booking both.
+The featured experience is listed at four hours. Add both journeys, station time and some flexibility when judging whether it fits between other plans. Avoid treating the return train as a guaranteed connection after an exact finish minute. If another timed reservation is important, discuss the expected return with the operator before booking both. Our [comparison of Frascati wine tours](/guides/choose-frascati-wine-tour/) lists the length of each option.
 
 A relaxed plan is to make this the main daytime activity and choose a flexible evening afterwards. You can decide whether to stay longer in Frascati once you know the day’s arrangements, but do not assume that a booked transfer can drop you somewhere different without agreement.
 

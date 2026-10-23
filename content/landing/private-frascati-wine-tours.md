@@ -84,6 +84,6 @@ For food requirements, ask about the planned snack selection and whether alterna
 
 ## Is the additional cost worthwhile for you?
 
-At the 13 October 2026 check, this tour started at €139 per person. The featured farmhouse outing started at €84 and included lunch, with the train from Rome separate. The difference purchases a different combination of service and experience, so decide which part you value most.
+At the 13 October 2026 check, this tour started at €139 per person. The featured farmhouse outing started at €84 and included lunch, with the train from Rome separate. The difference purchases a different combination of service and experience, so decide which part you value most. To weigh it against the group options, [compare every Frascati tour](/guides/choose-frascati-wine-tour/) side by side.
 
 If a station meeting sounds easy, the [Rome to Frascati guide](/guides/rome-to-frascati-wine-tour/) can help you arrange it. If pickup is the detail that makes the outing appealing, select your date and check the full private-driver booking terms above.
