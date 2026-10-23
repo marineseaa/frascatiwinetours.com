@@ -35,7 +35,12 @@
 {{ $parts := strings.Split $rest "<h2" }}
 {{ $aboveAuto := $rest }}
 {{ $belowAuto := "" }}
-{{ if gt (len $parts) 3 }}
+{{/* autoWidgetAfterSections (front matter, 1 or 2, default 2): whole <h2> sections between the availability and auto widgets */}}
+{{ $autoAfter := .Params.autoWidgetAfterSections | default 2 | int }}
+{{ if and (eq $autoAfter 1) (gt (len $parts) 2) }}
+  {{ $aboveAuto = printf "%s<h2%s" (index $parts 0) (index $parts 1) }}
+  {{ $belowAuto = printf "<h2%s" (delimit (after 2 $parts) "<h2") }}
+{{ else if gt (len $parts) 3 }}
   {{ $aboveAuto = printf "%s<h2%s<h2%s" (index $parts 0) (index $parts 1) (index $parts 2) }}
   {{ $belowAuto = printf "<h2%s" (delimit (after 3 $parts) "<h2") }}
 {{ end }}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "111408P1",
+    "title": "Classic Half-Day Wine Tour in Frascati with Lunch",
+    "rating": 4.75,
+    "reviewCount": 175,
+    "priceFrom": 90,
+    "durationHours": 5,
+    "checked": "2026-10-23",
+    "url": "https://www.viator.com/tours/Rome/Classic-Half-Day-Wine-Tour-in-Frascati-with-Lunch/d511-111408P1?mcid=42383&pid=P00285896&medium=api&api_version=2.0&campaign=frascatiwinetours-viator"
+  },
+  {
+    "id": "161088P16",
+    "title": "Countryside Wine Tasting with Local Family & Food Pairing",
+    "rating": 4.74,
+    "reviewCount": 86,
+    "priceFrom": 92,
+    "durationHours": 3.25,
+    "checked": "2026-10-23",
+    "url": "https://www.viator.com/tours/Rome/From-Rome-Frascati-3-Hour-Wine-Tasting-Tour/d511-161088P16?mcid=42383&pid=P00285896&medium=api&api_version=2.0&campaign=frascatiwinetours-viator"
+  },
+  {
+    "id": "133210P18",
+    "title": "Rome: Frascati Vineyard Bike Tour with Train Tickets",
+    "rating": 5.0,
+    "reviewCount": 10,
+    "priceFrom": 183,
+    "durationHours": 6,
+    "checked": "2026-10-23",
+    "url": "https://www.viator.com/tours/Rome/Tour-of-Castelli-Romani-in-e-bike-with-lunch-in-a-tavern-fraschetta-4-hours/d511-133210P18?mcid=42383&pid=P00285896&medium=api&api_version=2.0&campaign=frascatiwinetours-viator"
+  }
+]

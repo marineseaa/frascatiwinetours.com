@@ -1,0 +1,10 @@
+{{- $id := .Get "tour" -}}
+{{- $tour := dict -}}
+{{- range (index .Site.Data "viator_frascati_offers") -}}
+  {{- if eq (string .id) (string $id) -}}{{- $tour = . -}}{{- end -}}
+{{- end -}}
+{{- if not $tour.url -}}
+  {{- errorf "viator-link: tour %q not found in data/viator_frascati_offers.json (page %s)" $id .Page.File.Path -}}
+{{- end -}}
+{{- $label := strings.TrimSpace (.Inner | default "") | default $tour.title -}}
+<a href="{{ $tour.url }}" target="_blank" rel="sponsored nofollow noopener">{{ .Page.RenderString $label }}</a>

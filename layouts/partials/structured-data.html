@@ -89,7 +89,8 @@
 }
 </script>
 {{ end }}
-{{ else }}
+{{ else if not (and .Page.IsPage (eq .Page.Type "guides")) }}
+{{/* guides/single.html emits its own Article (with datePublished); emitting it here too duplicated the schema */}}
 {{ $site := .Site }}
 {{ $page := .Page }}
 <script type="application/ld+json">
