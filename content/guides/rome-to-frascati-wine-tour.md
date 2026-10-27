@@ -18,7 +18,7 @@ For the featured wine-and-lunch tour, travel independently from Roma Termini to 
 
 ## Match the station to your actual booking
 
-Frascati is both a town and the name of its central railway station. That does not mean every tour in the area uses the same arrival point. The featured [town-and-farmhouse tour](/tours/frascati-wine-tour-farmhouse-lunch/) describes a meeting outside Frascati station, behind the yellow taxi stand in Piazzale Sandro Pertini.
+Frascati is both a town and the name of its central railway station. That does not mean every tour in the area uses the same arrival point. The featured [town-and-farmhouse tour](/tours/frascati-wine-tour-farmhouse-lunch/) describes a meeting outside Frascati station, behind the yellow taxi stand in Piazzale Sandro Pertini. If you plan to visit an estate on your own, see the [wineries you can reach from Frascati and Tor Vergata stations](/guides/vineyards-wineries-near-rome/).
 
 The [farmhouse pasta class](/tours/pasta-masterclass-wine-tour-vineyard/) normally uses Frascati station but gives specific Saturday directions via Tor Vergata. These instructions belong to that product and date; do not transfer them to another tour. Read the confirmation and message the operator if the station name or time is unclear before you buy rail tickets.
 

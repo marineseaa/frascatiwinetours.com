@@ -38,7 +38,7 @@ The three wines usually cover the area's range: a dry white Frascati, a local re
 
 ### 1. Half-day farmhouse lunch tour
 
-The {{< gyg-link tour="410821" >}}Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 527 reviews on GetYourGuide) is run by the Antico Casale Minardi estate in the countryside outside Frascati. You meet outside Frascati station for a guided walk in town with a wine-and-snack stop, then the operator drives the group to the farmhouse. There you visit the vineyard and old cellar, taste three wines and eat a lunch cooked by the estate's chef. The listing runs for four hours.
+The {{< gyg-link tour="410821" >}}Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 529 reviews on GetYourGuide) is run by the Antico Casale Minardi estate in the countryside outside Frascati. You meet outside Frascati station for a guided walk in town with a wine-and-snack stop, then the operator drives the group to the farmhouse. There you visit the vineyard and old cellar, taste three wines and eat a lunch cooked by the estate's chef. The listing runs for four hours.
 
 **Check before booking:** the train from Rome is not included, so buy a regional ticket before you board. The transfers between town and farmhouse are included.
 
@@ -90,7 +90,7 @@ The {{< viator-link tour="111408P1" >}}Classic Half-Day Wine Tour in Frascati wi
 You cook your own lunch, which also works for families and mixed groups where not everyone drinks much wine.
 
 - The {{< gyg-link tour="601703" >}}Pasta Masterclass & Wine Tour in the Vineyard{{< /gyg-link >}} (from €84, 4.9/5 from 186 reviews) runs for four hours at the same farmhouse estate, with groups of up to 15. You make three pasta shapes, taste wine and olive oil, visit the vineyard and cellar, and eat what you made for lunch. Read our [breakdown of the masterclass](/tours/pasta-masterclass-wine-tour-vineyard/).
-- The {{< gyg-link tour="415496" >}}Pasta Making, Premium Wine Tasting and Roman Wine Cave class{{< /gyg-link >}} (from €35, 4.9/5 from 1,172 reviews) is shorter at two and a half hours and takes place in town, in a historic cellar, with two wines and a homemade meal. The listing mentions 100 steps without a lift.
+- The {{< gyg-link tour="415496" >}}Pasta Making, Premium Wine Tasting and Roman Wine Cave class{{< /gyg-link >}} (from €35, 4.9/5 from 1,175 reviews) is shorter at two and a half hours and takes place in town, in a historic cellar, with two wines and a homemade meal. The listing mentions 100 steps without a lift.
 
 Our [pasta-and-wine page](/frascati-pasta-and-wine/) compares the two classes side by side.
 
@@ -151,7 +151,7 @@ Often, yes. The Frascati hills produce olive oil as well as wine. The pasta mast
 
 ## Dinner instead of lunch
 
-There are fewer options. Merumalia and Tenuta di Pietra Porzia both offer dinner as well as lunch. Check the time of the last train back to Rome for your date before you book an evening slot, because a missed train means a long taxi ride. If you want to stay late, a farm stay at the estate saves you watching the clock.
+There are fewer options. Merumalia and Tenuta di Pietra Porzia both offer dinner as well as lunch; both appear with [more wineries near Rome](/guides/vineyards-wineries-near-rome/) in our estate guide. Check the time of the last train back to Rome for your date before you book an evening slot, because a missed train means a long taxi ride. If you want to stay late, a farm stay at the estate saves you watching the clock.
 
 ## Dietary needs, children and access
 
@@ -162,7 +162,7 @@ There are fewer options. Merumalia and Tenuta di Pietra Porzia both offer dinner
 
 ## What it costs
 
-At the 13 October 2026 check, the GetYourGuide experiences on this page started at €35 for the town cooking class, €84 for the farmhouse lunch tour and the pasta masterclass, and €139 for the private-driver tasting, all per person. The Viator town-and-winery tour started at €90 per person at the 23 October 2026 check. Prices change with the date and the option you pick, so check the total for your party before paying.
+At the 13 October 2026 check, the GetYourGuide experiences on this page started at €35 for the town cooking class, €84 for the farmhouse lunch tour and the pasta masterclass, and €139 for the private-driver tasting, all per person. The Viator town-and-winery tour started at €90 per person at the 23 October 2026 check. Prices change with the date and the option you pick, so check the total for your party before paying. Our [full cost guide](/guides/frascati-wine-tour-cost/) covers taxis, bottles and group-size pricing.
 
 | Experience | Cost |
 |---|---|

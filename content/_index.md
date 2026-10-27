@@ -10,7 +10,7 @@ date: '2026-10-13'
 
 ## A wine escape with time around the table
 
-The appeal of Frascati is the change of pace. You can spend part of a Rome trip looking across vineyard rows, asking about the wine in your glass and sitting down to a meal, without building an entire holiday around a wine region. The useful question is what you want that day to contain. A town walk, a farmhouse lunch and a cooking lesson are different experiences, even when their listings use similar photographs and the same destination name.
+The appeal of Frascati is the change of pace. You can spend part of a Rome trip looking across vineyard rows, asking about the wine in your glass and sitting down to a meal, without building an entire holiday around a wine region. Our guide to [vineyards and wineries near Rome](/guides/vineyards-wineries-near-rome/) shows which estates you can reach by train. The useful question is what you want that day to contain. A town walk, a farmhouse lunch and a cooking lesson are different experiences, even when their listings use similar photographs and the same destination name.
 
 Our featured [town walk and farmhouse lunch](/tours/frascati-wine-tour-farmhouse-lunch/) offers a rounded introduction. You start in Frascati, continue to a family wine farmhouse and finish with a meal. Choose it when you want local context as well as a tasting. The [pasta masterclass](/tours/pasta-masterclass-wine-tour-vineyard/) suits a different mood: making something with your hands becomes the centre of the visit. If coordinating trains is the part you would rather avoid, compare the [private-driver tasting](/tours/rome-wine-tasting-private-driver/).
 
@@ -28,7 +28,7 @@ That rhythm is a good fit for couples, friends and solo travellers who enjoy a s
 
 ## Compare the complete day, not just the starting price
 
-At our 13 October 2026 check, the farmhouse outing and farmhouse pasta class each started at €84 per person. The tasting with a private driver started at €139. The lower-priced town pasta-and-wine-cave experience started at €35, but it is a different product with a different setting and approach. Starting prices belong to the linked listing; select your party and date to check the option you actually intend to book.
+At our 13 October 2026 check, the farmhouse outing and farmhouse pasta class each started at €84 per person. The tasting with a private driver started at €139. The lower-priced town pasta-and-wine-cave experience started at €35, but it is a different product with a different setting and approach. Starting prices belong to the linked listing; select your party and date to check the option you actually intend to book. For the extras and booking terms, see [what Frascati wine tours cost](/guides/frascati-wine-tour-cost/).
 
 A fair comparison includes the meal, travel and the part of the experience you value most. A private driver removes a planning task. A cooking class adds participation. A town walk adds local context. Snacks with a wine tasting do not replace a full lunch for every visitor. Our [guide to choosing a Frascati tour](/guides/choose-frascati-wine-tour/) starts with these distinctions so you can compare useful differences instead of collecting similar-sounding titles.
 
