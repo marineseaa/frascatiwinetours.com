@@ -21,7 +21,7 @@ Rome has vineyards inside its city limits, including a tiny one on the Palatine 
 - **Booking:** almost every winery works **by appointment**, and walk-ins rarely work
 - **No car?** Take the train to Frascati or Tor Vergata, then a short taxi or a winery pickup
 - **Good months:** late spring, the September to October harvest, and November for new olive oil and the first wines of the year
-- **Easiest first visit:** the {{< gyg-link tour="410821" >}}Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 529 reviews), which combines a family winery with lunch and meets you at Frascati station
+- **Easiest first visit:** the {{< gyg-link tour="410821" >}}Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 530 reviews), which combines a family winery with lunch and meets you at Frascati station
 
 ## Can you visit vineyards in Rome itself?
 
@@ -94,7 +94,7 @@ Every visit below is **by reservation**. Formats, days and prices change, so con
 ### Antico Casale Minardi: the easiest to book
 
 **Where:** the Frascati countryside; the tours start outside Frascati station.
-**What you can do:** the {{< gyg-link tour="410821" >}}Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 529 reviews) combines a town walk, a cellar tasting and a farmhouse lunch in four hours. The same farmhouse runs the {{< gyg-link tour="601703" >}}Pasta Masterclass & Wine Tour in the Vineyard{{< /gyg-link >}} (from €84, 4.9/5 from 186 reviews), where you make three pasta shapes before lunch.
+**What you can do:** the {{< gyg-link tour="410821" >}}Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 530 reviews) combines a town walk, a cellar tasting and a farmhouse lunch in four hours. The same farmhouse runs the {{< gyg-link tour="601703" >}}Pasta Masterclass & Wine Tour in the Vineyard{{< /gyg-link >}} (from €84, 4.9/5 from 187 reviews), where you make three pasta shapes before lunch.
 **Why go:** it is the simplest way to visit a family winery without arranging transport, and the reviews are consistently strong. The train from Rome is not included in either tour.
 
 ### Fontana Candida: a historic big name
@@ -251,6 +251,7 @@ Usually from September into early October. Marino's grape festival is held in ea
 
 ## Related reading
 
+- [Frascati wine tours from Rome](/guides/frascati-wine-tours-from-rome/)
 - [Which Frascati wine tour to choose](/guides/choose-frascati-wine-tour/)
 - [Frascati wine tasting with lunch](/guides/frascati-wine-tasting-with-lunch/)
 - [Frascati wine tour cost and how to book](/guides/frascati-wine-tour-cost/)

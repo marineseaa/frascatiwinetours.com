@@ -13,7 +13,7 @@ weight: 20
 ogImage: /images/rome-to-frascati-wine-tour-hook.webp
 ---
 
-For the featured wine-and-lunch tour, travel independently from Roma Termini to Frascati and meet the host outside Frascati station. Buy train tickets separately. If you want collection in Rome instead, choose a tour whose inclusions explicitly name pickup and return transport.
+For the featured wine-and-lunch tour, travel independently from Roma Termini to Frascati and meet the host outside Frascati station. Buy train tickets separately. If you want collection in Rome instead, choose a tour whose inclusions explicitly name pickup and return transport. Every format is compared in our [Frascati wine tour from Rome](/guides/frascati-wine-tours-from-rome/) planning guide.
 <!--more-->
 
 ## Match the station to your actual booking

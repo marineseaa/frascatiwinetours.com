@@ -23,9 +23,9 @@ Here is what each format includes, with the starting price on the listing we wou
 |---|---|---|---|---|
 | **Fraschetta or enoteca, walk-in** | A few euros a glass or carafe | House wine; food ordered separately | As long as you like | No booking needed |
 | **Cellar tasting, booked direct** | Set by each estate | Usually three wines, sometimes bread and olive oil | About 1 to 2 hours | Book with the estate |
-| **Town cooking class with wine** | €35 | Pasta class, a full meal, two wines and a wine-cave visit | 2.5 hours | {{< gyg-link tour="415496" >}}Pasta Making, Premium Wine Tasting and Roman Wine Cave{{< /gyg-link >}} (4.9/5, 1,175 reviews) |
-| **Small-group tour with lunch** | €84 | Town walk, farmhouse cellar visit, three wines, olive oil, sit-down lunch | 4 hours | {{< gyg-link tour="410821" >}}Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (4.9/5, 529 reviews) |
-| **Farmhouse pasta class with wine** | €84 | Three pasta shapes, wine and olive oil tasting, lunch | 4 hours | {{< gyg-link tour="601703" >}}Pasta Masterclass & Wine Tour in the Vineyard{{< /gyg-link >}} (4.9/5, 186 reviews) |
+| **Town cooking class with wine** | €35 | Pasta class, a full meal, two wines and a wine-cave visit | 2.5 hours | {{< gyg-link tour="415496" >}}Pasta Making, Premium Wine Tasting and Roman Wine Cave{{< /gyg-link >}} (4.9/5, 1,176 reviews) |
+| **Small-group tour with lunch** | €84 | Town walk, farmhouse cellar visit, three wines, olive oil, sit-down lunch | 4 hours | {{< gyg-link tour="410821" >}}Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (4.9/5, 530 reviews) |
+| **Farmhouse pasta class with wine** | €84 | Three pasta shapes, wine and olive oil tasting, lunch | 4 hours | {{< gyg-link tour="601703" >}}Pasta Masterclass & Wine Tour in the Vineyard{{< /gyg-link >}} (4.9/5, 187 reviews) |
 | **Longer small-group day with lunch** | €90 | Town, family winery and lunch, groups of up to 10 | About 5 hours | {{< viator-link tour="111408P1" >}}Classic Half-Day Wine Tour in Frascati with Lunch{{< /viator-link >}} (4.7/5, 175 reviews on Viator) |
 | **Private tasting from Rome** | €92 to €139 | Pickup in Rome, a vineyard and cellar visit, food pairing or snacks | About 3 hours | {{< gyg-link tour="848244" >}}Rome Countryside: Wine Tasting Tour with Private Driver{{< /gyg-link >}} (4.8/5, 66 reviews), from €139 |
 | **E-bike and tasting** | €183 | Train tickets, bike, guide and a tasting, no lunch | 6 hours | {{< viator-link tour="133210P18" >}}Frascati Vineyard Bike Tour with Train Tickets{{< /viator-link >}} (5.0/5, only 10 reviews on Viator) |
@@ -229,6 +229,7 @@ No. Tipping is optional in Italy and isn't included in tour prices, though a few
 
 ## Related reading
 
+- [Frascati wine tours from Rome](/guides/frascati-wine-tours-from-rome/)
 - [Which Frascati wine tour to choose](/guides/choose-frascati-wine-tour/)
 - [Private Frascati wine tours](/private-frascati-wine-tours/)
 - [Frascati wine tasting with lunch](/guides/frascati-wine-tasting-with-lunch/)

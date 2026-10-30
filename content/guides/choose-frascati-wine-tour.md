@@ -53,10 +53,10 @@ We compared the Frascati wine tours sold on GetYourGuide and Viator, plus the ma
 
 | Tour | Format | Length | Meeting point | Train ticket incl.? | Food | Rating | From |
 |---|---|---|---|---|---|---|---|
-| {{< gyg-link tour="410821" >}}Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} | Small group: town walk and farmhouse winery | 4 h | Outside Frascati station | No | Chef's farmhouse lunch | 4.9/5 (527, GetYourGuide) | €84 |
+| {{< gyg-link tour="410821" >}}Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} | Small group: town walk and farmhouse winery | 4 h | Outside Frascati station | No | Chef's farmhouse lunch | 4.9/5 (530, GetYourGuide) | €84 |
 | {{< viator-link tour="111408P1" >}}Classic Half-Day Wine Tour in Frascati with Lunch{{< /viator-link >}} | Small group of up to 10: town and family winery | 5 h | Frascati station (Tor Vergata station on Saturdays) | No | Lunch | 4.7/5 (175, Viator) | €90 |
-| {{< gyg-link tour="601703" >}}Pasta Masterclass & Wine Tour in the Vineyard{{< /gyg-link >}} | Cooking class and winery, up to 15 | 4 h | Outside Frascati station | No | Lunch of the pasta you make | 4.9/5 (186, GetYourGuide) | €84 |
-| {{< gyg-link tour="415496" >}}Pasta Making, Premium Wine Tasting and Roman Wine Cave{{< /gyg-link >}} | Cooking class in a town cellar | 2.5 h | At the Frascati sign outside the station | No | Homemade meal, two wines | 4.9/5 (1,175, GetYourGuide) | €35 |
+| {{< gyg-link tour="601703" >}}Pasta Masterclass & Wine Tour in the Vineyard{{< /gyg-link >}} | Cooking class and winery, up to 15 | 4 h | Outside Frascati station | No | Lunch of the pasta you make | 4.9/5 (187, GetYourGuide) | €84 |
+| {{< gyg-link tour="415496" >}}Pasta Making, Premium Wine Tasting and Roman Wine Cave{{< /gyg-link >}} | Cooking class in a town cellar | 2.5 h | At the Frascati sign outside the station | No | Homemade meal, two wines | 4.9/5 (1,176, GetYourGuide) | €35 |
 | {{< gyg-link tour="848244" >}}Rome Countryside: Wine Tasting Tour with Private Driver{{< /gyg-link >}} | Private, with driver | 3 h | Pickup in Rome | Not needed | Snacks | 4.8/5 (66, GetYourGuide) | €139 |
 | {{< viator-link tour="161088P16" >}}Countryside Wine Tasting with Local Family & Food Pairing{{< /viator-link >}} | Private, minimum two people | 3 h 15 min | Pickup in Rome | Not needed | Food pairing and olive oil | 4.7/5 (86, Viator) | €92 |
 | {{< viator-link tour="133210P18" >}}Frascati Vineyard Bike Tour with Train Tickets{{< /viator-link >}} | E-bike group of up to 15 | 6 h | Meeting point in Rome | Yes | Tasting only, no lunch | 5.0/5 (10, Viator) | €183 |
@@ -65,7 +65,7 @@ We compared the Frascati wine tours sold on GetYourGuide and Viator, plus the ma
 
 ## Best overall: the farmhouse lunch tour
 
-The {{< gyg-link tour="410821" >}}Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 529 reviews) covers the most ground. You meet outside Frascati station, walk through the old town with an English-speaking guide and stop for a local wine and snack. The operator then drives the group to the family farmhouse, where you visit the vineyard and old cellar, taste three wines and sit down to a chef-prepared lunch.
+The {{< gyg-link tour="410821" >}}Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 530 reviews) covers the most ground. You meet outside Frascati station, walk through the old town with an English-speaking guide and stop for a local wine and snack. The operator then drives the group to the family farmhouse, where you visit the vineyard and old cellar, taste three wines and sit down to a chef-prepared lunch.
 
 **Check before booking:** the train from Rome is not included, so buy a regional ticket before you board. The listing marks the tour as unsuitable for wheelchair users.
 
@@ -81,7 +81,7 @@ The {{< viator-link tour="111408P1" >}}Classic Half-Day Wine Tour in Frascati wi
 
 ## Best value: the town pasta-and-wine-cave class
 
-The {{< gyg-link tour="415496" >}}Pasta Making, Premium Wine Tasting and Roman Wine Cave class{{< /gyg-link >}} (from €35, 4.9/5 from 1,175 reviews) costs less than half the price of the farmhouse tours. You make pasta in a historic cellar in town, taste two wines, visit the wine cave and eat a homemade meal in two and a half hours.
+The {{< gyg-link tour="415496" >}}Pasta Making, Premium Wine Tasting and Roman Wine Cave class{{< /gyg-link >}} (from €35, 4.9/5 from 1,176 reviews) costs less than half the price of the farmhouse tours. You make pasta in a historic cellar in town, taste two wines, visit the wine cave and eat a homemade meal in two and a half hours.
 
 **Check before booking:** the listing describes 100 steps without a lift. That matters more than the low price if stairs are difficult for anyone in your party. It is a cooking class with wine, and there is no vineyard visit.
 
@@ -89,7 +89,7 @@ The {{< gyg-link tour="415496" >}}Pasta Making, Premium Wine Tasting and Roman W
 
 ## Best cooking class with wine: the vineyard pasta masterclass
 
-The {{< gyg-link tour="601703" >}}Pasta Masterclass & Wine Tour in the Vineyard{{< /gyg-link >}} (from €84, 4.9/5 from 186 reviews) takes place at the farmhouse estate instead of a city kitchen. You make three pasta shapes with the farmhouse chef, taste the estate's wines and extra-virgin olive oil, visit the vineyard and old cellar, and eat what you made for lunch. Groups are limited to 15, and the listing invites vegetarian, vegan and gluten-free requests at booking.
+The {{< gyg-link tour="601703" >}}Pasta Masterclass & Wine Tour in the Vineyard{{< /gyg-link >}} (from €84, 4.9/5 from 187 reviews) takes place at the farmhouse estate instead of a city kitchen. You make three pasta shapes with the farmhouse chef, taste the estate's wines and extra-virgin olive oil, visit the vineyard and old cellar, and eat what you made for lunch. Groups are limited to 15, and the listing invites vegetarian, vegan and gluten-free requests at booking.
 
 It is one combined product, so the class and the wine visit don't need separate reservations. Choose it over the farmhouse lunch tour if you would rather spend the morning cooking than walking through town. Read our [breakdown of the masterclass](/tours/pasta-masterclass-wine-tour-vineyard/) or compare the two classes on our [pasta-and-wine page](/frascati-pasta-and-wine/).
 
@@ -182,7 +182,7 @@ Once you have chosen, use the [arrival guide](/guides/rome-to-frascati-wine-tour
 ## Frequently asked questions
 
 ### What is the best Frascati wine tour from Rome?
-For most people, the Half-Day Frascati Wine Tour with Farmhouse Lunch. It combines a town walk, a family winery, three wines and a chef-cooked lunch in four hours, from €84 per person, and was rated 4.9/5 from 527 GetYourGuide reviews at our latest check.
+For most people, the Half-Day Frascati Wine Tour with Farmhouse Lunch. It combines a town walk, a family winery, three wines and a chef-cooked lunch in four hours, from €84 per person, and was rated 4.9/5 from 530 GetYourGuide reviews at our latest check.
 
 ### Which Frascati wine tours include the train ticket from Rome?
 Of the tours compared here, only the vineyard bike tour includes train tickets. The others meet in Frascati, so you buy a Trenitalia regional ticket yourself, or take a private-driver tour that collects you in Rome.
@@ -209,6 +209,7 @@ Frascati if you want a relaxed half-day: it is about 30 minutes by train. A Tusc
 
 ## Related reading
 
+- [Frascati wine tours from Rome](/guides/frascati-wine-tours-from-rome/)
 - [Frascati wine tasting with lunch](/guides/frascati-wine-tasting-with-lunch/)
 - [Private Frascati wine tours](/private-frascati-wine-tours/)
 - [What to expect on a Frascati wine tasting](/guides/what-to-expect-frascati-wine-tasting/)
