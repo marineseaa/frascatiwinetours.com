@@ -20,7 +20,7 @@ Use a Frascati tasting to explore differences between glasses, rather than memor
 
 Frascati is a place as well as a wine name. [VisitLazio’s introduction to Frascati wine](https://www.visitlazio.com/vino-frascati/) places it within the region’s wine tradition. A visit makes the connection more concrete: ask where the grapes for the wine in front of you were grown, how the producer describes its style and which label distinguishes it from the next glass.
 
-There is no need to turn the tasting into an examination of classifications. The useful aim is to understand what you are drinking. If a term such as DOC or DOCG comes up, ask the host what it signifies for that bottle instead of assuming it tells you whether you personally will prefer the wine.
+There is no need to turn the tasting into an examination of classifications. If you want a simple routine, [learn the five-step tasting method](/guides/how-to-taste-wine-frascati/) before you go. The useful aim is to understand what you are drinking. If a term such as DOC or DOCG comes up, ask the host what it signifies for that bottle instead of assuming it tells you whether you personally will prefer the wine.
 
 ## White wine does not mean one single style
 

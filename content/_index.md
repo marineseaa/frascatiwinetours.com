@@ -10,7 +10,7 @@ date: '2026-10-13'
 
 ## A wine escape with time around the table
 
-The appeal of Frascati is the change of pace. You can spend part of a Rome trip looking across vineyard rows, asking about the wine in your glass and sitting down to a meal, without building an entire holiday around a wine region. Our guide to [vineyards and wineries near Rome](/guides/vineyards-wineries-near-rome/) shows which estates you can reach by train. The useful question is what you want that day to contain. A town walk, a farmhouse lunch and a cooking lesson are different experiences, even when their listings use similar photographs and the same destination name.
+The appeal of Frascati is the change of pace. You can spend part of a Rome trip looking across vineyard rows, asking about the wine in your glass and sitting down to a meal, without building an entire holiday around a wine region. If you are weighing it against a longer day out, we compare [Frascati versus a Tuscany day trip](/guides/wine-tasting-italy-from-rome/) and other wine trips from Rome. Our guide to [vineyards and wineries near Rome](/guides/vineyards-wineries-near-rome/) shows which estates you can reach by train. The useful question is what you want that day to contain. A town walk, a farmhouse lunch and a cooking lesson are different experiences, even when their listings use similar photographs and the same destination name.
 
 Our featured [town walk and farmhouse lunch](/tours/frascati-wine-tour-farmhouse-lunch/) offers a rounded introduction. You start in Frascati, continue to a family wine farmhouse and finish with a meal. Choose it when you want local context as well as a tasting. The [pasta masterclass](/tours/pasta-masterclass-wine-tour-vineyard/) suits a different mood: making something with your hands becomes the centre of the visit. If coordinating trains is the part you would rather avoid, compare the [private-driver tasting](/tours/rome-wine-tasting-private-driver/).
 
@@ -34,7 +34,7 @@ A fair comparison includes the meal, travel and the part of the experience you v
 
 ## Leave some space for curiosity
 
-You do not need an extensive wine vocabulary to enjoy the tasting. Ask the host what each wine is, where its grapes grow and what changes between the glasses. Compare the aroma before and after a small sip. If food is served, try the wine again after a bite and notice whether your impression changes. Your own preference is more useful than trying to repeat somebody else’s tasting notes.
+You do not need an extensive wine vocabulary to enjoy the tasting. Ask the host what each wine is, where its grapes grow and what changes between the glasses. Compare the aroma before and after a small sip. If food is served, try the wine again after a bite and notice whether your impression changes. Your own preference is more useful than trying to repeat somebody else’s tasting notes. If you want a simple routine to follow, our guide shows [how to taste wine, step by step](/guides/how-to-taste-wine-frascati/) on Frascati’s own styles.
 
 Frascati’s name is closely associated with white wine, but a producer’s tasting may include other local styles. The farmhouse pasta-class listing, for example, describes white wines alongside a Cesanese red. The actual lineup is the operator’s decision. Treat our [wine and food guide](/guides/frascati-wines-and-food-pairings/) as a starting point for questions, not a guarantee that a particular bottle will be poured.
 

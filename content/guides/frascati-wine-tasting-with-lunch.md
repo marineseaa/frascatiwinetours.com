@@ -38,7 +38,7 @@ The three wines usually cover the area's range: a dry white Frascati, a local re
 
 ### 1. Half-day farmhouse lunch tour
 
-The {{< gyg-link tour="410821" >}}Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 530 reviews on GetYourGuide) is run by the Antico Casale Minardi estate in the countryside outside Frascati. You meet outside Frascati station for a guided walk in town with a wine-and-snack stop, then the operator drives the group to the farmhouse. There you visit the vineyard and old cellar, taste three wines and eat a lunch cooked by the estate's chef. The listing runs for four hours.
+The {{< gyg-link tour="410821" >}}Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 531 reviews on GetYourGuide) is run by the Antico Casale Minardi estate in the countryside outside Frascati. You meet outside Frascati station for a guided walk in town with a wine-and-snack stop, then the operator drives the group to the farmhouse. There you visit the vineyard and old cellar, taste three wines and eat a lunch cooked by the estate's chef. The listing runs for four hours.
 
 **Check before booking:** the train from Rome is not included, so buy a regional ticket before you board. The transfers between town and farmhouse are included.
 
@@ -90,13 +90,13 @@ The {{< viator-link tour="111408P1" >}}Classic Half-Day Wine Tour in Frascati wi
 You cook your own lunch, which also works for families and mixed groups where not everyone drinks much wine.
 
 - The {{< gyg-link tour="601703" >}}Pasta Masterclass & Wine Tour in the Vineyard{{< /gyg-link >}} (from €84, 4.9/5 from 187 reviews) runs for four hours at the same farmhouse estate, with groups of up to 15. You make three pasta shapes, taste wine and olive oil, visit the vineyard and cellar, and eat what you made for lunch. Read our [breakdown of the masterclass](/tours/pasta-masterclass-wine-tour-vineyard/).
-- The {{< gyg-link tour="415496" >}}Pasta Making, Premium Wine Tasting and Roman Wine Cave class{{< /gyg-link >}} (from €35, 4.9/5 from 1,176 reviews) is shorter at two and a half hours and takes place in town, in a historic cellar, with two wines and a homemade meal. The listing mentions 100 steps without a lift.
+- The {{< gyg-link tour="415496" >}}Pasta Making, Premium Wine Tasting and Roman Wine Cave class{{< /gyg-link >}} (from €35, 4.9/5 from 1,178 reviews) is shorter at two and a half hours and takes place in town, in a historic cellar, with two wines and a homemade meal. The listing mentions 100 steps without a lift.
 
 Our [pasta-and-wine page](/frascati-pasta-and-wine/) compares the two classes side by side.
 
 ### 7. Private driver from Rome
 
-The {{< gyg-link tour="848244" >}}Rome Countryside: Wine Tasting Tour with Private Driver{{< /gyg-link >}} (from €139, 4.8/5 from 66 reviews) collects you in Rome, visits a vineyard and cellar, and brings you back, all in about three hours. The listing includes food pairings described as snacks, not a full lunch, so ask the operator before booking if a sit-down meal matters to you.
+The {{< gyg-link tour="848244" >}}Rome Countryside: Wine Tasting Tour with Private Driver{{< /gyg-link >}} (from €139, 4.8/5 from 67 reviews) collects you in Rome, visits a vineyard and cellar, and brings you back, all in about three hours. The listing includes food pairings described as snacks, not a full lunch, so ask the operator before booking if a sit-down meal matters to you.
 
 **Suits:** groups, travellers with limited mobility and special occasions. See our guide to [private Frascati wine tours](/private-frascati-wine-tours/) for the other private options.
 
@@ -143,7 +143,7 @@ Expect three wines on most tastings, usually:
 2. **A local red**, often an IGT blend or a native grape.
 3. **Cannellino di Frascati DOCG:** sweet and golden, made from late-harvested grapes, and a natural partner for dessert.
 
-The Frascati name has had legal protection since 1966, making it one of Italy's earliest DOCs. Superiore and Cannellino became DOCGs in 2011. The wines on your table depend on the estate, so ask your host what you are tasting.
+The Frascati name has had legal protection since 1966, making it one of Italy's earliest DOCs. Superiore and Cannellino became DOCGs in 2011. The wines on your table depend on the estate, so ask your host what you are tasting. Our tasting guide explains [how to taste each style](/guides/how-to-taste-wine-frascati/), from the dry Superiore to the sweet Cannellino.
 
 ## Is olive oil part of the tasting?
 

@@ -21,7 +21,7 @@ Rome has vineyards inside its city limits, including a tiny one on the Palatine 
 - **Booking:** almost every winery works **by appointment**, and walk-ins rarely work
 - **No car?** Take the train to Frascati or Tor Vergata, then a short taxi or a winery pickup
 - **Good months:** late spring, the September to October harvest, and November for new olive oil and the first wines of the year
-- **Easiest first visit:** the {{< gyg-link tour="410821" >}}Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 530 reviews), which combines a family winery with lunch and meets you at Frascati station
+- **Easiest first visit:** the {{< gyg-link tour="410821" >}}Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 531 reviews), which combines a family winery with lunch and meets you at Frascati station
 
 ## Can you visit vineyards in Rome itself?
 
@@ -94,7 +94,7 @@ Every visit below is **by reservation**. Formats, days and prices change, so con
 ### Antico Casale Minardi: the easiest to book
 
 **Where:** the Frascati countryside; the tours start outside Frascati station.
-**What you can do:** the {{< gyg-link tour="410821" >}}Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 530 reviews) combines a town walk, a cellar tasting and a farmhouse lunch in four hours. The same farmhouse runs the {{< gyg-link tour="601703" >}}Pasta Masterclass & Wine Tour in the Vineyard{{< /gyg-link >}} (from €84, 4.9/5 from 187 reviews), where you make three pasta shapes before lunch.
+**What you can do:** the {{< gyg-link tour="410821" >}}Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 531 reviews) combines a town walk, a cellar tasting and a farmhouse lunch in four hours. The same farmhouse runs the {{< gyg-link tour="601703" >}}Pasta Masterclass & Wine Tour in the Vineyard{{< /gyg-link >}} (from €84, 4.9/5 from 187 reviews), where you make three pasta shapes before lunch.
 **Why go:** it is the simplest way to visit a family winery without arranging transport, and the reviews are consistently strong. The train from Rome is not included in either tour.
 
 ### Fontana Candida: a historic big name
@@ -161,7 +161,7 @@ The [Rome to Frascati travel guide](/guides/rome-to-frascati-wine-tour/) covers 
 3. An afternoon in Frascati town, perhaps with a glass at a fraschetta
 4. An early-evening train back
 
-To fit in two or three estates, book a driver or a guided tour. The estates are spread across Frascati, Monte Porzio Catone, Grottaferrata and Colonna on narrow hill roads. The {{< gyg-link tour="848244" >}}Rome Countryside: Wine Tasting Tour with Private Driver{{< /gyg-link >}} (from €139, 4.8/5 from 66 reviews) collects you in Rome for a three-hour vineyard and cellar visit with snacks.
+To fit in two or three estates, book a driver or a guided tour. The estates are spread across Frascati, Monte Porzio Catone, Grottaferrata and Colonna on narrow hill roads. The {{< gyg-link tour="848244" >}}Rome Countryside: Wine Tasting Tour with Private Driver{{< /gyg-link >}} (from €139, 4.8/5 from 67 reviews) collects you in Rome for a three-hour vineyard and cellar visit with snacks.
 
 > **Don't drive yourself.** Italy's drink-drive limit is 0.5 g/l, and **zero** for drivers in their first three years and for professional drivers. A few tastings can easily put you over.
 
@@ -182,7 +182,7 @@ If you have a full day or a car, Lazio and neighbouring Umbria have more to offe
 | **Montefiascone (Lake Bolsena)** | About 1.5 hours by car | Hard | Est! Est!! Est!!! wine and hand-dug volcanic cellars |
 | **Tuscany (Montepulciano, Montalcino)** | 2 to 2.5 hours | Coach tours only | Famous reds, but a long day |
 
-For a half day, Frascati is the easy choice. For a full day by train, Orvieto is the best alternative. Choose Tuscany only if you have a full day and want Tuscan reds in particular.
+For a half day, Frascati is the easy choice. For a full day by train, Orvieto is the best alternative. Choose Tuscany only if you have a full day and want Tuscan reds in particular. Our comparison of [Frascati versus Tuscany and Orvieto](/guides/wine-tasting-italy-from-rome/) sets out day length, wines and who each suits.
 
 ## Lazio wine in a nutshell
 

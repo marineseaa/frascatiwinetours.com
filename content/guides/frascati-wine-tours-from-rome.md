@@ -21,7 +21,7 @@ A Frascati wine tour is usually a half-day trip from Rome. You take the regional
 
 - **Where:** Frascati, in the Castelli Romani hills, about 20 km south-east of Rome
 - **Getting there:** regional train from Roma Termini, about 30 minutes ([Trenitalia, Castelli Romani line](https://www.trenitalia.com/en/connections/castelli-romani-line.html))
-- **Typical tour:** about four hours from Frascati station on the {{< gyg-link tour="410821" >}}From Rome: Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 530 reviews), plus the train each way
+- **Typical tour:** about four hours from Frascati station on the {{< gyg-link tour="410821" >}}From Rome: Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 531 reviews), plus the train each way
 - **What you taste:** Frascati Superiore DOCG (dry white), a local red, Cannellino di Frascati DOCG (sweet)
 - **Cost:** from a few euros for a do-it-yourself visit to €139 for a private driver; see the [cost guide](/guides/frascati-wine-tour-cost/)
 - **Watch out:** on Saturdays, some tours meet at Tor Vergata station, not Frascati; read your confirmation
@@ -77,10 +77,10 @@ The best of it is very good, but the name suffered for decades. From the 1970s, 
 
 | Format | Length | What you get | Price | Best for | Our pick |
 |---|---|---|---|---|---|
-| **Small-group half day with lunch** | About 4 hours from the station | Town walk, farmhouse vineyard and cellar, three wines, lunch | From €84 | First-timers, couples, solo travellers | {{< gyg-link tour="410821" >}}Farmhouse lunch tour, €84, 4.9/5 (530){{< /gyg-link >}} |
-| **Cooking class and wine** | 2.5–4 hours | Pasta class, tasting and the meal you cook | From €35 | Food lovers, families | {{< gyg-link tour="415496" >}}Pasta Making, Premium Wine Tasting, Roman Wine Cave, €35, 4.9/5 (1,176){{< /gyg-link >}} |
+| **Small-group half day with lunch** | About 4 hours from the station | Town walk, farmhouse vineyard and cellar, three wines, lunch | From €84 | First-timers, couples, solo travellers | {{< gyg-link tour="410821" >}}Farmhouse lunch tour, €84, 4.9/5 (531){{< /gyg-link >}} |
+| **Cooking class and wine** | 2.5–4 hours | Pasta class, tasting and the meal you cook | From €35 | Food lovers, families | {{< gyg-link tour="415496" >}}Pasta Making, Premium Wine Tasting, Roman Wine Cave, €35, 4.9/5 (1,178){{< /gyg-link >}} |
 | **E-bike and tasting** | About 6 hours from Rome | Train tickets, bike ride through the vineyards, tasting, no lunch | From €183 | Active travellers | {{< viator-link tour="133210P18" >}}Frascati Vineyard Bike Tour with Train Tickets, €183, 5.0/5 (10, Viator){{< /viator-link >}} |
-| **Private with pickup in Rome** | About 3 hours | Driver from Rome, vineyard and cellar, tasting with snacks | From €139 | Groups, limited mobility, special occasions | {{< gyg-link tour="848244" >}}Rome Countryside: Wine Tasting Tour with Private Driver, €139, 4.8/5 (66){{< /gyg-link >}} |
+| **Private with pickup in Rome** | About 3 hours | Driver from Rome, vineyard and cellar, tasting with snacks | From €139 | Groups, limited mobility, special occasions | {{< gyg-link tour="848244" >}}Rome Countryside: Wine Tasting Tour with Private Driver, €139, 4.8/5 (67){{< /gyg-link >}} |
 
 The e-bike tour has only 10 reviews on Viator, so its perfect score rests on a small sample. For a longer cooking day at a vineyard, the {{< gyg-link tour="601703" >}}From Rome: Pasta Masterclass & Wine Tour in the Vineyard{{< /gyg-link >}} (from €84, 4.9/5 from 187 reviews) runs about four hours from the station, with lunch of the pasta you make.
 
@@ -96,7 +96,7 @@ All the tours ranked with their meeting points and group sizes: [Frascati wine t
 | **A family** | The {{< gyg-link tour="415496" >}}town pasta-and-wine-cave class{{< /gyg-link >}} | Children have something to do; ask about child prices when you book |
 | **On a budget** | Do it yourself: train, porchetta and a fraschetta | Regional train fare plus a sandwich and a carafe |
 | **Active** | The {{< viator-link tour="133210P18" >}}e-bike vineyard tour{{< /viator-link >}} | The hills are steep, and the electric assist handles them |
-| **A wine enthusiast** | A visit booked direct with a historic estate | Ask for the Superiore Riserva and the Cannellino; see [vineyards and wineries near Rome](/guides/vineyards-wineries-near-rome/) |
+| **A wine enthusiast** | A visit booked direct with a historic estate | Ask for the Superiore Riserva and the Cannellino; see [vineyards and wineries near Rome](/guides/vineyards-wineries-near-rome/) and our guide on [how to taste wine in Frascati](/guides/how-to-taste-wine-frascati/) |
 | **Limited mobility** | The {{< gyg-link tour="848244" >}}private driver tasting{{< /gyg-link >}} | Pickup in Rome avoids the steep walk up from the station; ask about cellar steps |
 | **Short on time** | The {{< gyg-link tour="415496" >}}2.5-hour town cellar class{{< /gyg-link >}} | Meets outside Frascati station; still allow a morning or afternoon door to door |
 | **Visiting on a Saturday** | Any tour, after you **check the meeting point** | Some tours switch to Tor Vergata station |
@@ -107,9 +107,9 @@ All the tours ranked with their meeting points and group sizes: [Frascati wine t
 |---|---|---|---|
 | **Frascati** | About 30 minutes by train | Working vineyards, cellars, porchetta, Rome views | You want wine country in half a day |
 | **Tuscany (Montepulciano and similar)** | 2+ hours each way, usually by coach | Famous reds, classic Tuscan scenery | You have a full day and want Tuscan reds specifically |
-| **Orvieto** | A longer train ride | Hilltop tufa town, Orvieto Classico | You want a full sightseeing day as well as wine |
+| **Orvieto** | About 1 to 1.5 hours by direct train | Hilltop tufa town, Orvieto Classico | You want a full sightseeing day as well as wine |
 
-Estates beyond Frascati, from the Castelli Romani to Cesanese country, are mapped in our guide to [vineyards and wineries near Rome](/guides/vineyards-wineries-near-rome/).
+We set [Frascati against Tuscany and Orvieto](/guides/wine-tasting-italy-from-rome/) in more detail, with day length, wines and who each trip suits. Estates beyond Frascati, from the Castelli Romani to Cesanese country, are mapped in our guide to [vineyards and wineries near Rome](/guides/vineyards-wineries-near-rome/).
 
 ## How do you get from Rome to Frascati?
 
