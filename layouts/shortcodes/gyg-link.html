@@ -5,6 +5,11 @@
 {{- range (index $site.Data $site.Params.offersDataKey) -}}
   {{- if eq (int .id) (int $id) -}}{{- $tour = . -}}{{- end -}}
 {{- end -}}
+{{- if not $tour.url -}}
+  {{- range (index $site.Data "gyg_extra_offers") -}}
+    {{- if eq (int .id) (int $id) -}}{{- $tour = . -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
 {{- $url := index (split ($tour.url | default "") "?") 0 -}}
 {{- $label := trim (.Inner | default "") " \n\t" | default ($tour.title | default "") -}}
 {{- if not $url -}}
