@@ -36,7 +36,7 @@ A fair comparison includes the meal, travel and the part of the experience you v
 
 You do not need an extensive wine vocabulary to enjoy the tasting. Ask the host what each wine is, where its grapes grow and what changes between the glasses. Compare the aroma before and after a small sip. If food is served, try the wine again after a bite and notice whether your impression changes. Your own preference is more useful than trying to repeat somebody else’s tasting notes. If you want a simple routine to follow, our guide shows [how to taste wine, step by step](/guides/how-to-taste-wine-frascati/) on Frascati’s own styles.
 
-Frascati’s name is closely associated with white wine, but a producer’s tasting may include other local styles. The farmhouse pasta-class listing, for example, describes white wines alongside a Cesanese red. The actual lineup is the operator’s decision. Treat our [wine and food guide](/guides/frascati-wines-and-food-pairings/) as a starting point for questions, not a guarantee that a particular bottle will be poured.
+[Frascati’s name is closely associated with white wine](/guides/frascati-wine-guide/), but a producer’s tasting may include other local styles. The farmhouse pasta-class listing, for example, describes white wines alongside a Cesanese red. The actual lineup is the operator’s decision. Treat our [wine and food guide](/guides/frascati-wines-and-food-pairings/) as a starting point for questions, not a guarantee that a particular bottle will be poured. For dishes to order with each style, see [what to eat with Frascati](/guides/what-to-eat-with-frascati-wine/).
 
 ## Check the details that photographs cannot show
 

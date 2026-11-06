@@ -38,7 +38,7 @@ Keep your notes simple. A few words such as “fresh”, “fuller” or “pref
 
 ## Let the food change the comparison
 
-Try a small sip before the accompanying food, then return to the same glass after a bite. The point is to notice whether your impression changes, not to prove a rule about a perfect pairing. Follow the host’s suggested sequence and ask why that food was chosen.
+Try a small sip before the accompanying food, then return to the same glass after a bite. The point is to notice whether your impression changes, not to prove a rule about a perfect pairing. Follow the host’s suggested sequence and ask why that food was chosen. Our pairing chart shows [which Roman dishes to pour it with](/guides/what-to-eat-with-frascati-wine/), style by style.
 
 Check the meal format when booking. The [town-and-farmhouse tour](/tours/frascati-wine-tour-farmhouse-lunch/) includes lunch after the wine visit; the [private-driver tasting](/tours/rome-wine-tasting-private-driver/) includes snacks with wine. The pasta masterclass lets you connect a dish you helped prepare with the meal. Those are different ways to spend time with the flavours.
 

@@ -17,7 +17,7 @@ Expect a mix of walking, conversation, tasting and time at the table on a Frasca
 
 ## A Frascati vineyard visit at a glance
 
-The winery part of the day usually follows a set order: a welcome with the family story and a view towards Rome, a walk through the vines, steps down into the cellar, a seated tasting, and a stop at the shop. Half-day packages wrap that in a train ride from Rome, a walk through Frascati town and a long lunch. The {{< gyg-link tour="410821" >}}From Rome: Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 531 reviews) takes about four hours from Frascati station, with your train from Rome arranged separately. At the winery you will talk and listen more than you drink; more wine comes with lunch.
+The winery part of the day usually follows a set order: a welcome with the family story and a view towards Rome, a walk through the vines, steps down into the cellar, a seated tasting, and a stop at the shop. Half-day packages wrap that in a train ride from Rome, a walk through Frascati town and a long lunch. The {{< gyg-link tour="410821" >}}From Rome: Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 534 reviews) takes about four hours from Frascati station, with your train from Rome arranged separately. At the winery you will talk and listen more than you drink; more wine comes with lunch.
 
 - **Time at the winery:** often around 1.5–2 hours, depending on the tour
 - **Total half-day tour:** about four hours from Frascati station, plus about 30 minutes on the train each way
@@ -50,7 +50,7 @@ Some estates start with the town and finish at the farm; others start with the t
 
 The featured [farmhouse tour](/tours/frascati-wine-tour-farmhouse-lunch/) begins with a guided visit in Frascati instead of going straight from the station to a tasting table. The introduction includes a wine-and-snack stop. The operator then transfers the group to the farmhouse for the vineyard and old cellar visit.
 
-That opening matters when choosing a tour. If your interest is mainly cooking, the {{< gyg-link tour="601703" >}}From Rome: Pasta Masterclass & Wine Tour in the Vineyard{{< /gyg-link >}} (from €84, 4.9/5 from 187 reviews; our [breakdown](/tours/pasta-masterclass-wine-tour-vineyard/)) gives more of the day to a hands-on class. If you want the simplest transport from Rome, the {{< gyg-link tour="848244" >}}Rome Countryside: Wine Tasting Tour with Private Driver{{< /gyg-link >}} (from €139, 4.8/5 from 67 reviews) collects you in the city; see our [private tours guide](/private-frascati-wine-tours/). All the formats are compared in our [Frascati wine tours from Rome](/guides/frascati-wine-tours-from-rome/) planning guide.
+That opening matters when choosing a tour. If your interest is mainly cooking, the {{< gyg-link tour="601703" >}}From Rome: Pasta Masterclass & Wine Tour in the Vineyard{{< /gyg-link >}} (from €84, 4.9/5 from 188 reviews; our [breakdown](/tours/pasta-masterclass-wine-tour-vineyard/)) gives more of the day to a hands-on class. If you want the simplest transport from Rome, the {{< gyg-link tour="848244" >}}Rome Countryside: Wine Tasting Tour with Private Driver{{< /gyg-link >}} (from €139, 4.8/5 from 67 reviews) collects you in the city; see our [private tours guide](/private-frascati-wine-tours/). All the formats are compared in our [Frascati wine tours from Rome](/guides/frascati-wine-tours-from-rome/) planning guide.
 
 ## What happens in the vineyard?
 
@@ -96,7 +96,7 @@ You are free to take small tastes and to leave wine unfinished. Tell the host if
 
 ### How much will I actually drink?
 
-Less at the winery than you might think, and more over lunch. A winery tasting is usually three modest pours over half an hour or so, after an hour or more of walking and talking, and some reviewers mention fewer pours than they expected. On combination tours there is often wine in town and house wine at lunch. If you are expecting six wines at the winery, you will be disappointed: three is normal. The {{< gyg-link tour="415496" >}}Rome: Pasta Making - Premium Wine Tasting, Roman Wine Cave{{< /gyg-link >}} (from €35, 4.9/5 from 1,178 reviews) pours two wines with the meal you cook.
+Less at the winery than you might think, and more over lunch. A winery tasting is usually three modest pours over half an hour or so, after an hour or more of walking and talking, and some reviewers mention fewer pours than they expected. On combination tours there is often wine in town and house wine at lunch. If you are expecting six wines at the winery, you will be disappointed: three is normal. The {{< gyg-link tour="415496" >}}Rome: Pasta Making - Premium Wine Tasting, Roman Wine Cave{{< /gyg-link >}} (from €35, 4.9/5 from 1,182 reviews) pours two wines with the meal you cook.
 
 ## Who leads the tour?
 
@@ -210,7 +210,7 @@ If a review describes entertainment, do not count on it. Your booking covers the
 
 You will probably hear some version of this:
 
-- **The labels:** Frascati became one of Italy's first DOC wines in 1966. Its two top categories, Frascati Superiore and Cannellino di Frascati, became DOCG, the stricter category, in 2011. A *Riserva* is a Superiore with extra ageing.
+- **[The labels](/guides/frascati-wine-guide/):** Frascati became one of Italy's first DOC wines in 1966. Its two top categories, Frascati Superiore and Cannellino di Frascati, became DOCG, the stricter category, in 2011. A *Riserva* is a Superiore with extra ageing.
 - **How the white is made:** the grapes are picked and gently pressed, and the juice is fermented cool in stainless steel to keep it fresh and aromatic. Some wines rest on their fine lees for extra texture before bottling.
 - **The sweet one:** Cannellino comes from grapes left late on the vine. It is gently sweet, not syrupy, and only a small amount is made each year.
 - **The cave:** tufa's steady temperature is why local families have stored wine underground for centuries.

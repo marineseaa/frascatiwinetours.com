@@ -21,7 +21,7 @@ A Frascati wine tour is usually a half-day trip from Rome. You take the regional
 
 - **Where:** Frascati, in the Castelli Romani hills, about 20 km south-east of Rome
 - **Getting there:** regional train from Roma Termini, about 30 minutes ([Trenitalia, Castelli Romani line](https://www.trenitalia.com/en/connections/castelli-romani-line.html))
-- **Typical tour:** about four hours from Frascati station on the {{< gyg-link tour="410821" >}}From Rome: Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 531 reviews), plus the train each way
+- **Typical tour:** about four hours from Frascati station on the {{< gyg-link tour="410821" >}}From Rome: Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 534 reviews), plus the train each way
 - **What you taste:** Frascati Superiore DOCG (dry white), a local red, Cannellino di Frascati DOCG (sweet)
 - **Cost:** from a few euros for a do-it-yourself visit to €139 for a private driver; see the [cost guide](/guides/frascati-wine-tour-cost/)
 - **Watch out:** on Saturdays, some tours meet at Tor Vergata station, not Frascati; read your confirmation
@@ -67,22 +67,22 @@ Step by step, with the cellar, the pours and what to wear: [what to expect on a 
 
 Frascati is made mainly from Malvasia grapes: Malvasia di Candia and the local Malvasia del Lazio, known as *Malvasia Puntinata*. Producers who aim for quality tend to favour the Puntinata, which is rarer and gives the wine more body.
 
-For food matches, see our [Frascati wines and food pairings](/guides/frascati-wines-and-food-pairings/) primer.
+For food matches, see our [Frascati wines and food pairings](/guides/frascati-wines-and-food-pairings/) primer, or our dish-by-dish guide to [what to eat with Frascati](/guides/what-to-eat-with-frascati-wine/).
 
 ### Is Frascati wine good?
 
-The best of it is very good, but the name suffered for decades. From the 1970s, mass production sent thin, cheap Frascati to export markets. Since then the 2011 DOCGs, more Malvasia Puntinata, lower yields and single-vineyard Superiore and Riserva bottlings have produced wines you will want to seek out. A tasting at a family winery shows you the best of Frascati where it is made, which the house carafe in a Rome trattoria rarely does.
+The best of it is very good, but [the name suffered for decades](/guides/frascati-wine-guide/). By the 1980s, mass production sent thin, cheap Frascati to export markets. Since then the 2011 DOCGs, more Malvasia Puntinata, lower yields and single-vineyard Superiore and Riserva bottlings have produced wines you will want to seek out. A tasting at a family winery shows you the best of Frascati where it is made, which the house carafe in a Rome trattoria rarely does.
 
 ## Which type of Frascati wine tour should you book?
 
 | Format | Length | What you get | Price | Best for | Our pick |
 |---|---|---|---|---|---|
-| **Small-group half day with lunch** | About 4 hours from the station | Town walk, farmhouse vineyard and cellar, three wines, lunch | From €84 | First-timers, couples, solo travellers | {{< gyg-link tour="410821" >}}Farmhouse lunch tour, €84, 4.9/5 (531){{< /gyg-link >}} |
-| **Cooking class and wine** | 2.5–4 hours | Pasta class, tasting and the meal you cook | From €35 | Food lovers, families | {{< gyg-link tour="415496" >}}Pasta Making, Premium Wine Tasting, Roman Wine Cave, €35, 4.9/5 (1,178){{< /gyg-link >}} |
+| **Small-group half day with lunch** | About 4 hours from the station | Town walk, farmhouse vineyard and cellar, three wines, lunch | From €84 | First-timers, couples, solo travellers | {{< gyg-link tour="410821" >}}Farmhouse lunch tour, €84, 4.9/5 (534){{< /gyg-link >}} |
+| **Cooking class and wine** | 2.5–4 hours | Pasta class, tasting and the meal you cook | From €35 | Food lovers, families | {{< gyg-link tour="415496" >}}Pasta Making, Premium Wine Tasting, Roman Wine Cave, €35, 4.9/5 (1,182){{< /gyg-link >}} |
 | **E-bike and tasting** | About 6 hours from Rome | Train tickets, bike ride through the vineyards, tasting, no lunch | From €183 | Active travellers | {{< viator-link tour="133210P18" >}}Frascati Vineyard Bike Tour with Train Tickets, €183, 5.0/5 (10, Viator){{< /viator-link >}} |
 | **Private with pickup in Rome** | About 3 hours | Driver from Rome, vineyard and cellar, tasting with snacks | From €139 | Groups, limited mobility, special occasions | {{< gyg-link tour="848244" >}}Rome Countryside: Wine Tasting Tour with Private Driver, €139, 4.8/5 (67){{< /gyg-link >}} |
 
-The e-bike tour has only 10 reviews on Viator, so its perfect score rests on a small sample. For a longer cooking day at a vineyard, the {{< gyg-link tour="601703" >}}From Rome: Pasta Masterclass & Wine Tour in the Vineyard{{< /gyg-link >}} (from €84, 4.9/5 from 187 reviews) runs about four hours from the station, with lunch of the pasta you make.
+The e-bike tour has only 10 reviews on Viator, so its perfect score rests on a small sample. For a longer cooking day at a vineyard, the {{< gyg-link tour="601703" >}}From Rome: Pasta Masterclass & Wine Tour in the Vineyard{{< /gyg-link >}} (from €84, 4.9/5 from 188 reviews) runs about four hours from the station, with lunch of the pasta you make.
 
 All the tours ranked with their meeting points and group sizes: [Frascati wine tours compared](/guides/choose-frascati-wine-tour/).
 

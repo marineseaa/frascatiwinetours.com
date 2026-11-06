@@ -31,7 +31,7 @@ Italy has more than 400 protected wine appellations, yet the famous regions sit 
 
 Getting there is the hard part. A survey by Movimento Turismo del Vino (MTV) and the research institute Ceseo, presented at Vinitaly in April 2026, found that fewer than 10% of the roughly 104 million foreign visitors who arrived in Italy in 2025 visited a winery. MTV's president named access as the main obstacle: many wineries sit far from a station, and the journey there is complicated without a car.
 
-Frascati avoids most of this. Its wine zone sits on a commuter line from Rome's main station, and several tours collect you at Frascati station. The {{< gyg-link tour="410821" >}}From Rome: Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 531 reviews) meets you off the train and handles the transfer to a family farmhouse; you buy the train ticket yourself.
+Frascati avoids most of this. Its wine zone sits on a commuter line from Rome's main station, and several tours collect you at Frascati station. The {{< gyg-link tour="410821" >}}From Rome: Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 534 reviews) meets you off the train and handles the transfer to a family farmhouse; you buy the train ticket yourself.
 
 ## How big is wine tourism in Italy?
 
@@ -100,7 +100,7 @@ The {{< gyg-link tour="21292" >}}Rome: Tuscany & Montepulciano Day Trip with Lun
 
 - **Famous reds.** Frascati is mainly white wine; local reds exist but are not world-famous.
 - **The Tuscan postcard.** No cypress avenues or Renaissance hill towns on the Val d'Orcia scale.
-- **An instant reputation.** Frascati spent decades as cheap carafe wine. Taste the Superiore DOCG and Cannellino at a family estate and you will notice the difference.
+- **An instant reputation.** Frascati spent decades as cheap carafe wine. Taste the [Superiore DOCG and Cannellino](/guides/frascati-wine-guide/) at a family estate and you will notice the difference.
 - **Easy hopping between towns without a car.** Frascati itself is simple by train. Linking it with other Castelli Romani towns works best with a driver or tour.
 
 To get more out of the glasses you are poured, read our guide on [how to taste wine in Frascati](/guides/how-to-taste-wine-frascati/).

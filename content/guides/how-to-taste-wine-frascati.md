@@ -26,7 +26,7 @@ One Frascati cellar, a handful of styles and about ten Italian words cover most 
 - **You can spit.** It is normal and polite.
 - **No expertise required.** "Peachy, floral, fresh, almond finish" is a perfectly good tasting note.
 
-The {{< gyg-link tour="410821" >}}From Rome: Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 531 reviews) pours three wines at a family farmhouse, which is enough to try the whole method on real Frascati.
+The {{< gyg-link tour="410821" >}}From Rome: Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 534 reviews) pours three wines at a family farmhouse, which is enough to try the whole method on real Frascati.
 
 ## How do you taste wine? The 5-step method
 
@@ -90,7 +90,7 @@ Many Frascati tours pour three of these, typically a Superiore, a red and the Ca
 
 ## What does each Frascati wine taste like? The official descriptions
 
-Italy's production rules (*disciplinari*) for the Frascati DOCGs include official tasting descriptions. They help beginners, because they tell you what you are meant to find.
+Italy's [production rules](/guides/frascati-wine-guide/) (*disciplinari*) for the Frascati DOCGs include official tasting descriptions. They help beginners, because they tell you what you are meant to find.
 
 | Wine | Colour (official) | Aroma (official) | Palate (official) | Sweetness |
 |---|---|---|---|---|
@@ -175,7 +175,7 @@ A lot, which is why Frascati tastings come with snacks.
 - **The local classic:** Cannellino with salty pecorino romano, a sweet-and-salty pairing local producers recommend.
 - **Plain bread and water** reset your palate between wines.
 
-Our [Frascati wines and food pairings](/guides/frascati-wines-and-food-pairings/) guide goes through the dishes course by course.
+Our [Frascati wines and food pairings](/guides/frascati-wines-and-food-pairings/) guide goes through the dishes course by course, and our pairing chart shows [which dishes suit each style](/guides/what-to-eat-with-frascati-wine/).
 
 ## How do you taste olive oil?
 
@@ -269,8 +269,8 @@ Serve each at the temperatures above, taste in that order, and fill in a tasting
 
 To practise with an expert:
 
-- **In the vineyard:** on the {{< gyg-link tour="410821" >}}half-day farmhouse tour{{< /gyg-link >}} (from €84, 4.9/5 from 531 reviews) the family that makes the wine pours three of its own and explains them as you go, then serves lunch. If you would rather be driven from your hotel, the {{< gyg-link tour="848244" >}}Rome Countryside: Wine Tasting Tour with Private Driver{{< /gyg-link >}} (from €139, 4.8/5 from 67 reviews) takes your own group to the Castelli Romani.
-- **Cooking plus wine:** the {{< gyg-link tour="601703" >}}From Rome: Pasta Masterclass & Wine Tour in the Vineyard{{< /gyg-link >}} (from €84, 4.9/5 from 187 reviews) pairs a hands-on pasta class at a Frascati vineyard with a guided tasting.
+- **In the vineyard:** on the {{< gyg-link tour="410821" >}}half-day farmhouse tour{{< /gyg-link >}} (from €84, 4.9/5 from 534 reviews) the family that makes the wine pours three of its own and explains them as you go, then serves lunch. If you would rather be driven from your hotel, the {{< gyg-link tour="848244" >}}Rome Countryside: Wine Tasting Tour with Private Driver{{< /gyg-link >}} (from €139, 4.8/5 from 67 reviews) takes your own group to the Castelli Romani.
+- **Cooking plus wine:** the {{< gyg-link tour="601703" >}}From Rome: Pasta Masterclass & Wine Tour in the Vineyard{{< /gyg-link >}} (from €84, 4.9/5 from 188 reviews) pairs a hands-on pasta class at a Frascati vineyard with a guided tasting.
 - **In central Rome:** the {{< gyg-link tour="776900" >}}Rome: Fine Wine Tasting & Food Pairing with Dinner Option{{< /gyg-link >}} (from €49, 4.9/5 from 78 reviews) is a 1.5-hour tasting of Italian wines with food, led by a guide who explains each glass. It suits an evening when you cannot leave the city, though you will not see a vineyard.
 
 *Prices run from €49 for the city tasting and €84 for half-day vineyard trips with lunch to €139 for a private driver. Check the current price and inclusions before booking.*
