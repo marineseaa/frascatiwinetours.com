@@ -278,7 +278,7 @@ At the cellar door in Frascati, from Italian wine merchants, some supermarkets, 
 
 ## Taste it where it's made
 
-Tasting a Superiore in a cool tufa cellar, then a Cannellino with a wine biscuit, half an hour from Rome, teaches you more than any label. Our pick is the {{< gyg-link tour="410821" >}}From Rome: Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 534 reviews on GetYourGuide): you meet at Frascati station, walk the old town, then taste three wines at a family farmhouse, typically a Superiore, a local red and a Cannellino, before a chef's lunch. Check your date on the listing, because the wines poured are the estate's choice and can change. Our guide to [Frascati wine tours from Rome](/guides/frascati-wine-tours-from-rome/) covers the other formats.
+Tasting a Superiore in a cool tufa cellar, then a Cannellino with a wine biscuit, half an hour from Rome, teaches you more than any label. Our pick is the {{< gyg-link tour="410821" >}}From Rome: Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 535 reviews on GetYourGuide): you meet at Frascati station, walk the old town, then taste three wines at a family farmhouse, typically a Superiore, a local red and a Cannellino, before a chef's lunch. Check your date on the listing, because the wines poured are the estate's choice and can change. Our guide to [Frascati wine tours from Rome](/guides/frascati-wine-tours-from-rome/) covers the other formats, and the [town wine walk](/guides/frascati-cellars-town-wine-walk/) shows where to drink in the old cellars on your own.
 
 ---
 

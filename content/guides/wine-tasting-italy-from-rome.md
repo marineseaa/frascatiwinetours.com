@@ -31,7 +31,7 @@ Italy has more than 400 protected wine appellations, yet the famous regions sit 
 
 Getting there is the hard part. A survey by Movimento Turismo del Vino (MTV) and the research institute Ceseo, presented at Vinitaly in April 2026, found that fewer than 10% of the roughly 104 million foreign visitors who arrived in Italy in 2025 visited a winery. MTV's president named access as the main obstacle: many wineries sit far from a station, and the journey there is complicated without a car.
 
-Frascati avoids most of this. Its wine zone sits on a commuter line from Rome's main station, and several tours collect you at Frascati station. The {{< gyg-link tour="410821" >}}From Rome: Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 534 reviews) meets you off the train and handles the transfer to a family farmhouse; you buy the train ticket yourself.
+Frascati avoids most of this. Its wine zone sits on a commuter line from Rome's main station, and several tours collect you at Frascati station. The {{< gyg-link tour="410821" >}}From Rome: Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 535 reviews) meets you off the train and handles the transfer to a family farmhouse; you buy the train ticket yourself.
 
 ## How big is wine tourism in Italy?
 
@@ -161,7 +161,7 @@ For a guided tasting, the {{< gyg-link tour="776900" >}}Rome: Fine Wine Tasting 
 
 ## How do you get to Frascati from Rome?
 
-- **Train:** regional train from Roma Termini, about 30 minutes.
+- **Train:** regional train from Roma Termini, about 30 minutes; see [Rome to Frascati by train: tickets and the last train back](/guides/rome-to-frascati-by-train/).
 - **Ticket:** a Trenitalia regional ticket of a couple of euros. Rome's city transport tickets are not valid this far.
 - **From the station:** many tours meet you there. Wineries are a short transfer away.
 - **Return:** check the last train back in the Trenitalia app on the day, as departures vary by day of the week.

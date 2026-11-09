@@ -17,7 +17,7 @@ Expect a mix of walking, conversation, tasting and time at the table on a Frasca
 
 ## A Frascati vineyard visit at a glance
 
-The winery part of the day usually follows a set order: a welcome with the family story and a view towards Rome, a walk through the vines, steps down into the cellar, a seated tasting, and a stop at the shop. Half-day packages wrap that in a train ride from Rome, a walk through Frascati town and a long lunch. The {{< gyg-link tour="410821" >}}From Rome: Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 534 reviews) takes about four hours from Frascati station, with your train from Rome arranged separately. At the winery you will talk and listen more than you drink; more wine comes with lunch.
+The winery part of the day usually follows a set order: a welcome with the family story and a view towards Rome, a walk through the vines, steps down into the cellar, a seated tasting, and a stop at the shop. Half-day packages wrap that in a train ride from Rome, a walk through Frascati town and a long lunch. The {{< gyg-link tour="410821" >}}From Rome: Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 535 reviews) takes about four hours from Frascati station, with your train from Rome arranged separately. At the winery you will talk and listen more than you drink; more wine comes with lunch.
 
 - **Time at the winery:** often around 1.5–2 hours, depending on the tour
 - **Total half-day tour:** about four hours from Frascati station, plus about 30 minutes on the train each way
@@ -96,7 +96,7 @@ You are free to take small tastes and to leave wine unfinished. Tell the host if
 
 ### How much will I actually drink?
 
-Less at the winery than you might think, and more over lunch. A winery tasting is usually three modest pours over half an hour or so, after an hour or more of walking and talking, and some reviewers mention fewer pours than they expected. On combination tours there is often wine in town and house wine at lunch. If you are expecting six wines at the winery, you will be disappointed: three is normal. The {{< gyg-link tour="415496" >}}Rome: Pasta Making - Premium Wine Tasting, Roman Wine Cave{{< /gyg-link >}} (from €35, 4.9/5 from 1,182 reviews) pours two wines with the meal you cook.
+Less at the winery than you might think, and more over lunch. A winery tasting is usually three modest pours over half an hour or so, after an hour or more of walking and talking, and some reviewers mention fewer pours than they expected. On combination tours there is often wine in town and house wine at lunch. If you are expecting six wines at the winery, you will be disappointed: three is normal. The {{< gyg-link tour="415496" >}}Rome: Pasta Making - Premium Wine Tasting, Roman Wine Cave{{< /gyg-link >}} (from €35, 4.9/5 from 1,183 reviews) pours two wines with the meal you cook.
 
 ## Who leads the tour?
 
@@ -224,7 +224,7 @@ The featured tour includes the transfer back to Frascati station. Check the curr
 ## Frequently asked questions
 
 ### How long is a vineyard tour and tasting in Frascati?
-The winery visit often takes around 1.5–2 hours. The farmhouse lunch tour, with the town walk and lunch, takes about four hours from Frascati station, plus the train from Rome.
+The winery visit often takes around 1.5–2 hours. The farmhouse lunch tour, with the town walk and lunch, takes about four hours from Frascati station, plus the train from Rome. With a spare afternoon, add our [self-guided town wine walk](/guides/frascati-cellars-town-wine-walk/).
 
 ### How many wines do you taste on a Frascati vineyard tour?
 Usually three at the winery: a dry Frascati Superiore, a red and the sweet Cannellino. Many tours add wine in town or at lunch.

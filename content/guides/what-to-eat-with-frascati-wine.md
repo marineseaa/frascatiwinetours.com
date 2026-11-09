@@ -113,7 +113,7 @@ To tell the styles apart before you order, see our [Frascati wine guide](/guides
 
 ### Where can you find fraschette?
 
-- **Frascati:** fraschette, cantine and porchetta stalls cluster around the old town and **Piazza del Mercato**, where you can buy a porchetta sandwich to take away.
+- **Frascati:** fraschette, cantine and porchetta stalls cluster around the old town and **Piazza del Mercato**, where you can buy a porchetta sandwich to take away. Our [self-guided Frascati wine walk](/guides/frascati-cellars-town-wine-walk/) links them in one afternoon.
 - **Ariccia:** the porchetta capital, with a cluster of fraschette near the town centre and the fullest choice for a fraschetta lunch.
 - **Marino, Grottaferrata and the other Castelli towns** have their own.
 
@@ -194,8 +194,8 @@ Our guide to [Frascati wine tasting with lunch](/guides/frascati-wine-tasting-wi
 
 | Experience | Format | Best for | Price tier | Our pick on GetYourGuide |
 |---|---|---|---|---|
-| **Half-day Frascati wine tour with farmhouse lunch** | Town walk, tasting of three wines and a chef's lunch at a family farmhouse | First-timers, food lovers | Mid | {{< gyg-link tour="410821" >}}From Rome: Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}}, from €84, 4.9/5 (534 reviews) |
-| **Pasta-making class with wine in a town cellar** | Hands-on pasta class with two wines, meeting at the Frascati sign outside the station | Budget, families | Budget | {{< gyg-link tour="415496" >}}Rome: Pasta Making - Premium Wine Tasting, Roman Wine Cave{{< /gyg-link >}}, from €35, 4.9/5 (1,182 reviews) |
+| **Half-day Frascati wine tour with farmhouse lunch** | Town walk, tasting of three wines and a chef's lunch at a family farmhouse | First-timers, food lovers | Mid | {{< gyg-link tour="410821" >}}From Rome: Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}}, from €84, 4.9/5 (535 reviews) |
+| **Pasta-making class with wine in a town cellar** | Hands-on pasta class with two wines, meeting at the Frascati sign outside the station | Budget, families | Budget | {{< gyg-link tour="415496" >}}Rome: Pasta Making - Premium Wine Tasting, Roman Wine Cave{{< /gyg-link >}}, from €35, 4.9/5 (1,183 reviews) |
 | **Pasta masterclass and wine tour in the vineyard** | Make three pasta shapes with a chef, visit the vineyard and cellar, then lunch with the farmhouse wines | Hands-on foodies | Mid | {{< gyg-link tour="601703" >}}From Rome: Pasta Masterclass & Wine Tour in the Vineyard{{< /gyg-link >}}, from €84, 4.9/5 (188 reviews) |
 | **Castelli Romani day with a fraschetta lunch** | Lakes, villages and a fraschetta lunch, with transport from Rome | Seeing more of the hills | Upper | {{< gyg-link tour="1239718" >}}Rome: Experience the Castelli Romani Among Lakes, Villages and Flavors{{< /gyg-link >}}, 5.0/5 (10 reviews; a new listing) |
 

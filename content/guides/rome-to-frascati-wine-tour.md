@@ -24,7 +24,7 @@ The [farmhouse pasta class](/tours/pasta-masterclass-wine-tour-vineyard/) normal
 
 ## Check the train for your date
 
-[Trenitalia](https://www.trenitalia.com/en/connections/castelli-romani-line.html) describes the Roma Termini–Frascati journey as around 30 minutes. Search the official booking service for your date and destination, then choose a service that leaves a sensible margin before the meeting time. The headline journey duration does not include reaching Termini from your accommodation or finding the departure platform.
+[Trenitalia](https://www.trenitalia.com/en/connections/castelli-romani-line.html) describes the Roma Termini–Frascati journey as around 30 minutes. For tickets and planning a day on your own, see our [full DIY train guide](/guides/rome-to-frascati-by-train/). Search the official booking service for your date and destination, then choose a service that leaves a sensible margin before the meeting time. The headline journey duration does not include reaching Termini from your accommodation or finding the departure platform.
 
 We deliberately do not reproduce a fixed train departure. Operator listings contain suggested services, including day-specific variations, but rail schedules can change. The confirmation tells you when to meet the tour; the railway’s current timetable tells you how to get there. Check both again close to travel.
 

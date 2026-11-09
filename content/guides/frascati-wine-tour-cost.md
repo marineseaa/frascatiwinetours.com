@@ -23,8 +23,8 @@ Here is what each format includes, with the starting price on the listing we wou
 |---|---|---|---|---|
 | **Fraschetta or enoteca, walk-in** | A few euros a glass or carafe | House wine; food ordered separately | As long as you like | No booking needed |
 | **Cellar tasting, booked direct** | Set by each estate | Usually three wines, sometimes bread and olive oil | About 1 to 2 hours | Book with the estate |
-| **Town cooking class with wine** | €35 | Pasta class, a full meal, two wines and a wine-cave visit | 2.5 hours | {{< gyg-link tour="415496" >}}Pasta Making, Premium Wine Tasting and Roman Wine Cave{{< /gyg-link >}} (4.9/5, 1,182 reviews) |
-| **Small-group tour with lunch** | €84 | Town walk, farmhouse cellar visit, three wines, olive oil, sit-down lunch | 4 hours | {{< gyg-link tour="410821" >}}Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (4.9/5, 534 reviews) |
+| **Town cooking class with wine** | €35 | Pasta class, a full meal, two wines and a wine-cave visit | 2.5 hours | {{< gyg-link tour="415496" >}}Pasta Making, Premium Wine Tasting and Roman Wine Cave{{< /gyg-link >}} (4.9/5, 1,183 reviews) |
+| **Small-group tour with lunch** | €84 | Town walk, farmhouse cellar visit, three wines, olive oil, sit-down lunch | 4 hours | {{< gyg-link tour="410821" >}}Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (4.9/5, 535 reviews) |
 | **Farmhouse pasta class with wine** | €84 | Three pasta shapes, wine and olive oil tasting, lunch | 4 hours | {{< gyg-link tour="601703" >}}Pasta Masterclass & Wine Tour in the Vineyard{{< /gyg-link >}} (4.9/5, 188 reviews) |
 | **Longer small-group day with lunch** | €90 | Town, family winery and lunch, groups of up to 10 | About 5 hours | {{< viator-link tour="111408P1" >}}Classic Half-Day Wine Tour in Frascati with Lunch{{< /viator-link >}} (4.7/5, 175 reviews on Viator) |
 | **Private tasting from Rome** | €92 to €139 | Pickup in Rome, a vineyard and cellar visit, food pairing or snacks | About 3 hours | {{< gyg-link tour="848244" >}}Rome Countryside: Wine Tasting Tour with Private Driver{{< /gyg-link >}} (4.8/5, 67 reviews), from €139 |
@@ -59,7 +59,7 @@ For couples, the farmhouse tour often costs about the same as a winery day you a
 
 ## What hidden costs should you budget for?
 
-**1. The train ticket.** Every GetYourGuide tour on this page except the private one meets you in Frascati, and the listings say the train is **not included**. A Trenitalia regional ticket costs a couple of euros each way. Rome's city transport tickets (BIT) are not valid as far as Frascati, so buy a regional ticket. If you buy a paper ticket, validate it before you board.
+**1. The train ticket.** Every GetYourGuide tour on this page except the private one meets you in Frascati, and the listings say the train is **not included**. A Trenitalia regional ticket costs a couple of euros each way. Rome's city transport tickets (BIT) are not valid as far as Frascati, so buy a regional ticket. If you buy a paper ticket, validate it before you board. Skipping the tour? The [self-guided town wine walk](/guides/frascati-cellars-town-wine-walk/) costs little more than the fare and lunch.
 
 **2. Taxis from the station.** Many wineries sit a short drive outside town. Taxis in the Castelli Romani are usually booked by phone rather than flagged down, so ask for an estimate when you book and arrange your return pickup at the same time. Don't count on ride-hailing apps out here.
 

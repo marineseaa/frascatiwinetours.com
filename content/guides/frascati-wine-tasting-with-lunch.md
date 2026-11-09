@@ -38,7 +38,7 @@ The three wines usually cover the area's range: a dry white Frascati, a local re
 
 ### 1. Half-day farmhouse lunch tour
 
-The {{< gyg-link tour="410821" >}}Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 534 reviews on GetYourGuide) is run by the Antico Casale Minardi estate in the countryside outside Frascati. You meet outside Frascati station for a guided walk in town with a wine-and-snack stop, then the operator drives the group to the farmhouse. There you visit the vineyard and old cellar, taste three wines and eat a lunch cooked by the estate's chef. The listing runs for four hours.
+The {{< gyg-link tour="410821" >}}Half-Day Frascati Wine Tour with Farmhouse Lunch{{< /gyg-link >}} (from €84, 4.9/5 from 535 reviews on GetYourGuide) is run by the Antico Casale Minardi estate in the countryside outside Frascati. You meet outside Frascati station for a guided walk in town with a wine-and-snack stop, then the operator drives the group to the farmhouse. There you visit the vineyard and old cellar, taste three wines and eat a lunch cooked by the estate's chef. The listing runs for four hours.
 
 **Check before booking:** the train from Rome is not included, so buy a regional ticket before you board. The transfers between town and farmhouse are included.
 
@@ -50,7 +50,7 @@ The {{< viator-link tour="111408P1" >}}Classic Half-Day Wine Tour in Frascati wi
 
 **Suits:** travellers who want time in the town as well as at the winery. Viator review totals can include Tripadvisor reviews, so they are not directly comparable with GetYourGuide counts.
 
-> **Tip:** Villa Aldobrandini's gardens above the main square have limited opening days. If your tour includes a town walk and the gardens matter to you, check the current opening days with the Frascati tourist office before choosing a date.
+> **Tip:** Villa Aldobrandini's gardens above the main square have limited opening days; our [Frascati town wine walk](/guides/frascati-cellars-town-wine-walk/) suggests a swap for when they are closed. If your tour includes a town walk and the gardens matter to you, check the current opening days with the Frascati tourist office before choosing a date.
 
 ### 3. Merumalia: organic wines near Frascati
 
@@ -90,7 +90,7 @@ The {{< viator-link tour="111408P1" >}}Classic Half-Day Wine Tour in Frascati wi
 You cook your own lunch, which also works for families and mixed groups where not everyone drinks much wine.
 
 - The {{< gyg-link tour="601703" >}}Pasta Masterclass & Wine Tour in the Vineyard{{< /gyg-link >}} (from €84, 4.9/5 from 188 reviews) runs for four hours at the same farmhouse estate, with groups of up to 15. You make three pasta shapes, taste wine and olive oil, visit the vineyard and cellar, and eat what you made for lunch. Read our [breakdown of the masterclass](/tours/pasta-masterclass-wine-tour-vineyard/).
-- The {{< gyg-link tour="415496" >}}Pasta Making, Premium Wine Tasting and Roman Wine Cave class{{< /gyg-link >}} (from €35, 4.9/5 from 1,182 reviews) is shorter at two and a half hours and takes place in town, in a historic cellar, with two wines and a homemade meal. The listing mentions 100 steps without a lift.
+- The {{< gyg-link tour="415496" >}}Pasta Making, Premium Wine Tasting and Roman Wine Cave class{{< /gyg-link >}} (from €35, 4.9/5 from 1,183 reviews) is shorter at two and a half hours and takes place in town, in a historic cellar, with two wines and a homemade meal. The listing mentions 100 steps without a lift.
 
 Our [pasta-and-wine page](/frascati-pasta-and-wine/) compares the two classes side by side.
 
