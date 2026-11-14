@@ -6,7 +6,7 @@
 {{ $galleryAltBase  := $page.Params.galleryAltBase  | default $site.Params.galleryAltBase    | default "Tour gallery photo" }}
 
 
-{{ $galleryData := $site.Data.gallery }}
+{{ $galleryData := hugo.Data.gallery }}
 {{ $items := slice }}
 {{ if and $page.IsHome $galleryData }}
   {{ range $galleryData.items }}

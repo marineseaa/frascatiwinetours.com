@@ -1,6 +1,6 @@
 {{- $id := .Get "tour" -}}
 {{- $tour := dict -}}
-{{- range (index .Site.Data "viator_frascati_offers") -}}
+{{- range (index hugo.Data "viator_frascati_offers") -}}
   {{- if eq (string .id) (string $id) -}}{{- $tour = . -}}{{- end -}}
 {{- end -}}
 {{- if not $tour.url -}}

@@ -1,7 +1,7 @@
 
 {{ $site := .Site }}
 {{ $exclude := .exclude | default "" }}
-{{ $all := index $site.Data $site.Params.offersDataKey }}
+{{ $all := index hugo.Data $site.Params.offersDataKey }}
 {{ $pool := slice }}
 {{ range $all }}
   {{ if ne (string .id) (string $exclude) }}{{ $pool = $pool | append . }}{{ end }}

@@ -1,6 +1,6 @@
 
 {{ $site := .Site }}
-{{ $tl := index $site.Data "timeline" }}
+{{ $tl := index hugo.Data "timeline" }}
 {{ if $tl }}
 <section class="section itinerary-section" id="timeline" aria-labelledby="timeline-heading">
   <div class="container">

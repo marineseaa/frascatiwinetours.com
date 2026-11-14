@@ -1,10 +1,10 @@
 {{ define "main" }}
-{{- $allTours := index .Site.Data .Site.Params.offersDataKey -}}
+{{- $allTours := index hugo.Data .Site.Params.offersDataKey -}}
 {{- $site := .Site -}}
 
 
 {{- $badgeMap := dict -}}
-{{- with index $site.Data "experiences_config" -}}
+{{- with index hugo.Data "experiences_config" -}}
   {{- range (.all_badges | default .featured_tours) -}}
     {{- $id := printf "%d" (int .id) -}}
     {{- with .badge -}}{{- $badgeMap = merge $badgeMap (dict $id .) -}}{{- end -}}

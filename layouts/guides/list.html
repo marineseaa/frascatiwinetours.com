@@ -2,7 +2,7 @@
 {{ $site := .Site }}
 
 {{ $featured := dict }}
-{{ range (index $site.Data $site.Params.offersDataKey) }}
+{{ range (index hugo.Data $site.Params.offersDataKey) }}
   {{ if eq (int .id) (int $site.Params.featuredTourID) }}{{ $featured = . }}{{ end }}
 {{ end }}
 
