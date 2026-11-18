@@ -1,0 +1,978 @@
+{
+ "checked": "2026-11-18",
+ "page": "/guides/best-time-to-visit-frascati/",
+ "gates": {
+  "HON-CURRENTPOLICY": {
+   "verdict": "pass",
+   "note": "Tour rules (meeting point, train not included, Saturday instructions) read from the 410821/601703 listings in data/gyg_frascati_offers.json and research/410821.html; no ticket or luggage rules apply."
+  },
+  "PROSE-EVENPAIR": {
+   "verdict": "pass",
+   "note": "September vs early October and the station vs Frascati are compared in parallel shapes."
+  },
+  "PROSE-ALARMSCALE": {
+   "verdict": "pass",
+   "note": "No rare disruption is dramatised; Ferragosto closures written plainly as 'some estates close'."
+  },
+  "PROSE-NEXTSTEP": {
+   "verdict": "pass",
+   "note": "Fixed constraints (tour weekdays, Saturday trains, holidays) are each followed by the reader's action (check the date, read the confirmation)."
+  },
+  "PROSE-OFFSEASONAPPEAL": {
+   "verdict": "pass",
+   "note": "Winter paragraph opens on the cellar, tasting and long warm lunch before the costs."
+  },
+  "VOICE-BLEND": {
+   "verdict": "pass",
+   "note": "Box read aloud: verdicts plus picture lines (grapes being picked, green vines, cellar and lunch table); not a forecast bulletin."
+  },
+  "STAT-CONSEQUENCE": {
+   "verdict": "pass",
+   "note": "Each figure in box, FAQ and body carries its consequence (31°C -> hat and water; rainy days -> waterproof layer; Lazio nights -> book harvest weekends ahead)."
+  },
+  "STAT-NOUNSTACK": {
+   "verdict": "pass",
+   "note": "One measure noun per sentence in the box; the rest is in the figure strip and month strip."
+  },
+  "WARMTH-SCOPE": {
+   "verdict": "pass",
+   "note": "No warm adjective on a class of places; 'warm lunch' describes the day."
+  },
+  "LOCALE-DESTINATION": {
+   "verdict": "pass",
+   "note": "prose_locale en_GB recorded; British spelling and day-month dates on every surface incl. device (label 'Sunday 4 October 2026')."
+  },
+  "TERM-GLOSSFIRST": {
+   "verdict": "pass",
+   "note": "vendemmia glossed in the deck; Ferragosto, Cantine Aperte, Sagra dell'Uva and Ciampino glossed at first use in the box."
+  },
+  "SAFETY-OWNPARA": {
+   "verdict": "na",
+   "note": "No on-the-day hazard that closes the tour; heat is a comfort cost handled with hat and water."
+  },
+  "LABEL-WARM": {
+   "verdict": "pass",
+   "note": "Decision labels are reader priorities (Fresh green vineyards, Long, dry summer days, Cellar-and-lunch days) with their costs kept."
+  },
+  "HAZARD-CLASSNOTINSTANCE": {
+   "verdict": "na",
+   "note": "The page cites no hazard precedents, closures or restrictions of any kind."
+  },
+  "NOREQ-BESTBET": {
+   "verdict": "na",
+   "note": "No recommendation rests on an authority's absence."
+  },
+  "AUTHORITY-AVOIDDATES": {
+   "verdict": "na",
+   "note": "No authority publishes please-do-not-visit dates for Frascati."
+  },
+  "TENSE-CURRENTCALENDAR": {
+   "verdict": "pass",
+   "note": "2026 events written in the past (the 2026 edition ran), 2027 as not yet published."
+  },
+  "CHOOSER-NOTTAUTOLOGY": {
+   "verdict": "pass",
+   "note": "September vs early October each get their own facts (picking, warmth vs cooler, festival, wetter)."
+  },
+  "DATA-REGIMECHANGE": {
+   "verdict": "pass",
+   "note": "2025 Jubilee year flagged and not used as the typical crowd year."
+  },
+  "PROSE-GLOSSLOCAL": {
+   "verdict": "pass",
+   "note": "Ciampino, Marino, Ferragosto and Cantine Aperte glossed in the box."
+  },
+  "SRC-ABSENCELIVE": {
+   "verdict": "pass",
+   "note": "Absence claims (no 2027 Sagra dates, no Consorzio harvest calendar, no Aeronautica Militare 1991-2020 table, no estate August dates) each searched 2026-11-18 and stated in How we know, not on the front."
+  },
+  "ANS-ACTFIRST": {
+   "verdict": "pass",
+   "note": "Box paragraph 1 opens with availability and the fewer winter days / Ferragosto gap, the fact the reader must act on first."
+  },
+  "DEV-DECISIONORDER": {
+   "verdict": "pass",
+   "note": "Device rows: holiday, Ferragosto, tour weekday, Saturday, harvest, events, vines, weather (swept in browser)."
+  },
+  "ADVICE-INDOORREFUGE": {
+   "verdict": "na",
+   "note": "No indoor sight to recommend for midday heat; the operator sets the hour."
+  },
+  "PROSE-TRADEOFFNOTASSIGN": {
+   "verdict": "pass",
+   "note": "Tours described by what they include and trade (pasta class more indoors; private driver no train, no full lunch)."
+  },
+  "PROSE-POSITIVEMECHANISM": {
+   "verdict": "pass",
+   "note": "No mechanism stated through a negative."
+  },
+  "PROSE-ONEHEDGE": {
+   "verdict": "pass",
+   "note": "Offers stated positively with one hedge each."
+  },
+  "RULE-EDGEINSTANCE": {
+   "verdict": "pass",
+   "note": "Weekday rule checked at both edges of the calendar (Oct 2026 Tue/Thu/Sat/Sun; Jan-Feb 2027 Tue/Sun; Mar 2027 Tue/Thu/Sun) and the device split accordingly."
+  },
+  "SWEEP-CONSEQUENCE": {
+   "verdict": "pass",
+   "note": "Ferragosto 'a few days' wording swept to the FAQ, month strip and device when the two-week calendar gap was found."
+  },
+  "WIDERTRIP-NOCHANGE": {
+   "verdict": "na",
+   "note": "Not a season-proof attraction; the vines, harvest and heat change the tour."
+  },
+  "PHENOM-MULTIDRIVER": {
+   "verdict": "na",
+   "note": "The page sells no natural phenomenon with a dated window or second driver."
+  },
+  "NUISANCE-UPSIDE": {
+   "verdict": "pass",
+   "note": "Rain described as affecting the walk and vineyard only, with the tasting and lunch unaffected."
+  },
+  "FRONT-EXCEPTIONNAMED": {
+   "verdict": "pass",
+   "note": "The pattern (fewer winter days, Ferragosto closures) is named on the front; the featured calendar instance is in the body."
+  },
+  "FRONT-CURRENTSCHEDULE": {
+   "verdict": "pass",
+   "note": "Timetable pattern on the front is a pattern; dated weekdays in the body labelled 'read on 13 October 2026'."
+  },
+  "ANS-TACTICBODY": {
+   "verdict": "na",
+   "note": "The box offers no optional multi-step tactic for the reader to follow."
+  },
+  "FRONT-PORTSCOPE": {
+   "verdict": "na",
+   "note": "No multi-port departures; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "ANS-PAIRREASONS": {
+   "verdict": "pass",
+   "note": "September and early October each carry their own reasons."
+  },
+  "DOCS-OPERATORRULE": {
+   "verdict": "na",
+   "note": "No boarding or entry document requirement."
+  },
+  "SEE-VS-VISIT": {
+   "verdict": "na",
+   "note": "Not a landmark-view product; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "PHENOM-RELIABLEWINDOW": {
+   "verdict": "na",
+   "note": "No natural phenomenon; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "PROSE-GENERATEDTELLS": {
+   "verdict": "pass",
+   "note": "Front read for tells (has the edge, the trade, worth -ing, rather than tails): none."
+  },
+  "REVIEW-REGRESSION": {
+   "verdict": "pass",
+   "note": "Each panel round's hedges diffed against the next draft; 'usually' kept on the harvest in box and decision row."
+  },
+  "ROW-DATEDWINDOW": {
+   "verdict": "pass",
+   "note": "Decision rows for events use the pattern (around the first Sunday of October, end of May), not one year's dates."
+  },
+  "HERO-SEASONDEFINED": {
+   "verdict": "pass",
+   "note": "Season labels in the front name their months (November to February, June to August)."
+  },
+  "FRONT-PATTERNNOTGAP": {
+   "verdict": "pass",
+   "note": "Panel creep avoided: Ferragosto fixed by stating the pattern and the featured gap, not a dated list."
+  },
+  "PANEL-CREEP": {
+   "verdict": "pass",
+   "note": "Box grew from 233 to 268 words over six rounds, mostly from splitting long sentences; no partial timetable facts added."
+  },
+  "PROSE-FEATUREHEDGE": {
+   "verdict": "pass",
+   "note": "Listing features named as the listing states them (three wines, chef's lunch)."
+  },
+  "PROSE-NOABSOLUTECOMFORT": {
+   "verdict": "pass",
+   "note": "No absolute comfort claim; 'warm rather than hot', 'usually a little cooler'."
+  },
+  "PROSE-EFFECTNOTIMAGE": {
+   "verdict": "pass",
+   "note": "Weather described by its effect on the walk and vineyard."
+  },
+  "EXAMPLE-SPECIFIC": {
+   "verdict": "pass",
+   "note": "Harvest timing risk shown with the dated 2017 vintage."
+  },
+  "SHOULDER-FREQUENCYCOST": {
+   "verdict": "pass",
+   "note": "Early October's cost stated as more rainy days (7.3 vs 6.0)."
+  },
+  "CHECKS-ROWFULL": {
+   "verdict": "pass",
+   "note": "Checks row: rain, heat, tour departures; holidays in the box's last sentence."
+  },
+  "AVAIL-PRACTICAL": {
+   "verdict": "pass",
+   "note": "Availability weighted by the featured calendar: four days a week Apr-Oct, two in Jan-Feb; stated as fewer winter days."
+  },
+  "SEAS-GROUPALLFACTORS": {
+   "verdict": "pass",
+   "note": "November-February group checked on rain (7.4-9.4 days), demand (46-63%), tour days (2-3/week): no multiple; panel 3 rounds agreed."
+  },
+  "PANEL-PAUSEFACT": {
+   "verdict": "pass",
+   "note": "Repeated pause on Jan-Feb 'rain is frequent' answered by changing the claim to 'November and December are the rainiest months' and rows to 'often wet'."
+  },
+  "ANS-NOPRODUCT": {
+   "verdict": "pass",
+   "note": "Box names the 'main farmhouse tour' once for its fewer winter days and Ferragosto gap, the only availability evidence; no product timetable or price in the box."
+  },
+  "ANS-NOSNAPSHOT": {
+   "verdict": "pass",
+   "note": "No one-day inventory snapshot in the box; calendar dates are in the body with their read date."
+  },
+  "PROSE-STANDARDSTAT": {
+   "verdict": "pass",
+   "note": "'average highs', 'rainy days', 'rainfall' used consistently."
+  },
+  "DECK-ANGLECONTRAST": {
+   "verdict": "pass",
+   "note": "Box says the tasting and lunch are at the table whatever the month, while the town walk and vineyard are outdoors: the difference from an indoor tasting."
+  },
+  "ANS-WIDERANSWER": {
+   "verdict": "na",
+   "note": "No wider_trip; the subject is the wine tour itself."
+  },
+  "ANS-FACTSFIRST": {
+   "verdict": "na",
+   "note": "Season-proof rule; not applicable; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "ADVICE-DAYSHAPE": {
+   "verdict": "na",
+   "note": "Visit time set by the operator."
+  },
+  "SEAS-PROOFBENEFIT": {
+   "verdict": "na",
+   "note": "Not season-proof; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "ANS-ROWADVICE": {
+   "verdict": "pass",
+   "note": "Every decision row recommends a period."
+  },
+  "SRC-RENDERJS": {
+   "verdict": "pass",
+   "note": "GYG calendar read from the rendered capture (research/410821.html) rather than declared unreadable."
+  },
+  "SEAS-ODDSNOTNOISE": {
+   "verdict": "na",
+   "note": "No hand-off to a wider trip."
+  },
+  "ANS-PEROPERATOR": {
+   "verdict": "na",
+   "note": "No two operators' figures compared; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "SRC-ALLPAGES": {
+   "verdict": "pass",
+   "note": "Featured operator read on GYG listing and Winedering listing."
+  },
+  "OWNER-FACTCHECK": {
+   "verdict": "na",
+   "note": "No owner review this round; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "PROSE-CATEGORYLABEL": {
+   "verdict": "pass",
+   "note": "'rainy days' (days with at least 1 mm), 'nights spent in tourist accommodation' named for what they count."
+  },
+  "SEASON-SCOPE": {
+   "verdict": "pass",
+   "note": "'winter' scoped where used (fewer winter days = Nov-Mar, Tue/Sun Jan-Feb in body and device)."
+  },
+  "DEV-MATERIALORDER": {
+   "verdict": "pass",
+   "note": "Device and checks row ordered by what changes the day."
+  },
+  "ANS-READERSEQUENCE": {
+   "verdict": "pass",
+   "note": "Box order: can I book it, what matters, best overall, alternatives, quieter, check."
+  },
+  "FRONT-SECONDHANDCOUNT": {
+   "verdict": "pass",
+   "note": "No second-hand count on the front."
+  },
+  "VENUE-PARTS": {
+   "verdict": "pass",
+   "note": "The tour described by its parts (town walk, vineyard, cellar, tasting, lunch)."
+  },
+  "RULE-CHANGEDNOTE": {
+   "verdict": "na",
+   "note": "No regulated date that changed; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "OFFSEASON-WHOFOR": {
+   "verdict": "pass",
+   "note": "Winter section ends on the cellar-and-lunch day; FAQ says a winter visit centres on the cellar, tasting and lunch."
+  },
+  "DECK-FRAMEONLY": {
+   "verdict": "pass",
+   "note": "Deck: one verdict sentence plus a roadmap; no alternative period."
+  },
+  "GEO-REFERENCELABEL": {
+   "verdict": "pass",
+   "note": "Ciampino labelled as a lower station a few km away on every surface; Frascati 'usually a little cooler'; no Ciampino figure in the headline title."
+  },
+  "WINDOW-CLOSESECOND": {
+   "verdict": "pass",
+   "note": "September leads; early October named a close second with its cost (wetter, harvest finishing)."
+  },
+  "WINDOW-RECOMMENDFIRST": {
+   "verdict": "pass",
+   "note": "Harvest: recommendation first, variability after; 'into early October', not 'through'."
+  },
+  "ADVICE-CHOICECONDITIONAL": {
+   "verdict": "na",
+   "note": "No time-of-day advice; the operator sets the start."
+  },
+  "LIVECHECK-ORDER": {
+   "verdict": "pass",
+   "note": "Sunset not ranked as a live check; it sits in the month strip only."
+  },
+  "OFFSEASON-PRODUCTTRADEOFF": {
+   "verdict": "pass",
+   "note": "Off-season written for the product: bare vines, cellar and lunch focus, fewer tour days."
+  },
+  "HAZARD-MECHANISMLIMITS": {
+   "verdict": "na",
+   "note": "No hazard rule; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "OWNER-CLAIMSOURCED": {
+   "verdict": "na",
+   "note": "No owner copy; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "ANS-SOURCEVISIBLE": {
+   "verdict": "pass",
+   "note": "Harvest rests on a dated report (ARSIAL 2017) named in the body."
+  },
+  "ANS-EXCEPTIONFIRST": {
+   "verdict": "pass",
+   "note": "Reduced service paragraph names the exception (fewer winter days, Ferragosto)."
+  },
+  "DATA-NEXTDATES": {
+   "verdict": "pass",
+   "note": "2027 Sagra and Cantine Aperte dates not published (checked 2026-11-18); the page says so and gives the pattern."
+  },
+  "SEAS-STRONGESTWINDOW": {
+   "verdict": "pass",
+   "note": "Strongest window (September) leads; early October's true cost stated."
+  },
+  "PROSE-PLAINATTRIB": {
+   "verdict": "pass",
+   "note": "Front states patterns; attribution in the body."
+  },
+  "ANS-GOALOPENER": {
+   "verdict": "pass",
+   "note": "Spring paragraph opens on May for green vineyards; quieter paragraph on 'For a quieter trip'."
+  },
+  "PROSE-SEASONSUBJECT": {
+   "verdict": "pass",
+   "note": "Seasons take plain verbs; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "PANEL-OWNERRECORD": {
+   "verdict": "na",
+   "note": "No owner decisions; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "SEAS-PREDICTORLABEL": {
+   "verdict": "pass",
+   "note": "Statistics named for what they measure (average highs, rainy days)."
+  },
+  "SEAS-HAZARDDURABLE": {
+   "verdict": "na",
+   "note": "No access hazard; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "ADVICE-SHAPENOTRANGE": {
+   "verdict": "pass",
+   "note": "No clock times in static prose; sunset only in the month strip."
+  },
+  "PROSE-COINEDHEDGE": {
+   "verdict": "pass",
+   "note": "No coined qualifier; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "SEAS-SAMPLESEASON": {
+   "verdict": "pass",
+   "note": "The one operator calendar is body evidence; the front says 'the main farmhouse tour'."
+  },
+  "SEAS-SPECIALISTMAIN": {
+   "verdict": "pass",
+   "note": "Harvest season is the main recommendation."
+  },
+  "RULE-GEOSCOPE": {
+   "verdict": "na",
+   "note": "No legal rule; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "SWEEP-NATIVESOURCE": {
+   "verdict": "pass",
+   "note": "Italian pages read for the Sagra (sagradelluvamarino.it) and ARSIAL."
+  },
+  "ANS-MARKETPLACE": {
+   "verdict": "pass",
+   "note": "No marketplace observation in the box."
+  },
+  "ANS-READERBEST": {
+   "verdict": "pass",
+   "note": "'best overall balance for a first wine trip'."
+  },
+  "ANS-PHANTOMCOMPARE": {
+   "verdict": "pass",
+   "note": "Every comparison has both figures (Sept vs Oct, Ciampino vs Frascati direction only)."
+  },
+  "PROSE-PLACEHOURS": {
+   "verdict": "pass",
+   "note": "No hours given for a town or landscape."
+  },
+  "ADVICE-NUISANCESCALE": {
+   "verdict": "pass",
+   "note": "Heat sized to the outdoor walk."
+  },
+  "ANS-PROXYSUPER": {
+   "verdict": "pass",
+   "note": "No proxy superlative in the box; 'busiest month' only in the month strip line labelled 'in Lazio'."
+  },
+  "ANS-OPTIONALDETAIL": {
+   "verdict": "pass",
+   "note": "Fiera dei Sapori, Cannellino and station figures kept in the body."
+  },
+  "ANS-SPECIALISTFRAME": {
+   "verdict": "pass",
+   "note": "Early October and May framed by what they offer."
+  },
+  "SEAS-ELEVATION": {
+   "verdict": "pass",
+   "note": "Altitude difference of Ciampino vs Frascati stated."
+  },
+  "TITLE-INTENT": {
+   "verdict": "pass",
+   "note": "Title chosen from the demand probe (weather, harvest, Sagra clusters); recorded in title_intent."
+  },
+  "ANS-PEAKADVANTAGE": {
+   "verdict": "pass",
+   "note": "Summer written as long, dry days first, then the heat and the action."
+  },
+  "ADVICE-ISSUER": {
+   "verdict": "pass",
+   "note": "Device names the Italian Air Force weather service for warnings."
+  },
+  "PROSE-DEFARTICLE": {
+   "verdict": "pass",
+   "note": "After 'most wineries' no universal 'the wineries' follows."
+  },
+  "SEAS-TOPOGRAPHY": {
+   "verdict": "pass",
+   "note": "Hill vs plain difference stated; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "ANS-PRODUCTSCARCITY": {
+   "verdict": "pass",
+   "note": "No 'mainly X' product claim; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "DATA-OPERATORSPREAD": {
+   "verdict": "pass",
+   "note": "Operator figure (two weeks) given as the featured tour's, not the category's."
+  },
+  "ANS-ROUTEFIRST": {
+   "verdict": "na",
+   "note": "Not sold as routes; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "SCOPE-OBSERVATION": {
+   "verdict": "pass",
+   "note": "Lazio series scoped to Lazio and Rome."
+  },
+  "ANS-VALUEMONTH": {
+   "verdict": "na",
+   "note": "No published price changeover; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "ANS-GREENSEASON": {
+   "verdict": "pass",
+   "note": "Winter written as a season with its payoff (quieter, cellar and lunch) and its cost."
+  },
+  "SEAS-FAVOURABLE": {
+   "verdict": "na",
+   "note": "No per-park calendars; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "ANS-CHECKSOURCE": {
+   "verdict": "pass",
+   "note": "Checks row names things the device reads (rain, heat forecast, tour departures)."
+  },
+  "PROSE-NAMEMEMBERS": {
+   "verdict": "pass",
+   "note": "Members named (town walk, vineyard, cellar, tasting, lunch)."
+  },
+  "FRONT-INVENTORY": {
+   "verdict": "pass",
+   "note": "Front promises only the site's own tours; the Sagra is named as a festival in Marino, not as part of a tour."
+  },
+  "ANS-BESTAXIS": {
+   "verdict": "pass",
+   "note": "'best overall balance' followed by what is balanced; 'best spring month' with reasons."
+  },
+  "ANS-ONEMONTH": {
+   "verdict": "pass",
+   "note": "Single best month given (September); checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "ANS-CROWDINFER": {
+   "verdict": "pass",
+   "note": "Quieter recommendation rests on the Lazio series, named."
+  },
+  "SEAS-COREEDGE": {
+   "verdict": "na",
+   "note": "No operator with two published windows."
+  },
+  "ANS-SEASONGROUP": {
+   "verdict": "pass",
+   "note": "May and June-August given separate rows."
+  },
+  "OFFSEASON-HONEST": {
+   "verdict": "pass",
+   "note": "Winter redirected to the cellar and lunch honestly."
+  },
+  "ANS-SIDEROW": {
+   "verdict": "pass",
+   "note": "No charming side row; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "EVID-VERBMATCH": {
+   "verdict": "pass",
+   "note": "Verbs match evidence (usually, often, about)."
+  },
+  "ANS-HIERARCHY": {
+   "verdict": "na",
+   "note": "No ranking across clocks; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "ANS-GROUPMAINFACTOR": {
+   "verdict": "pass",
+   "note": "November-February checked on the main factor (vines bare throughout)."
+  },
+  "ANS-INSIGHT": {
+   "verdict": "pass",
+   "note": "Body: September and October nearly as busy as May and June in Lazio, so harvest season is not quiet."
+  },
+  "ANS-ALTPROMINENCE": {
+   "verdict": "pass",
+   "note": "Early October and May each have their own sentence."
+  },
+  "SEAS-SAFETYFIRST": {
+   "verdict": "na",
+   "note": "No hazard that closes the tour."
+  },
+  "SEAS-EDGEWORDING": {
+   "verdict": "pass",
+   "note": "Edges written as edges (into early October)."
+  },
+  "ADVICE-OFFSEASONFRAME": {
+   "verdict": "pass",
+   "note": "Off-season says what to expect (bare vines, cellar)."
+  },
+  "PANEL-REDRAFT": {
+   "verdict": "pass",
+   "note": "After rounds 1-3 the paragraph 1 was redrafted from the reader's decision, not patched."
+  },
+  "ADVICE-OPTIONAL": {
+   "verdict": "na",
+   "note": "No risky tactic; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "ADVICE-RULESCOPE": {
+   "verdict": "pass",
+   "note": "Weekday rule labelled for its months in body and device."
+  },
+  "PROC-UNIVERSAL": {
+   "verdict": "pass",
+   "note": "Saturday procedure scoped to 'suggested trains differ; read your booking'."
+  },
+  "ADVICE-SPLITREASON": {
+   "verdict": "na",
+   "note": "No time-of-day row; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "ANS-DERIVEDVERDICT": {
+   "verdict": "pass",
+   "note": "Verdict rests on published normals, the harvest window and the tour calendar."
+  },
+  "SLOT-MIX": {
+   "verdict": "na",
+   "note": "No choice-of-times claim; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "ANS-SEASONUSE": {
+   "verdict": "pass",
+   "note": "Each season given its use for a wine tour."
+  },
+  "ANS-REASONRANK": {
+   "verdict": "pass",
+   "note": "Strongest reason (picking) first; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "PROSE-OPTERM": {
+   "verdict": "pass",
+   "note": "Operator's terms kept (farmhouse, old cellar)."
+  },
+  "SEAS-WIDERTRIP": {
+   "verdict": "na",
+   "note": "No wider-trip calendar; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "PROSE-AMBIGAXIS": {
+   "verdict": "pass",
+   "note": "'lower' disambiguated after panel round 3 ('about 190 m lower', 'lower down')."
+  },
+  "ANS-COMPUTABLEROW": {
+   "verdict": "pass",
+   "note": "No row spent on something the device computes."
+  },
+  "DATA-BANDRANK": {
+   "verdict": "pass",
+   "note": "September recommended alone; no band excludes a better month."
+  },
+  "ANS-FIGUSE": {
+   "verdict": "pass",
+   "note": "Strip figures are ones a traveller uses (September high, summer highs, rainy days)."
+  },
+  "ANS-DRAWBACK": {
+   "verdict": "pass",
+   "note": "Early October's drawback is rain and the harvest ending, the costs the reader feels."
+  },
+  "AIO-CONSIST": {
+   "verdict": "pass",
+   "note": "Title has no number; meta description figures match the strip."
+  },
+  "DEV-STATE": {
+   "verdict": "pass",
+   "note": "Device verdict lines driven by the displayed branch (forecast vs averages), source line says which."
+  },
+  "DEV-NOSCRIPT": {
+   "verdict": "pass",
+   "note": "Static card names no date, gives the general pattern and a working CTA."
+  },
+  "DEV-FACTORS": {
+   "verdict": "pass",
+   "note": "Temperature and rain shown; rejected factors recorded in device_factors."
+  },
+  "DATA-SOURCE": {
+   "verdict": "pass",
+   "note": "WMO 1991-2020 station normals (NOAA NCEI copy of the official WMO set); Open-Meteo only as a cross-check."
+  },
+  "HON-MECHANISM": {
+   "verdict": "na",
+   "note": "No official mechanism; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "STR-OVERFLOW": {
+   "verdict": "pass",
+   "note": "render_check (load wait): overflow +0 at 390, 768 and 1280 px."
+  },
+  "ADVICE-MECHANISM": {
+   "verdict": "pass",
+   "note": "Each instruction's reason delivers its benefit (panel Q11 passed 3/3 in rounds 4-6)."
+  },
+  "STR-CYCLE": {
+   "verdict": "pass",
+   "note": "'How the year looks in the vineyards' section, sourced to ARSIAL and the general vine cycle; limits stated in How we know."
+  },
+  "PROSE-VOICE": {
+   "verdict": "pass",
+   "note": "Read aloud; travel-guide register; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "ANS-DEADLINEROW": {
+   "verdict": "pass",
+   "note": "No deadline row; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "PROSE-COMPARATIVE": {
+   "verdict": "pass",
+   "note": "Plain comparatives; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "SITE-OUTSIDEADVICE": {
+   "verdict": "na",
+   "note": "No outside advice pasted; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "HON-CROWD": {
+   "verdict": "pass",
+   "note": "Every crowd claim rests on the Eurostat Lazio series, named."
+  },
+  "SEAS-CURRENTCLOSURE": {
+   "verdict": "pass",
+   "note": "Dated search 2026-11-18 for Frascati tour or winery suspensions: none; all four site tours LIVE in the 2026-11-17 snapshot."
+  },
+  "SITE-ECHO": {
+   "verdict": "pass",
+   "note": "Grepped all 15 guides, landing, tours and data/*.yaml for harvest, Sagra, Cantine Aperte, August, busiest seasons: consistent; vineyards guide 'many Lazio wineries' at Cantine Aperte narrowed."
+  },
+  "SEAS-DAYWEATHER": {
+   "verdict": "na",
+   "note": "Not view-dependent; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "SEAS-DURATION": {
+   "verdict": "pass",
+   "note": "Half-day tour: daylight not ranked; heat ranked for the walk."
+  },
+  "SEAS-LEAD": {
+   "verdict": "pass",
+   "note": "Box paragraph 1 names the top factors (harvest, heat on the walk)."
+  },
+  "SEAS-CANON": {
+   "verdict": "pass",
+   "note": "Sagra dell'Uva is a Castelli Romani wine event near Frascati, labelled as a separate day out, not part of a tour."
+  },
+  "SEAS-SPLIT": {
+   "verdict": "na",
+   "note": "Archetype B, not C; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "SCOPE-WIDERTRIP": {
+   "verdict": "na",
+   "note": "Not season-proof; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "DATA-BRITTLECOUNT": {
+   "verdict": "pass",
+   "note": "No brittle derived count; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "DATA-DERIVEDUNIT": {
+   "verdict": "pass",
+   "note": "No derived figure; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "PROSE-NOTHAPPEN": {
+   "verdict": "pass",
+   "note": "No phenomenon denied; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "PROSE-PROMO": {
+   "verdict": "pass",
+   "note": "Positive claims are sourced listing facts."
+  },
+  "PROSE-EVENTVERB": {
+   "verdict": "pass",
+   "note": "Events 'are held', 'ran'; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "PROSE-FLOURISH": {
+   "verdict": "pass",
+   "note": "No personification; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "SEAS-GENERALWINDOW": {
+   "verdict": "pass",
+   "note": "Harvest window stated as general with variability."
+  },
+  "SCOPE-UNIVERSAL": {
+   "verdict": "pass",
+   "note": "'most wineries', 'some estates'; no sub-site universals."
+  },
+  "PROSE-STACK": {
+   "verdict": "pass",
+   "note": "No conclusion assembled from several places' series."
+  },
+  "SCOPE-ROW": {
+   "verdict": "pass",
+   "note": "Each decision row answers one question."
+  },
+  "MEAS-BASELINE": {
+   "verdict": "na",
+   "note": "New page; no old URL to baseline."
+  },
+  "MEAS-FREEZE": {
+   "verdict": "na",
+   "note": "Freeze applies after ship; ship is handled by another agent."
+  },
+  "SEAS-SHAREDSUPER": {
+   "verdict": "pass",
+   "note": "'rainiest months' joined to November and December, the top two on both days and mm."
+  },
+  "SEAS-ABSENTEDGE": {
+   "verdict": "pass",
+   "note": "'bare vines November to February' sits inside the November-March dormant period."
+  },
+  "PROSE-DRAMATISE": {
+   "verdict": "pass",
+   "note": "'seriously hot' removed from the box in round 4; heat stated with its figure."
+  },
+  "HON-NUISANCEABSOLUTE": {
+   "verdict": "na",
+   "note": "No disputed season edges for a nuisance."
+  },
+  "HON-MOSTCOUNT": {
+   "verdict": "pass",
+   "note": "'most wineries work by appointment' rests on the site's own winery research (almost every estate by appointment)."
+  },
+  "SEAS-PRACTICALWINDOW": {
+   "verdict": "pass",
+   "note": "Headline window September is the practical one."
+  },
+  "ANS-IRRELEVANTCOST": {
+   "verdict": "pass",
+   "note": "Costs bear on the decision; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "SCOPE-ROWHAZARD": {
+   "verdict": "na",
+   "note": "No activity hazard row; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "PANEL-BRIEFFULL": {
+   "verdict": "pass",
+   "note": "Panel brief rebuilt from the record each round (availability, factors, verdict split, visit profile, clocks, what is outside the box)."
+  },
+  "SEAS-SPLITTERSE": {
+   "verdict": "pass",
+   "note": "verdict_split holds the four axes as terms."
+  },
+  "SRC-DRIFT": {
+   "verdict": "pass",
+   "note": "Sagra site and Eurostat read 2026-11-18; tour calendar dated 13 Oct 2026 and labelled."
+  },
+  "STR-STATPLACE": {
+   "verdict": "pass",
+   "note": "Overview says what changes; statistics in the strip and sections."
+  },
+  "STR-PLAINLABEL": {
+   "verdict": "pass",
+   "note": "Plain section headings; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "STR-SOURCESFOLD": {
+   "verdict": "pass",
+   "note": "How we know in a collapsed <details>."
+  },
+  "PROSE-HAZARDNAME": {
+   "verdict": "na",
+   "note": "No hazard; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "PROSE-NOGATEBEND": {
+   "verdict": "pass",
+   "note": "CROWD-SUBJECT fixed in the record (must_name Rome) rather than bending the box sentence."
+  },
+  "AVAIL-MECHANISM": {
+   "verdict": "pass",
+   "note": "Front carries the rule; body the evidence."
+  },
+  "HON-CAUSEEVIDENCE": {
+   "verdict": "pass",
+   "note": "Ferragosto closure cause is the holiday itself."
+  },
+  "ADVICE-SEASONREASON": {
+   "verdict": "pass",
+   "note": "'check that your tour runs on your date' holds in every season."
+  },
+  "SWEEP-DATALANG": {
+   "verdict": "pass",
+   "note": "data/ grepped (faq*.yaml, comparison*.yaml, timeline.yaml, offers JSON) for harvest/August/Sagra claims."
+  },
+  "PROSE-SWEEPREGISTER": {
+   "verdict": "pass",
+   "note": "Swept phrasing checked on each surface."
+  },
+  "ANS-CLARITYFIRST": {
+   "verdict": "pass",
+   "note": "ANS-LENGTH warns at 268 words; clarity charges (sentence splits) were taken over length, per the panel."
+  },
+  "INTRO-SAMENESS": {
+   "verdict": "na",
+   "note": "The sight changes with the season."
+  },
+  "ANS-TRADEOFF": {
+   "verdict": "pass",
+   "note": "Early October's costs named; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "DATA-BANDBOUNDARY": {
+   "verdict": "pass",
+   "note": "Ferragosto gap 9-23 August read from the calendar's last and first dates."
+  },
+  "SEAS-AUTHORITYREASON": {
+   "verdict": "pass",
+   "note": "Sagra's own site read for its timing."
+  },
+  "AVAIL-FEEEXCEPTION": {
+   "verdict": "na",
+   "note": "No fee lifted; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "ADVICE-CHANNELSCOPE": {
+   "verdict": "pass",
+   "note": "Box instructions hold for any booking channel."
+  },
+  "TITLE-FACETEVIDENCE": {
+   "verdict": "pass",
+   "note": "Harvest, weather and festivals each evidenced in box and body."
+  },
+  "OWNER-SOURCECLASS": {
+   "verdict": "na",
+   "note": "No reviewer; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "PROSE-CLEFTREACH": {
+   "verdict": "pass",
+   "note": "No cleft; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "DATA-DROPPEDSERIES": {
+   "verdict": "pass",
+   "note": "2025 Eurostat dropped as typical year; no sentence leans on it."
+  },
+  "PROSE-REVIEWERSHORTER": {
+   "verdict": "na",
+   "note": "No reviewer copy; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "SELF-ECHO": {
+   "verdict": "pass",
+   "note": "Box, deck, decision list, FAQ, body and device agree on September, early October, Ferragosto and winter weekdays (grepped after each round)."
+  },
+  "SWEEP-WORDNOTPHRASE": {
+   "verdict": "pass",
+   "note": "Grepped 'Ferragosto', 'two weeks', 'few days', 'wettest' as words."
+  },
+  "GEO-PRODUCTPLACE": {
+   "verdict": "pass",
+   "note": "product_place recorded (Frascati town and the Minardi farmhouse); every series labelled for whether it measures it."
+  },
+  "GEO-UNITRANK": {
+   "verdict": "pass",
+   "note": "Lazio series carries its 'must never be used to rank months for Frascati wine tours' use rule; used only comparatively."
+  },
+  "GEO-BAREPLACE": {
+   "verdict": "pass",
+   "note": "No bare 'the town' carrying a figure where two places are named."
+  },
+  "EV-BOTHSIDES": {
+   "verdict": "pass",
+   "note": "Comparatives have both sides (Sept vs Oct; Frascati cooler stated as direction only)."
+  },
+  "EV-KEEPHEDGE": {
+   "verdict": "pass",
+   "note": "Source hedges kept (usually, about); checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "EV-OPERATORPAGE": {
+   "verdict": "pass",
+   "note": "Operator facts from the listing and its calendar."
+  },
+  "EV-ADVICEPREMISE": {
+   "verdict": "pass",
+   "note": "Advice premises stated (holidays can change hours)."
+  },
+  "BUILD-FIXATSOURCE": {
+   "verdict": "pass",
+   "note": "All copy in front matter and data/; fixes made at source, not in public/."
+  },
+  "PANEL-RECONCILE": {
+   "verdict": "pass",
+   "note": "Judges' suggested rewrites reconciled into our own wording each round; none pasted."
+  },
+  "ANS-WEAKESTREASON": {
+   "verdict": "pass",
+   "note": "Leads on picking, the strongest reason."
+  },
+  "DATA-SAMPLEORDER": {
+   "verdict": "pass",
+   "note": "One-vintage harvest evidence gives direction, not an order."
+  },
+  "DATA-RIVALSERIES": {
+   "verdict": "pass",
+   "note": "Aeronautica Militare 1981-2010 / 1971-2000 tables noted as different periods; 1991-2020 used."
+  },
+  "TITLE-SEARCHWORD": {
+   "verdict": "pass",
+   "note": "'Best Time to Visit Frascati' plus searched facets."
+  },
+  "PROSE-CONDITIONADJ": {
+   "verdict": "pass",
+   "note": "Costs are concrete (wetter, harvest finishing)."
+  },
+  "EDIT-COMPRESSSCOPE": {
+   "verdict": "pass",
+   "note": "Compression did not drop scope (Ciampino label kept)."
+  },
+  "REVIEW-VERBATIM": {
+   "verdict": "na",
+   "note": "No reviewer copy; checked across the deck, box, decision list, body, FAQ and device strings on 18 November 2026."
+  },
+  "DEV-THRESHOLDCOPY": {
+   "verdict": "pass",
+   "note": "Device thresholds (3 mm rain, 30°C heat, 85 mm wetter months) produce plain lines; read for every month in device_sweep."
+  }
+ }
+}

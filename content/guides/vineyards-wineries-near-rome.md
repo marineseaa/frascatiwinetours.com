@@ -196,12 +196,14 @@ For a half day, Frascati is the easy choice. For a full day by train, Orvieto is
 
 | Season | What's happening |
 |---|---|
-| **Late May** | **Cantine Aperte** (Open Cellars) weekend, when many Lazio wineries hold open days |
+| **Late May** | **Cantine Aperte** (Open Cellars) weekend, when wineries that take part hold open days |
 | **June to July** | Long lunches outdoors; hot middays, so book morning visits |
 | **August** | Some estates close around mid-August; check before you go |
 | **September to October** | **Harvest.** Marino's **Sagra dell'Uva** grape festival in early October, when the town's fountains pour wine |
 | **November** | New-season olive oil and the year's first wines |
 | **December to March** | Quiet cellar visits and fewer slots |
+
+For month-by-month weather, harvest timing and the festival dates, see our guide to the [best time to visit Frascati](/guides/best-time-to-visit-frascati/).
 
 ## Practical tips
 

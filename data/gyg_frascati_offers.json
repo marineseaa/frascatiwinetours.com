@@ -6,8 +6,8 @@
     "startingPrice": 84,
     "currency": "EUR",
     "priceCategory": "per person",
-    "rating": 4.918708647443309,
-    "reviewCount": 535,
+    "rating": 4.913123844731977,
+    "reviewCount": 541,
     "images": [
       "/images/gyg/410821.webp"
     ],
@@ -144,7 +144,8 @@
         "text": "Enjoyed the friendly guide, food and wine.",
         "summary": true
       }
-    ]
+    ],
+    "ratingChecked": "2026-11-18"
   },
   {
     "id": 601703,
@@ -153,7 +154,7 @@
     "startingPrice": 84,
     "currency": "EUR",
     "priceCategory": "per person",
-    "rating": 4.92481113498332,
+    "rating": 4.9361702127659575,
     "reviewCount": 188,
     "images": [
       "/images/gyg/601703.webp"
@@ -228,7 +229,8 @@
         "a": "The listing invites requests for vegetarian, vegan and gluten-free adaptations. Get confirmation for your specific needs before booking."
       }
     ],
-    "sampleReviews": []
+    "sampleReviews": [],
+    "ratingChecked": "2026-11-18"
   },
   {
     "id": 848244,
@@ -237,7 +239,7 @@
     "startingPrice": 139,
     "currency": "EUR",
     "priceCategory": "per person",
-    "rating": 4.848083878940895,
+    "rating": 4.865671641791045,
     "reviewCount": 67,
     "images": [
       "/images/gyg/848244.webp"
@@ -309,7 +311,8 @@
         "a": "The listing specifies a private group and driver, but do not infer exclusive use of the winery. Confirm the tasting arrangements with the operator."
       }
     ],
-    "sampleReviews": []
+    "sampleReviews": [],
+    "ratingChecked": "2026-11-18"
   },
   {
     "id": 415496,
@@ -318,8 +321,8 @@
     "startingPrice": 34.8,
     "currency": "EUR",
     "priceCategory": "per person",
-    "rating": 4.929047341096851,
-    "reviewCount": 1183,
+    "rating": 4.927791771620487,
+    "reviewCount": 1191,
     "images": [
       "/images/gyg/415496.webp"
     ],
@@ -359,6 +362,7 @@
     "goodToKnow": [
       "The listing states that the route climbs 100 steps with no lift."
     ],
-    "sampleReviews": []
+    "sampleReviews": [],
+    "ratingChecked": "2026-11-18"
   }
 ]

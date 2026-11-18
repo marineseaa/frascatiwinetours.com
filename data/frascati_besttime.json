@@ -1,0 +1,52 @@
+{
+  "_note": "Date-checker data for /guides/best-time-to-visit-frascati/ (layouts/shortcodes/besttime-device.html). Read 2026-11-18. Normals: WMO 1991-2020, Roma Ciampino (16239, 129 m), NOAA NCEI copy of the official WMO normals. Holidays: Italian national public holidays (Law 260/1949 as amended) with Easter Monday computed for 2026-2028. Sagra dell'Uva: sagradelluvamarino.it (2026 programme); 2027 not yet published. Cantine Aperte: Movimento Turismo del Vino, last weekend of May (2026: 30-31 May); 2027 not yet published.",
+  "lat": 41.8085,
+  "lon": 12.6817,
+  "normals": [
+    {"hi": 12.0, "lo": 3.4, "rain": 66, "days": 7.4},
+    {"hi": 13.0, "lo": 3.4, "rain": 63, "days": 7.5},
+    {"hi": 15.8, "lo": 5.9, "rain": 59, "days": 6.9},
+    {"hi": 18.8, "lo": 8.6, "rain": 69, "days": 7.4},
+    {"hi": 23.3, "lo": 12.6, "rain": 57, "days": 5.5},
+    {"hi": 28.1, "lo": 16.7, "rain": 30, "days": 3.4},
+    {"hi": 31.0, "lo": 19.3, "rain": 20, "days": 2.2},
+    {"hi": 31.6, "lo": 19.8, "rain": 30, "days": 2.2},
+    {"hi": 26.7, "lo": 16.0, "rain": 65, "days": 6.0},
+    {"hi": 22.2, "lo": 12.4, "rain": 88, "days": 7.3},
+    {"hi": 16.9, "lo": 8.5, "rain": 108, "days": 8.8},
+    {"hi": 12.7, "lo": 4.7, "rain": 98, "days": 9.4}
+  ],
+  "public_holidays": {
+    "2026-01-01": "New Year’s Day", "2026-01-06": "Epiphany", "2026-04-05": "Easter Sunday", "2026-04-06": "Easter Monday",
+    "2026-04-25": "Liberation Day", "2026-05-01": "Labour Day", "2026-06-02": "Republic Day", "2026-08-15": "Ferragosto (Assumption Day)",
+    "2026-11-01": "All Saints’ Day", "2026-12-08": "Immaculate Conception", "2026-12-25": "Christmas Day", "2026-12-26": "St Stephen’s Day",
+    "2027-01-01": "New Year’s Day", "2027-01-06": "Epiphany", "2027-03-28": "Easter Sunday", "2027-03-29": "Easter Monday",
+    "2027-04-25": "Liberation Day", "2027-05-01": "Labour Day", "2027-06-02": "Republic Day", "2027-08-15": "Ferragosto (Assumption Day)",
+    "2027-11-01": "All Saints’ Day", "2027-12-08": "Immaculate Conception", "2027-12-25": "Christmas Day", "2027-12-26": "St Stephen’s Day",
+    "2028-01-01": "New Year’s Day", "2028-01-06": "Epiphany", "2028-04-16": "Easter Sunday", "2028-04-17": "Easter Monday",
+    "2028-04-25": "Liberation Day", "2028-05-01": "Labour Day", "2028-06-02": "Republic Day", "2028-08-15": "Ferragosto (Assumption Day)",
+    "2028-11-01": "All Saints’ Day", "2028-12-08": "Immaculate Conception", "2028-12-25": "Christmas Day", "2028-12-26": "St Stephen’s Day"
+  },
+  "ferragosto_week": ["08-09", "08-23"],
+  "harvest": {"core": ["09-01", "10-10"], "early": ["08-20", "08-31"], "late": ["10-11", "10-31"]},
+  "sagra": {
+    "2026": {"dates": ["2026-09-26", "2026-09-27", "2026-10-03", "2026-10-04", "2026-10-05"], "fountains": ["2026-10-04", "2026-10-05"], "note": "the 2026 edition ran on 26 and 27 September and 3 to 5 October"}
+  },
+  "cantine_aperte": {
+    "2026": {"dates": ["2026-05-30", "2026-05-31"], "note": "30 and 31 May 2026"}
+  },
+  "vine": [
+    "Bare vines; pruning season",
+    "Bare vines; pruning season",
+    "Bare vines, with buds starting to swell late in the month",
+    "New shoots and the first leaves",
+    "Fresh green vines in full leaf",
+    "Vines in full leaf, grapes forming",
+    "Grapes ripening on green vines",
+    "Grapes ripening on green vines",
+    "Harvest season: grapes being picked",
+    "Harvest finishing early in the month; leaves starting to turn",
+    "Leaves turning and falling",
+    "Bare vines"
+  ]
+}

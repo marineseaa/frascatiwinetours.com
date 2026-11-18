@@ -1,0 +1,45 @@
+{
+ "slug": "best-time-to-visit-frascati",
+ "checked": "2026-11-18",
+ "answer_sha1": "ee037daba037f6b60f743e783cbedd47f52da7a2",
+ "panel": [
+  {
+   "judge": 1,
+   "verdict": "PASS",
+   "charges": [],
+   "note": "Round 6. Paused on the 35-word September sentence, 'at the table whatever the month', November at 63% under 'far fewer', August 31.6 rounded to 'about 31' in the strip."
+  },
+  {
+   "judge": 2,
+   "verdict": "FAIL",
+   "charges": [
+    "PLAIN",
+    "GENERAL-AS-UNIVERSAL"
+   ],
+   "note": "Round 6 dissent: 'the main farmhouse tour' and 'the town walk' assume the featured itinerary; the pasta class and private-driver tasting have no town walk. Not repeated by a second judge; recorded, not rewritten (2-1 rule)."
+  },
+  {
+   "judge": 3,
+   "verdict": "PASS",
+   "charges": [],
+   "note": "Round 6. Closest call 'the town walk' referring back to the main tour; 'far fewer' for November; August rounding in the strip."
+  }
+ ],
+ "outcome": "PASS",
+ "rewrites": 5,
+ "history": [
+  "round 1: 0/3 PASS. TAUTOLOGY+LEAD-VALUE x3 on 'The state of the vines and the heat or rain outdoors matter most'; PLAIN x3 ('far fewer visitors stay in Lazio' dataset voice, Marino unglossed, 30-word first sentence); TENDENCY-AS-RULE x3 on the harvest row without 'usually'; GENERAL-AS-UNIVERSAL x1 on 'A half-day tour combines'. Fixed: factors given with their facts in paragraph 1, Marino glossed, harvest row 'Usually September into early October', Ferragosto gap added.",
+  "round 2: 0/3 PASS. PLAIN x3 on a 46-word sentence and 'a few kilometres below Frascati'; PROXY-HONESTY x1 on 'much quieter'. Fixed: sentence split, crowd sentence returned to overnight stays.",
+  "round 3: 0/3 PASS. OVERCLAIM x3 on 'some estates and tours stop for up to two weeks' (one tour's calendar applied to estates); PLAIN x3 on 'lower than Frascati' read as cooler. Fixed: 'some estates close, and the main farmhouse tour has no dates for about two weeks'; station height and Frascati cooler stated; swept to the month strip and the device.",
+  "round 4: 0/3 PASS. PLAIN x3 on a 40-word station sentence; OVERCLAIM x1 on January-February in 'rain is frequent'. Fixed: split into two sentences.",
+  "round 5: 0/3 PASS. PLAIN x2 on 'The month matters most for the outdoor part of the day'; OVERCLAIM/TENDENCY x2 on January-February rain ('rain is frequent', row 'wet and cool'), a repeated pause on a fact, so the claim was changed: 'November and December are the rainiest months', rows 'cool, often wet' and 'often hot'.",
+  "round 6: 2/3 PASS on the current text; dissent recorded above."
+ ],
+ "panel_flagged_uncharged": [
+  "re:up to two weeks",
+  "re:matters most for the outdoor part of the day",
+  "re:a few kilometres below Frascati",
+  "re:The state of the vines and the heat or rain outdoors matter most",
+  "re:rain is frequent, especially in November"
+ ]
+}

@@ -1,0 +1,27 @@
+# Month-by-month strip (partials/month-strip.html via {{< month-strip notitle="true" >}}). Read 2026-11-18:
+#  high/low/rain : WMO 1991-2020 climate normals for Roma Ciampino (WMO 16239, 129 m), the NOAA NCEI archive copy of the
+#                  official WMO normals: https://www.nodc.noaa.gov/archive/arc0216/0253808/2.2/data/0-data/Region-6-WMO-Normals-9120/Italy/CSV/RomaCiampino_16239.csv
+#                  (monthly mean of daily max/min; rain = monthly total in mm). Ciampino is about 8 km from Frascati and about 190 m lower,
+#                  so Frascati (about 320 m) usually runs a little cooler; no official normals are published for Frascati itself.
+#  guests        : Eurostat tour_occ_nin2m, nights spent at tourist accommodation (I551-I553, all residents), Lazio (ITI4), 2024.
+#                  2024 used rather than 2025 because 2025 was the Jubilee year. A regional proxy dominated by Rome; it does not count winery visitors.
+#  sunset        : NOAA solar formula for Frascati, the 15th of each month in 2027, Italian time with summer time (clocks forward 28 Mar, back 31 Oct 2027);
+#                  matches timeanddate.com for Rome (checked 15 Jun 20:46, 15 Dec 16:39). The tours are late-morning-to-lunch outings, so sunset
+#                  matters only for an evening in town afterwards.
+title: "Frascati Month by Month"
+subtitle: "Average highs and lows and rainfall at Ciampino, about 8 km away and lower down, with how busy Lazio is and what the vineyards are doing. Frascati, higher on the hills, is usually a little cooler."
+legendBusy: "Busy bar: nights spent in tourist accommodation across Lazio in 2024, as a share of July, the busiest month. Rome dominates the figure, so the bar shows regional demand, not how busy the wineries are."
+months:
+  - { m: "Jan", high: 12.0, low: 3.4, rain: 66, guests: 2637133, sunset: "5:02 pm", line: "Bare vines and quiet cellars. Cold mornings, so dress warmly for the town walk." }
+  - { m: "Feb", high: 13.0, low: 3.4, rain: 63, guests: 3174429, sunset: "5:42 pm", line: "Still bare vines and among the quietest months in Lazio." }
+  - { m: "Mar", high: 15.8, low: 5.9, rain: 59, guests: 3973064, sunset: "6:16 pm", line: "Milder days; the vines are still bare but buds begin to swell late in the month." }
+  - { m: "Apr", high: 18.8, low: 8.6, rain: 69, guests: 4477682, sunset: "7:50 pm", line: "New leaves on the vines and pleasant walking weather, with a few showers." }
+  - { m: "May", high: 23.3, low: 12.6, rain: 57, guests: 5120980, sunset: "8:22 pm", line: "Green vineyards and warm days; Cantine Aperte open-cellar weekend at the end of the month." }
+  - { m: "Jun", high: 28.1, low: 16.7, rain: 30, guests: 5137751, sunset: "8:46 pm", line: "Warm, mostly dry days in full leaf. Afternoons get hot by the end of the month." }
+  - { m: "Jul", high: 31.0, low: 19.3, rain: 20, guests: 5689076, sunset: "8:44 pm", line: "The busiest month in Lazio and one of the two hottest; grapes ripening." }
+  - { m: "Aug", high: 31.6, low: 19.8, rain: 30, guests: 4981708, sunset: "8:12 pm", line: "The hottest month. Some estates close around Ferragosto (15 August), and the featured tour pauses for about two weeks." }
+  - { m: "Sep", high: 26.7, low: 16.0, rain: 65, guests: 4900336, sunset: "7:21 pm", line: "Harvest season, with warm days. In 2026 Marino's grape festival began on the last weekend." }
+  - { m: "Oct", high: 22.2, low: 12.4, rain: 88, guests: 4969224, sunset: "6:30 pm", line: "The harvest finishes early in the month and the Sagra dell'Uva is around the first Sunday; wetter." }
+  - { m: "Nov", high: 16.9, low: 8.5, rain: 108, guests: 3580963, sunset: "4:51 pm", line: "The wettest month. Leaves turning and falling, and a quieter region." }
+  - { m: "Dec", high: 12.7, low: 4.7, rain: 98, guests: 3111221, sunset: "4:40 pm", line: "Bare vines and short, cool days; a cellar-and-lunch day." }
+sources: "Temperatures and rainfall: long-term climate normals for Roma Ciampino. Busy bar: Eurostat nights spent in tourist accommodation, Lazio, 2024. Sunset: the 15th of each month in 2027, Italian time. Events: the Sagra dell'Uva's official site and Movimento Turismo del Vino. Read November 2026."

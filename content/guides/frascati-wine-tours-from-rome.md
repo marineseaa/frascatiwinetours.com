@@ -170,6 +170,8 @@ Search for Frascati wine tours and you will find dozens of listings across GetYo
 | **Summer (July–August)** | Hot middays; some places close in August |
 | **Winter** | Bare vines, but cosy cellars and fewer visitors |
 
+Our guide to the [best time to visit Frascati](/guides/best-time-to-visit-frascati/) compares the months, the harvest and the Sagra dell'Uva weekend, and lets you check your own date.
+
 ## Practical tips
 
 - **Don't drive.** Italy's drink-driving limit is 0.5 g/l, and zero for drivers under 21, in their first three years of holding a licence, or driving professionally. Take the train or book a tour with a driver.

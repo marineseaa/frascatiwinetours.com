@@ -191,7 +191,7 @@ There's no direct train between Frascati and Castel Gandolfo; they're on differe
 
 - It's a Saturday and you don't want to work out the trains
 - It's your first time in Italy, or you don't speak Italian
-- You want a real vineyard and cellar visit with the winemaker, especially at harvest (September–October)
+- You want a real vineyard and cellar visit with the winemaker, especially at harvest (September–October; see the [best time to visit Frascati](/guides/best-time-to-visit-frascati/))
 - Someone in your group has limited mobility (stairs into town)
 
 ### Go DIY if…

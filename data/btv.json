@@ -1,0 +1,14 @@
+{
+ "partner": "getyourguide.com",
+ "partner_id": "1MSALBX",
+ "cmp_prefix": "frascatiwinetours",
+ "attribution": "runtime",
+ "slug_attr": "data-gyg-href",
+ "pos_attr": "data-gyg-pos",
+ "site_root": "C:/Users/Marina/Documents/Travel Websites Hugo/frascatiwinetours/frascatiwinetours.com/public",
+ "note": "GYG-only site: booking links are bare GYG URLs carrying data-gyg-href; static/js/main.js appends partner_id 1MSALBX, utm_medium and cmp=frascatiwinetours at runtime. One GYG availability widget after the answer box and one GYG auto widget at the <!-- auto-widget --> marker.",
+ "reserved_lane": "a",
+ "placement_param": "",
+ "slot_attr": "",
+ "default_booking_url": ""
+}

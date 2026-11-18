@@ -1,0 +1,20 @@
+# FAQ for /guides/best-time-to-visit-frascati/ (layouts/guides/besttime.html renders it collapsed
+# and builds the FAQPage JSON-LD from the same items). Checked 2026-11-18; sources in the page's How we know.
+title: "Frequently asked questions"
+items:
+  - question: "What is the best month for a Frascati wine tour?"
+    answer: "If your dates are flexible, September offers the best overall balance: the grapes are usually being picked, the vines are still green and the days are warm rather than hot. Early October is a close second, cooler and with Marino's grape festival around the first Sunday, but it is wetter and the harvest is finishing."
+  - question: "When is the grape harvest in Frascati?"
+    answer: "Usually in September, with some picking into early October. The dates move with each year's weather: in the hot 2017 season, Frascati producers expected to start in the first ten days of September. A normal tour visits the vineyard and the cellar but does not include picking."
+  - question: "When is the Sagra dell'Uva in Marino?"
+    answer: "Marino's grape festival is held around the first Sunday of October, and the 2026 edition ran over two weekends, on 26 and 27 September and 3 to 5 October. The fountains that flow with wine are its best-known moment, in the late afternoon of the festival's closing days. The 2027 dates were not yet published in November 2026, so check the festival's official site."
+  - question: "Is Frascati too hot in summer?"
+    answer: "July and August are the hottest months, with average highs of about 31°C at Ciampino, a few kilometres away and a little lower than Frascati. The town walk and the vineyard visit are outdoors, so bring a hat, sunscreen and water. The tasting and lunch are at the table."
+  - question: "Can you do a Frascati wine tour in winter?"
+    answer: "Yes. The featured farmhouse tour lists winter dates, but fewer of them than in spring and summer: its calendar for January and February 2027 showed Tuesdays and Sundays only. The vines are bare and November and December are the wettest months, so a winter visit centres on the cellar, the tasting and a long lunch."
+  - question: "Are Frascati wineries open in August?"
+    answer: "Many are, but some estates and restaurants close around Ferragosto, the 15 August public holiday, and the featured farmhouse tour listed no dates from 9 to 23 August in its 2027 calendar. Check your winery or tour before you plan a mid-August visit."
+  - question: "When is Frascati quieter?"
+    answer: "From November to February far fewer visitors stay overnight in Rome and the rest of Lazio than in summer, judging by nights spent in the region's accommodation. September and October are almost as busy as May and June, so book ahead for harvest-season weekends. The figures describe the region, not how full a tour is."
+  - question: "How do I get to Frascati from Rome?"
+    answer: "Regional trains run from Roma Termini to Frascati in about 30 minutes. Train tickets are not included on the station-meeting tours, and suggested trains differ on Saturdays, so read your booking confirmation. See our guide to <a href=\"/guides/rome-to-frascati-by-train/\">Rome to Frascati by train</a>."

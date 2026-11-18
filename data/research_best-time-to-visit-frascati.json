@@ -1,0 +1,462 @@
+{
+ "slug": "best-time-to-visit-frascati",
+ "checked": "2026-11-18",
+ "prose_locale": "en_GB",
+ "prose_locale_note": "The site declares en-US in hugo.toml, but its guides consistently use British spelling (colour, flavour, autumn, favourite) and day-month dates (13 October 2026); Italy is a European destination, so British English and day-month dates throughout, device included (natural-phrasing 78.7, 79.12).",
+ "autocomplete_run": {
+  "date": "2026-11-18",
+  "tool": "tools/demand_probe.py on 'best time to visit frascati', 'frascati wine tour', 'frascati in october', 'sagra dell uva marino', 'frascati weather'",
+  "note": "Largest temporal clusters: frascati weather (today, tomorrow, 14 days, hourly) and the Italian Sagra dell'Uva Marino cluster (when it starts, when it ends, programme, parking, shuttle). 'frascati sunset wine tour' appeared once. No completions for 'best time to visit frascati' itself."
+ },
+ "top_attractors": [
+  {
+   "name": "Frascati weather today / tomorrow / 14 days / hourly",
+   "size": 14
+  },
+  {
+   "name": "Sagra dell'Uva Marino dates, programme, parking, shuttle",
+   "size": 17
+  },
+  {
+   "name": "Frascati wine tour / tasting / from Rome",
+   "size": 18
+  }
+ ],
+ "device_decision": "The weather cluster is day-resolved (today, tomorrow, 14 days) and the festival cluster asks for a dated weekend, so the device answers a date: public holiday and the Ferragosto week first, then the featured tour's usual weekdays and the Saturday note, then harvest, Sagra dell'Uva and Cantine Aperte, then the vines, then the Open-Meteo forecast inside 14 days or the Ciampino normal beyond.",
+ "spokes": [
+  {
+   "name": "Sagra dell'Uva Marino 2027 (dates, programme, parking, shuttle)",
+   "disposition": "rejected",
+   "reason": "No 2027 date or programme is published yet (checked 2026-11-18), and the festival is in Marino, not on any tour this site sells; answered in its own section of this page. Revisit when the 2027 programme is out."
+  },
+  {
+   "name": "Frascati weather forecast (today, tomorrow, 14 days)",
+   "disposition": "built",
+   "url": "/guides/best-time-to-visit-frascati/#check-dates",
+   "reason": "The date checker reads the Open-Meteo forecast inside 14 days."
+  },
+  {
+   "name": "Frascati sunset wine tour",
+   "disposition": "rejected",
+   "reason": "No sunset wine tour is in the site's inventory (GYG search for Frascati returns half-day lunch tours); one completion only."
+  }
+ ],
+ "existing_page": {
+  "searched": [
+   "content/ (Hugo content/**/*.md) via tools/find_existing.py on 2026-11-18"
+  ],
+  "found": false,
+  "path": null,
+  "url": "/guides/best-time-to-visit-frascati/",
+  "action": "build",
+  "note": "No page answers the timing question. vineyards-wineries-near-rome.md has a short 'When is the best time to visit vineyards near Rome?' table inside a wider guide; it now links here.",
+  "old_claims": []
+ },
+ "subject_scope": {
+  "named": "Frascati wine tours and winery visits in Frascati and the Castelli Romani hills, Lazio, mostly half-day tours meeting at Frascati station (featured 410821)",
+  "markers": [
+   "Frascati"
+  ]
+ },
+ "evidence_scope": [
+  {
+   "claim": "Average highs, lows, monthly rainfall and rainy days",
+   "measured_at": "WMO 1991-2020 normals, Roma Ciampino (WMO 16239, 129 m), NOAA NCEI archive copy",
+   "applies_to": "a lower reference station about 8 km from Frascati; Frascati (about 320 m) usually a little cooler",
+   "generalises": false,
+   "must_name": [
+    "Ciampino"
+   ],
+   "markers": [
+    "°C",
+    "rainy days"
+   ],
+   "cross_check": "Open-Meteo ERA5 grid for Frascati: driest July, wettest November, same ranking"
+  },
+  {
+   "claim": "Harvest timing",
+   "measured_at": "ARSIAL 2017 vintage report (Fontana di Papa from 28 August; Frascati cellars in the first ten days of September); EN PRIMEUR guide (Malvasia whites late September into October)",
+   "applies_to": "one dated, early vintage plus a general statement",
+   "generalises": false,
+   "must_name": [
+    "2017"
+   ],
+   "markers": [
+    "28 August",
+    "first ten days of September"
+   ]
+  },
+  {
+   "claim": "Regional demand",
+   "measured_at": "Eurostat tour_occ_nin2m, nights spent, Lazio (ITI4), 2024",
+   "applies_to": "the region, dominated by Rome; the box names it as overnight stays in Rome and the rest of Lazio",
+   "generalises": false,
+   "must_name": [
+    "Lazio",
+    "Rome"
+   ],
+   "markers": [
+    "million nights",
+    "%"
+   ]
+  },
+  {
+   "claim": "Featured tour weekdays and August gap",
+   "measured_at": "GYG booking calendar for 410821 captured 2026-10-13 (research/410821.html)",
+   "applies_to": "that one tour",
+   "generalises": false,
+   "must_name": [
+    "featured"
+   ],
+   "markers": [
+    "Tuesdays",
+    "9 to 23 August"
+   ]
+  }
+ ],
+ "product_place": {
+  "place": "Frascati town (about 320 m, Alban Hills) for the guided walk, then the Minardi family wine farmhouse in the countryside just outside town for the vineyard, cellar, tasting and lunch",
+  "unit": "Comune di Frascati, Città metropolitana di Roma Capitale, Lazio",
+  "series_labels": [
+   {
+    "series": "WMO normals Roma Ciampino",
+    "measures_product_place": false,
+    "label": "Ciampino, about 8 km away and about 190 m lower; Frascati usually a little cooler"
+   },
+   {
+    "series": "Eurostat nights spent, Lazio",
+    "measures_product_place": false,
+    "label": "regional accommodation demand, dominated by Rome"
+   },
+   {
+    "series": "410821 booking calendar",
+    "measures_product_place": true,
+    "label": "the featured tour's own departure days"
+   },
+   {
+    "series": "ARSIAL 2017 harvest report",
+    "measures_product_place": true,
+    "label": "Frascati producers, one vintage"
+   }
+  ]
+ },
+ "seasonal_archetype": "B",
+ "seasonal_archetype_evidence": "One best overall period (September: harvest usually under way, green vines, warm not hot) with real alternatives: early October as the close second with the Sagra dell'Uva, May for spring vineyards and the open-cellar weekend, June to August for long dry days with heat, November to February for quieter cellar-and-lunch days.",
+ "season_proof": false,
+ "season_proof_evidence": "Not season-proof: the harvest, the state of the vines, the summer heat (31-32°C average highs at Ciampino in July-August) and the autumn rain change the outdoor half of the tour; the featured tour runs half as many days in January-February.",
+ "verdict_shape": "best_overall_period",
+ "availability_status": "reduced_hours",
+ "availability_sentence": "Frascati wine tours are available year-round, although winter brings fewer departures, most wineries work by appointment and some estates close for a few days around Ferragosto, the 15 August holiday.",
+ "availability_source": "Featured tour 410821 GYG calendar captured 2026-10-13: Tue/Thu/Sat/Sun from April to October, Tue/Sun in January-February, no dates 9-23 August 2027; 410821, 601703, 848244, 415496 LIVE in the partner snapshot 2026-11-17 (inventory.py lookup); appointment-only wineries per the site's own vineyards guide; Ferragosto closures per the site's winery research and EN PRIMEUR.",
+ "availability_checked_against": "Dated search 2026-11-18 for 2026 Frascati winery or tour suspensions: none found.",
+ "current_status_snapshot": {
+  "status": "operating",
+  "checked": "2026-11-18",
+  "recheck_before": "2027-08-01",
+  "note": "Recheck the 2027 Sagra dell'Uva programme and Cantine Aperte date, and the featured tour's August calendar."
+ },
+ "regulated_season": null,
+ "operator_facts": {
+  "published_seasons": [
+   {
+    "operator": "Minardi wine farmhouse (featured 410821 on GYG)",
+    "season": "Calendar 2026-10-13: Tue, Thu, Sat, Sun April-October; Tue and Sun January-February; about three days a week November, December and March; no dates 9-23 August 2027",
+    "url": "https://www.getyourguide.com/frascati-l2108/from-rome-frascati-half-day-trip-by-train-wine-tasting-t410821/"
+   },
+   {
+    "operator": "Minardi pasta masterclass (Winedering listing)",
+    "season": "Tuesday, Thursday, Saturday and Sunday mornings, 10:30 start; no seasonal close stated",
+    "url": "https://www.winedering.com/it/pasta-masterclass-wine-experience-at-minardi-winery-cooking-tasting-and-vineyard-tour_d5221_travel"
+   }
+  ],
+  "seasonal_bands": []
+ },
+ "weather_exposure": "mixed",
+ "weather_exposure_note": "The guided town walk and the vineyard visit are outdoors; the cellar, tasting and lunch are at the farmhouse table. The train from Rome is separate.",
+ "factor_weights": [
+  {
+   "factor": "what the vines are doing and whether the harvest is under way",
+   "why": "The vineyard is the setting of the farmhouse visit; harvest usually September into early October (ARSIAL 2017: first ten days of September in an early year; later Malvasia picking into October); bare vines November to March."
+  },
+  {
+   "factor": "heat on the outdoor walk",
+   "why": "Ciampino average highs 31.0°C in July and 31.6°C in August against 26.7°C in September and 23.3°C in May (WMO 1991-2020); the town walk and vineyard visit are outdoors around midday."
+  },
+  {
+   "factor": "rain",
+   "why": "Ciampino rainy days (>=1 mm): 6.0 in September, 7.3 October, 8.8 November, 9.4 December, 5.5 May; rainfall 88-108 mm October-December. Rain affects the walk and the vineyard, not the tasting and lunch."
+  },
+  {
+   "factor": "festivals and events",
+   "why": "Sagra dell'Uva in Marino around the first Sunday of October (2026: 26-27 September and 3-5 October); Cantine Aperte at the end of May (2026: 30-31 May)."
+  },
+  {
+   "factor": "tour days and closures",
+   "why": "Featured tour runs four days a week April-October and two in January-February; no dates 9-23 August 2027; public holidays."
+  },
+  {
+   "factor": "how busy the region is",
+   "why": "Eurostat Lazio nights 2024: July 5.69 million (peak), September 86%, October 87%, May and June 90%, January 46%, February 56%, December 55% of July. Proxy only."
+  }
+ ],
+ "constraint_clocks": {
+  "season": "the vines and harvest, the heat and rain, the events, how busy the region is",
+  "day": "the forecast, the featured tour's weekdays and public holidays",
+  "hour": "set by the operator: a late-morning start in Frascati with lunch"
+ },
+ "visit_profile": {
+  "typical_visit": "A half-day of about four hours meeting outside Frascati station: guided town walk with a wine-and-snack stop, transfer to a family wine farmhouse, vineyard and old-cellar visit, three-wine tasting and a chef's lunch (featured 410821). Alternatives: farmhouse pasta masterclass (601703) or a three-hour tasting with a private driver from Rome (848244).",
+  "hours_outdoors": "The town walk and the vineyard visit, roughly the first part of the tour; the cellar, tasting and lunch are at the table. The page does not control the timing of each stop.",
+  "bundled_sites": [
+   "Frascati historic centre on the town walk"
+  ],
+  "transport_part_of_experience": false,
+  "seasonal_versions": "No different version by season; fewer departure days in winter and a mid-August break on the featured tour.",
+  "shelter_checked": "Listing: 'Vineyard and cellar visit', 'sit down to the chef's meal at the farmhouse'; no statement that lunch is outdoors, so the page says 'at the table' and never 'outdoors' for lunch."
+ },
+ "view_product": false,
+ "verdict_split": {
+  "best_overall": "September",
+  "best_for_fewer_crowds": "November to February (Lazio proxy; fewer tour days)",
+  "best_weather": "September",
+  "best_time_of_day": "set by the operator (late-morning start with lunch)"
+ },
+ "verdict_split_note": "Early October is the close second (cooler, Sagra dell'Uva weekend, wetter, harvest finishing). May is the best spring month (23.3°C high, 5.5 rainy days against September 26.7°C and 6.0) without the harvest; recorded as the spring alternative, not a separate weather winner.",
+ "experience_recommendations": {
+  "harvest": "September into early October",
+  "grape festival": "around the first Sunday of October",
+  "spring vineyards": "May",
+  "long dry days": "June to August, hot by midday",
+  "cellar days": "November to February"
+ },
+ "wider_trip": null,
+ "site_intent": {
+  "subject": "Frascati wine tours",
+  "markers": [
+   "Frascati"
+  ],
+  "note": "The site compares and books Frascati wine tours; the page answers when to go and routes to the featured town walk and farmhouse lunch."
+ },
+ "core_conclusions": [
+  {
+   "name": "tours available year-round, fewer winter departures, mid-August closures",
+   "markers": [
+    "year-round"
+   ]
+  },
+  {
+   "name": "September best overall",
+   "markers": [
+    "September offers the best overall balance"
+   ]
+  },
+  {
+   "name": "early October close second",
+   "markers": [
+    "close second"
+   ]
+  },
+  {
+   "name": "May best spring month",
+   "markers": [
+    "May is the best spring month"
+   ]
+  },
+  {
+   "name": "November to February quieter in Lazio, fewer tour days",
+   "markers": [
+    "November to February"
+   ]
+  }
+ ],
+ "answer_figures": [
+  {
+   "figure": "About 27°C",
+   "factor": "heat on the outdoor walk"
+  },
+  {
+   "figure": "About 31°C",
+   "factor": "heat on the outdoor walk"
+  },
+  {
+   "figure": "About 6 against 9",
+   "factor": "rain"
+  }
+ ],
+ "crowd_evidence": {
+  "kind": "proxy",
+  "type": "proxy",
+  "series": "Eurostat tour_occ_nin2m, nights spent at tourist accommodation establishments (I551-I553), all residents, Lazio (ITI4), 2024",
+  "counts": "2024: Jan 2,637,133; Feb 3,174,429; Mar 3,973,064; Apr 4,477,682; May 5,120,980; Jun 5,137,751; Jul 5,689,076; Aug 4,981,708; Sep 4,900,336; Oct 4,969,224; Nov 3,580,963; Dec 3,111,221",
+  "use": "Comparatives about visitors staying in Lazio only; must never be used to rank months for Frascati wine tours or written as a superlative about the wineries.",
+  "gap": "No winery visitor series exists; Rome dominates the regional total. 2025 (Jubilee year, 61.5 million nights) not used as the typical year."
+ },
+ "single_operator": false,
+ "device_factors": {
+  "shown": [
+   "Italian public holiday (national list 2026-2028, Easter Monday computed)",
+   "Ferragosto week 10-20 August",
+   "featured tour's usual weekdays (Tue, Thu, Sat, Sun; Tue and Sun in January-February) from its calendar",
+   "Saturday train and meeting note",
+   "harvest stage for the date",
+   "Sagra dell'Uva dates when published; otherwise the usual first-Sunday-of-October pattern (September and October only)",
+   "Cantine Aperte when published; otherwise the usual last weekend of May (May only)",
+   "what the vines look like that month",
+   "forecast warmest temperature and rain over 10 am to 3 pm inside 14 days (Open-Meteo); Ciampino normal beyond"
+  ],
+  "rejected": [
+   {
+    "factor": "sunset and daylight",
+    "why": "The tours run from late morning to mid-afternoon, so darkness never limits the visit; sunset is in the month strip only, for an evening in town."
+   },
+   {
+    "factor": "wind",
+    "why": "Does not stop a walk, a cellar visit or a lunch."
+   },
+   {
+    "factor": "school holidays",
+    "why": "No evidence they change tour availability; regional demand is shown in the month strip."
+   },
+   {
+    "factor": "low temperature",
+    "why": "Folded into the averages row and the cold-morning line; no forecast row needed for a midday tour."
+   }
+  ]
+ },
+ "time_modes": [],
+ "derived_times": [],
+ "jargon_swaps": [
+  {
+   "trade": "vendemmia",
+   "reader": "grape harvest (the vendemmia), glossed in the deck"
+  },
+  {
+   "trade": "presenze",
+   "reader": "nights spent in tourist accommodation"
+  },
+  {
+   "trade": "Miracolo delle Fontane",
+   "reader": "the fountains that flow with wine"
+  },
+  {
+   "trade": "Cantine Aperte",
+   "reader": "the national open-cellar weekend"
+  }
+ ],
+ "bonus_not_bookable": [
+  {
+   "outcome": "seeing grapes picked on a standard tour",
+   "why": "Depends on the vintage and the farm's schedule that week; no tour sells picking."
+  },
+  {
+   "outcome": "a fine, dry day in October to December",
+   "why": "Day-level weather."
+  }
+ ],
+ "period_edges": [
+  {
+   "edge": "early October",
+   "source": "Sagra dell'Uva official site (traditionally the first Sunday of October; 2026 closing days 3-5 October); EN PRIMEUR (Malvasia picking late September into October)",
+   "reason": "'early October' marks the festival weekend and the end of the picking; a monthly series is not used for it."
+  },
+  {
+   "edge": "end of May",
+   "source": "Movimento Turismo del Vino Cantine Aperte, last weekend of May (2026: 30-31 May)",
+   "reason": "dated event"
+  },
+  {
+   "edge": "mid-August",
+   "source": "Ferragosto, 15 August public holiday; featured tour calendar gap 9-23 August 2027",
+   "reason": "dated holiday and calendar"
+  }
+ ],
+ "recommendation_window": "September best overall; early October close second (cooler, Sagra dell'Uva, wetter, harvest finishing); May best spring month with Cantine Aperte; June to August long dry days but hot by midday; November to February bare vines, rain, quieter in Lazio, fewer tour days.",
+ "advisories": [],
+ "panel_flagged_uncharged": [
+  "re:up to two weeks",
+  "re:matters most for the outdoor part of the day",
+  "re:a few kilometres below Frascati",
+  "re:The state of the vines and the heat or rain outdoors matter most",
+  "re:rain is frequent, especially in November"
+ ],
+ "measurement_baseline": {
+  "status": "not_captured",
+  "reason": "New page, no old URL to baseline; no Search Console tool in scope for this unattended writer round."
+ },
+ "owner_reviews": [],
+ "owner_files": {
+  "files": [],
+  "used": [],
+  "note": "No supplied content files beyond the drained article queue, the analytics snippet and the offers JSON."
+ },
+ "rewrites": 5,
+ "title_intent": {
+  "chosen": "Best Time to Visit Frascati: Harvest, Weather & Wine Festivals",
+  "demand": "frascati weather (14 completions), sagra dell'uva marino (17), frascati wine tour (18)",
+  "note": "Each facet is answered in the box: harvest (paragraph 2), weather (paragraphs 2-3), festivals (Sagra dell'Uva, Cantine Aperte)."
+ },
+ "tours": {
+  "chosen": {
+   "id": "410821",
+   "rating": 4.913,
+   "reviews": 541,
+   "why": "LIVE in the partner snapshot 2026-11-17; the most-reviewed Frascati-based tour on the site, includes the vineyard, cellar, tasting and lunch, and runs in every season."
+  },
+  "runner_up": {
+   "id": "601703",
+   "rating": 4.936,
+   "reviews": 188,
+   "why_lost": "Marginally higher rating on about a third of the reviews and no town walk; named in the season section for winter and wet days and used as the device's wet-day CTA."
+  },
+  "others": [
+   {
+    "id": "848244",
+    "rating": 4.866,
+    "reviews": 67,
+    "use": "hot summer days, pickup in Rome"
+   },
+   {
+    "id": "415496",
+    "rating": 4.928,
+    "reviews": 1191,
+    "use": "not used: Rome-based class, not a Frascati vineyard visit"
+   }
+  ],
+  "check_947657": "gyg_live.py --lookup 947657 on 2026-11-18: fetch failed (403), status UNKNOWN, not DELISTED. It is not linked anywhere; it appears only in an HTML audit comment in vineyards-wineries-near-rome.md, so nothing to rewire."
+ },
+ "site_sweep": {
+  "checked": "2026-11-18",
+  "pages": [
+   "content/_index.md",
+   "content/guides/*.md (all 14 other guides)",
+   "content/landing/*.md",
+   "content/tours/*.md",
+   "data/faq*.yaml",
+   "data/comparison*.yaml",
+   "data/timeline.yaml"
+  ],
+  "grepped": [
+   "harvest months",
+   "Sagra dell'Uva dates",
+   "Cantine Aperte",
+   "August closures",
+   "busiest seasons",
+   "best time",
+   "links to /guides/best-time-to-visit-frascati/"
+  ],
+  "fixed": [
+   "vineyards-wineries-near-rome.md: 'many Lazio wineries hold open days' at Cantine Aperte (no participation count found) narrowed to 'wineries that take part hold open days'; best-time table now links here."
+  ],
+  "left": [
+   "Sibling pages say the harvest runs 'from September into early October' and the Sagra dell'Uva is 'in early October': consistent with this page (2026 edition also ran on 26-27 September; traditionally the first Sunday of October).",
+   "frascati-wine-tasting-with-lunch.md 'spring and autumn, the busiest seasons': consistent in direction with the Lazio series (May-June 90%, September-October 86-87% of July), though July itself is the regional peak; left, as it describes booking pressure on tours, not regional nights.",
+   "Hard-coded '4.9/5 from 535 reviews' in rome-to-frascati-by-train.md: now 541 live; still true as a floor, not changed (outside this page's scope)."
+  ],
+  "anchor_texts": [
+   "_index.md: 'best time to visit Frascati'",
+   "vineyards-wineries-near-rome.md: 'best time to visit Frascati'",
+   "frascati-wine-tours-from-rome.md: 'best time to visit Frascati'",
+   "rome-to-frascati-by-train.md: 'best time to visit Frascati'"
+  ]
+ }
+}
