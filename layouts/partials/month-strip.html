@@ -1,0 +1,27 @@
+{{/* month-strip.html - month-by-month weather + crowds strip for the best-time page
+     (decision-blocks kit, Marina 2026-11-17; ported 2026-11-18 via casablancavalleywinetours.com).
+     Static; every figure sourced in data/months.yaml.
+     Data: {title,subtitle,legendBusy,months[{m,high,low,rain,guests,sunset,start,line}],sources}.
+     Busy bar = guests / busiest month, drawn only when months carry guests. Rain, sunset and
+     start lines print only when the month carries them. Used via {{< month-strip >}}. */}}
+{{ $notitle := eq (string .notitle) "true" }}{{ with hugo.Data.months }}
+{{ $max := 0 }}{{ range .months }}{{ if gt (.guests | default 0) $max }}{{ $max = .guests }}{{ end }}{{ end }}
+<div class="month-strip" id="month-by-month">
+  {{ if not $notitle }}{{ with .title }}<h2 class="month-strip-title">{{ . }}</h2>{{ end }}{{ end }}
+  {{ with .subtitle }}<p class="month-strip-subtitle">{{ . }}</p>{{ end }}
+  <ol class="month-grid">
+    {{ range .months }}
+    <li class="month-cell">
+      <p class="month-name">{{ .m }}</p>
+      <p class="month-temp"><span class="month-high">{{ printf "%.0f" (float .high) }}°</span> <span class="month-low">/ {{ printf "%.0f" (float .low) }}°C</span></p>
+      {{ if gt $max 0 }}{{ $pct := math.Round (mul (div (float .guests) $max) 100) }}<p class="month-busy-label">Busy</p>
+      <span class="month-busy" role="img" aria-label="{{ $pct }}% of the busiest month"><span style="width: {{ $pct }}%"></span></span>{{ end }}
+      {{ if or (isset . "rain") .sunset .start }}<p class="month-meta">{{ if isset . "rain" }}Rainfall {{ .rain }} mm{{ end }}{{ with .sunset }}<br>Sunset {{ . }}{{ end }}{{ with .start }}<br>{{ . }}{{ end }}</p>{{ end }}
+      <p class="month-line">{{ .line }}</p>
+    </li>
+    {{ end }}
+  </ol>
+  {{ with .legendBusy }}<p class="month-legend">{{ . }}</p>{{ end }}
+  {{ with .sources }}<p class="month-sources">Sources: {{ . | markdownify }}</p>{{ end }}
+</div>
+{{ end }}

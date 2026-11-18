@@ -1,0 +1,176 @@
+{{ define "main" }}
+{{/* besttime — layout for the "best time" guide (best-time-page skill kit).
+     Opt in with `layout: besttime` on a guides page; every other guide keeps
+     layouts/guides/single.html. Ported 2026-11-18 from casablancavalleywinetours.com
+     and rewired for this GetYourGuide site:
+       - the ONE availability widget is the GYG availability iframe for the page's
+         featuredTourId (same markup as layouts/guides/single.html), placed straight
+         after the answer box so it renders high on the page;
+       - the ONE auto widget is the GYG auto widget, spliced in at the
+         `<!-- auto-widget -->` marker so it sits in the top half with real sections
+         between the two;
+       - the FAQ renders collapsed from data/<faqDataKey>.yaml, and the same file
+         feeds the FAQPage JSON-LD at the foot of this layout.
+     Front matter it reads:
+       deck:    list of 1-2 paragraphs (markdown). Paragraph one carries class article-deck.
+       answer:  list of 2-4 short paragraphs. The judged answer text: edit one and the
+                blind-panel record (data/judge_<slug>.json) no longer matches.
+       decide:  list of {label, answer}. One decision list, keyed by what the reader wants.
+       figures: list of {value, label}. The strip under the list.
+       featuredTourId: offers-JSON id for the answer-box CTA and the availability widget.
+       autoWidgetTitle / autoWidgetIntro: heading and one sentence above the auto widget. */}}
+{{ $site := .Site }}
+{{ $tourID := .Params.featuredTourId | default $site.Params.featuredTourID | string }}
+{{ $tour := dict }}
+{{ range (index hugo.Data $site.Params.offersDataKey) }}{{ if eq (string .id) $tourID }}{{ $tour = . }}{{ end }}{{ end }}
+{{ $tourURL := index (split ($tour.url | default "") "?") 0 }}
+{{ $parts := split .Content "<!-- auto-widget -->" }}
+{{ $above := index $parts 0 }}
+{{ $below := "" }}
+{{ if gt (len $parts) 1 }}{{ $below = index $parts 1 }}{{ end }}
+
+<article class="guide-article guide-besttime">
+
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <div class="container container-narrow">
+      <ol class="breadcrumb-list">
+        <li><a href="/">Home</a></li>
+        <li><a href="/guides/">Guides</a></li>
+        <li aria-current="page">{{ .Params.h1 | default .Title }}</li>
+      </ol>
+    </div>
+  </nav>
+
+  <header class="guide-header article-hero">
+    <div class="container container-narrow">
+      <h1 class="guide-title">{{ .Params.h1 | default .Title }}</h1>
+      {{ range $i, $p := .Params.deck }}
+      <p class="article-hero__dek{{ if eq $i 0 }} article-deck{{ end }}">{{ $p | markdownify }}</p>
+      {{ end }}
+      <p class="guide-meta">Updated {{ .Params.dateModified | default (.Date.Format "January 2006") }}</p>
+    </div>
+  </header>
+
+  <div class="guide-body">
+    <div class="container container-narrow">
+
+      {{ with .Params.answer }}
+      <div class="callout guide-answer" id="answer">
+        {{ range . }}<p class="guide-answer__text">{{ . | markdownify | plainify | safeHTML }}</p>
+        {{ end }}
+        {{ with $.Params.decide }}
+        <dl class="ans-decide">
+          {{ range . }}<div class="ans-decide__row"><dt>{{ .label }}<span class="sr-only">:&nbsp;</span></dt><dd>{{ .answer }}</dd></div>
+          {{ end }}
+        </dl>
+        {{ end }}
+        {{ with $.Params.figures }}
+        <ul class="guide-figs">
+          {{ range . }}<li class="guide-figs__item"><strong>{{ .value }}<span class="sr-only">:</span></strong> <span>{{ .label }}</span></li>
+          {{ end }}
+        </ul>
+        {{ end }}
+        {{ if $tourURL }}<p class="guide-answer__cta"><a class="btn-primary" href="{{ $tourURL }}" data-gyg-href="{{ $tourURL }}" target="_blank" rel="sponsored nofollow noopener noreferrer">{{ $.Params.ctaLabel | default "Check availability" }}</a></p>{{ end }}
+      </div>
+      {{ end }}
+
+      {{/* The ONE availability widget, straight after the answer box. */}}
+      <section class="guide-availability" id="availability">
+        <span id="guide-availability"></span>
+        {{ with .Params.availabilityLead }}<p class="guide-auto-lead">{{ . | markdownify }}</p>{{ end }}
+        <div class="booking-widget-wrapper">
+          <div data-gyg-href="https://widget.getyourguide.com/default/availability.frame"
+               data-gyg-tour-id="{{ $tourID }}"
+               data-gyg-locale-code="en-US"
+               data-gyg-currency="EUR"
+               data-gyg-widget="availability"
+               data-gyg-variant="vertical"
+               data-gyg-partner-id="{{ $site.Params.gygPartnerID }}"
+               data-gyg-cmp="{{ $site.Params.gygCampaign }}">
+            <span class="gyg-fallback">Powered by <a target="_blank" rel="sponsored noopener" href="{{ $tourURL }}" data-gyg-href="{{ $tourURL }}">GetYourGuide</a></span>
+          </div>
+        </div>
+      </section>
+
+      <nav class="guide-toc" aria-label="Contents">
+        <p class="guide-toc__title">On this page</p>
+        {{ .TableOfContents }}
+      </nav>
+
+      <div class="prose">
+        {{ $above | safeHTML }}
+      </div>
+
+      {{/* The ONE auto widget: top half of the page, sections between it and the
+           availability widget above. */}}
+      <section class="guide-auto-widget alt-tours-section" aria-labelledby="guide-auto-heading">
+        <h2 id="guide-auto-heading">{{ .Params.autoWidgetTitle | default "Other experiences you might enjoy" }}</h2>
+        {{ with .Params.autoWidgetIntro }}<p class="guide-auto-lead">{{ . | markdownify }}</p>{{ end }}
+        <div class="booking-widget-wrapper">
+          <div data-gyg-widget="auto"
+               data-gyg-partner-id="{{ $site.Params.gygPartnerID }}"
+               data-gyg-cmp="{{ $site.Params.gygCampaign }}"></div>
+        </div>
+      </section>
+
+      <div class="prose">
+        {{ $below | safeHTML }}
+
+        {{ $faq := index hugo.Data (.Params.faqDataKey | default "faq") }}
+        {{ with $faq.items }}
+        <h2 id="faq">{{ $faq.title | default "Frequently asked questions" }}</h2>
+        <div class="guide-faq">
+          {{ range . }}
+          <details class="guide-faq__item">
+            <summary>{{ .question }}</summary>
+            <p>{{ .answer | safeHTML }}</p>
+          </details>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+
+    </div>
+  </div>
+
+  <section class="cta-band final-cta" aria-labelledby="guide-cta-heading">
+    <div class="container">
+      <div class="cta-band-inner">
+        <h2 class="cta-title" id="guide-cta-heading">{{ .Params.ctaTitle | default $site.Params.ctaTitle | default "Ready to Book?" }}</h2>
+        <p class="cta-body">{{ .Params.ctaBody | default $site.Params.ctaBody | safeHTML }}</p>
+        <a href="#availability" class="btn-primary btn-lg cta-btn">{{ .Params.ctaButton | default $site.Params.ctaButton | default "Check Availability & Book" }}</a>
+      </div>
+    </div>
+  </section>
+
+</article>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ .Params.h1 | default .Title | jsonify | safeJS }},
+  "description": {{ .Description | jsonify | safeJS }},
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  "dateModified": "{{ .Params.dateModifiedISO | default (.Lastmod.Format "2006-01-02") }}",
+  "author": {"@type": "Organization", "name": "{{ $site.Params.siteName }}"},
+  "publisher": {"@type": "Organization", "name": "{{ $site.Params.siteName }}"},
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "{{ .Permalink }}"}
+}
+</script>
+{{ $faq := index hugo.Data (.Params.faqDataKey | default "faq") }}
+{{ with $faq.items }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+{{- range $i, $f := . }}{{ if $i }},{{ end }}
+    {"@type": "Question", "name": {{ $f.question | plainify | htmlUnescape | jsonify | safeJS }},
+     "acceptedAnswer": {"@type": "Answer", "text": {{ $f.answer | plainify | htmlUnescape | jsonify | safeJS }}}}
+{{- end }}
+  ]
+}
+</script>
+{{ end }}
+{{ end }}

@@ -3020,3 +3020,77 @@ body { font-synthesis: none; }
 @media(max-width:767px){.footer-grid{grid-template-columns:1fr;} .logo-text{font-size:1.2rem;} .hero-title{font-size:clamp(2.2rem,9vw,3.4rem);} }
 
 @media(min-width:1024px){#experiences .experiences-grid{grid-template-columns:repeat(3,minmax(0,1fr));}}
+
+/* ── Best-time guide kit (layouts/guides/besttime.html, ported 2026-11-18 via casablancavalleywinetours.com) ──
+   Every selector below is scoped to a class only that layout or the
+   besttime-device shortcode emits, so no other guide can be affected. */
+.guide-besttime .article-hero__dek { font-size: 1.15rem; color: var(--slate); line-height: 1.6; margin: 0 0 var(--space-3); max-width: 46rem; }
+.guide-besttime .article-hero__dek a { color: var(--canal-teal); text-decoration: underline; text-underline-offset: 2px; }
+.guide-besttime .guide-answer {
+  background: var(--white); border: 1px solid var(--silver); border-left: 4px solid var(--gold);
+  border-radius: var(--rounded-lg); padding: var(--space-6); margin: 0 0 var(--space-6);
+}
+.guide-besttime .guide-answer__text { color: var(--charcoal); line-height: 1.65; margin: 0 0 var(--space-3); }
+.guide-besttime .ans-decide { margin: var(--space-4) 0 var(--space-3); border-top: 1px solid var(--mist); }
+.guide-besttime .ans-decide__row { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-4); padding: var(--space-3) 0; border-bottom: 1px solid var(--mist); }
+.guide-besttime .ans-decide dt { font-weight: 700; color: var(--charcoal); }
+.guide-besttime .ans-decide dd { margin: 0; color: var(--slate); }
+.guide-besttime .guide-figs { list-style: none; padding: 0; margin: var(--space-3) 0; display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-6); font-size: 0.92rem; color: var(--stone); }
+.guide-besttime .guide-figs strong { color: var(--charcoal); }
+.guide-besttime .guide-answer__cta { margin: var(--space-4) 0 0; }
+.guide-besttime .guide-answer__cta a.btn-primary { color: var(--on-accent); text-decoration: none; display: inline-block; }
+.guide-besttime .guide-toc { background: var(--mist); border-radius: var(--rounded-lg); padding: var(--space-4) var(--space-6); margin: 0 0 var(--space-8); }
+.guide-besttime .guide-toc__title { font-weight: 700; margin: 0 0 var(--space-2); color: var(--charcoal); }
+.guide-besttime .guide-toc ul { list-style: none; padding: 0; margin: 0; columns: 2; column-gap: var(--space-8); }
+.guide-besttime .guide-toc li { margin: 0 0 var(--space-1); }
+.guide-besttime .guide-toc a { color: var(--canal-teal); text-decoration: none; }
+.guide-besttime .guide-toc a:hover { text-decoration: underline; }
+.guide-besttime .guide-faq__item { border: 1px solid var(--silver); border-radius: var(--rounded-md); margin: 0 0 var(--space-2); background: var(--white); }
+.guide-besttime .guide-faq__item summary { cursor: pointer; padding: var(--space-4); font-weight: 700; color: var(--charcoal); list-style: none; position: relative; padding-right: 2.5rem; }
+.guide-besttime .guide-faq__item summary::-webkit-details-marker { display: none; }
+.guide-besttime .guide-faq__item summary::after { content: "+"; position: absolute; right: var(--space-4); top: 50%; transform: translateY(-50%); font-size: 1.3rem; color: var(--canal-teal); }
+.guide-besttime .guide-faq__item[open] summary::after { content: "\2212"; }
+.guide-besttime .guide-faq__item p { padding: 0 var(--space-4) var(--space-4); margin: 0; }
+/* date checker (shortcode besttime-device) */
+.cvd-card { background: var(--white); border: 1px solid var(--silver); border-radius: var(--rounded-lg); padding: var(--space-6); margin: var(--space-4) 0 var(--space-6); }
+.cvd-card label { font-weight: 700; color: var(--charcoal); margin-right: var(--space-3); }
+.cvd-card input[type="date"] { font: inherit; padding: var(--space-2) var(--space-3); border: 1px solid var(--silver); border-radius: var(--rounded-sm); }
+.cvd-verdict { margin: var(--space-4) 0 0; }
+.cvd-rows { list-style: none; padding: 0; margin: var(--space-3) 0; }
+.cvd-rows li { padding: var(--space-2) 0; border-bottom: 1px solid var(--mist); display: flex; justify-content: space-between; gap: var(--space-4); }
+.cvd-rows li span:first-child { color: var(--stone); }
+.cvd-source { font-size: 0.88rem; color: var(--stone); margin: var(--space-2) 0 0; }
+.cvd-cta a.btn-primary { color: var(--on-accent); text-decoration: none; display: inline-block; margin-top: var(--space-3); white-space: normal; max-width: 100%; text-align: center; }
+@media (max-width: 640px) {
+  .guide-besttime .ans-decide__row { grid-template-columns: 1fr; gap: var(--space-1); }
+  .guide-besttime .guide-toc ul { columns: 1; }
+}
+.guide-besttime .guide-sources { border: 1px solid var(--silver); border-radius: var(--rounded-md); background: var(--white); padding: var(--space-4); margin: 0 0 var(--space-6); }
+.guide-besttime .guide-sources__summary { cursor: pointer; font-weight: 700; color: var(--charcoal); }
+.guide-besttime .guide-sources[open] .guide-sources__summary { margin-bottom: var(--space-3); }
+.cvd-card .cvd-field { margin: 0 0 var(--space-3); }
+.cvd-card select { font: inherit; padding: var(--space-2) var(--space-3); border: 1px solid var(--silver); border-radius: var(--rounded-sm); background: var(--white); }
+.guide-besttime .guide-auto-lead { color: var(--slate); margin: 0 0 var(--space-3); }
+.guide-besttime .hook-image { width: 100%; height: auto; border-radius: var(--rounded-lg); }
+.cvd-rows li span:last-child { text-align: right; }
+/* ── Month-by-month strip (decision-blocks kit, 2026-11-17) ── */
+.month-strip { margin: var(--space-8) 0; }
+.prose .month-grid, .month-grid { padding-left: 0; }
+.month-strip-subtitle { color: var(--slate); }
+.month-grid { list-style: none; margin: var(--space-4) 0 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: var(--silver); border: 1px solid var(--silver); }
+@media (min-width: 560px) { .month-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 900px) { .month-grid { grid-template-columns: repeat(4, 1fr); } }
+.prose .month-grid li, .month-cell { margin: 0; padding: var(--space-3); background: var(--white); list-style: none; }
+.prose .month-grid li::before, .prose .month-grid li::marker { content: none; }
+.month-cell p { margin: 0; }
+.month-name { font-family: var(--font-body); font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--gold-text); font-size: .85rem; }
+.month-temp { font-size: 1.05rem; color: var(--charcoal); }
+.month-high { font-weight: 700; font-size: 1.35rem; }
+.month-low { color: var(--slate); font-size: .9rem; }
+.month-cell .month-busy-label { font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; color: var(--slate); margin-top: var(--space-2); }
+.month-busy { display: block; height: 8px; background: var(--canal-light); margin: 2px 0 var(--space-2); }
+.month-busy span { display: block; height: 100%; background: var(--dutch-orange); }
+.month-meta { font-size: .8rem; color: var(--slate); }
+.month-cell .month-line { font-size: .9rem; color: var(--charcoal); margin-top: var(--space-2); line-height: 1.45; }
+.month-legend, .month-sources { font-size: .85rem; color: var(--slate); margin-top: var(--space-3); }
+

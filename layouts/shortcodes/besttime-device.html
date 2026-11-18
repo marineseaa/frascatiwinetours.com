@@ -1,0 +1,184 @@
+{{/* besttime-device: date checker for a Frascati wine day (best-time-page kit).
+     Usage: {{< besttime-device >}}
+     Ported 2026-11-18 from casablancavalleywinetours.com and rewritten for Frascati.
+     Reads data/frascati_besttime.json: Italian public holidays, the Ferragosto week,
+     the harvest pattern, the Sagra dell'Uva and Cantine Aperte dates, the vine calendar
+     and the 1991-2020 averages for the nearest official station, Roma Ciampino.
+     Rows run in decision order (DEV-DECISIONORDER): first the public holiday and the
+     Ferragosto week (closures), then the Saturday meeting note, then the harvest and the
+     events, then what the vineyards look like, then the weather (the Open-Meteo forecast
+     for Frascati over 10 am to 3 pm inside about two weeks, the long-term averages
+     beyond, and the card says which).
+     The CTA follows the branch it is drawn from: a wet forecast, or a date in the wet,
+     cold months from November to February, goes to the farmhouse pasta masterclass
+     (an indoor class with tasting and lunch); every other date goes to the featured town
+     walk and farmhouse lunch.
+     The static markup names NO date (DEV-NOSCRIPTDATE). Every script string is
+     double-quoted and free of straight apostrophes. */}}
+{{- $site := .Site -}}
+{{- $d := index hugo.Data "frascati_besttime" | default dict -}}
+{{- $main := "" -}}{{- $pasta := "" -}}
+{{- range (index hugo.Data $site.Params.offersDataKey) -}}
+{{- if eq (string .id) "410821" -}}{{- $main = index (split .url "?") 0 -}}{{- end -}}
+{{- if eq (string .id) "601703" -}}{{- $pasta = index (split .url "?") 0 -}}{{- end -}}
+{{- end -}}
+<div class="cvd-card" id="check-dates">
+  <p class="cvd-field"><label for="cvd-date">Your day in Frascati</label>
+  <input type="date" id="cvd-date" name="cvd-date"></p>
+  <div class="cvd-verdict" id="cvd-out" aria-live="polite">
+    <p>Choose your date to see any Italian public holiday, the harvest stage, the Sagra dell’Uva and Cantine Aperte weekends, what the vineyards look like and the likely weather. Within about two weeks of the date the card shows the forecast; further ahead it shows long-term averages.</p>
+    <p>In general, grapes are picked in September into early October, the vines are bare from about November to March, and the wettest months are October to December.</p>
+  </div>
+  <p class="cvd-source" id="cvd-source">Holidays and event dates can change, so confirm with your tour. The forecast is from Open-Meteo for Frascati, in Italian time. For weather warnings, check the <a href="https://www.meteoam.it/it/home" target="_blank" rel="noopener">Italian Air Force weather service</a>.</p>
+  <p class="cvd-cta"><a class="btn-primary" id="cvd-cta" href="{{ $main }}" data-gyg-href="{{ $main }}" target="_blank" rel="sponsored nofollow noopener noreferrer">Check tour dates</a> <a href="#availability" id="cvd-cal">or see the booking calendar</a></p>
+</div>
+<script>
+(function () {
+  var DATA = {{ $d | jsonify | safeJS }};
+  var URL_MAIN = "{{ $main }}", URL_PASTA = "{{ $pasta }}";
+  var MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  var DAYS = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  var el = document.getElementById("cvd-date");
+  var out = document.getElementById("cvd-out");
+  var src = document.getElementById("cvd-source");
+  var cta = document.getElementById("cvd-cta");
+  if (!el || !out || !DATA.normals) { return; }
+
+  function pad(n) { return (n < 10 ? "0" : "") + n; }
+  function inRange(a, b, v) { return v >= a && v <= b; }
+  function mmdd(m, d) { return pad(m) + "-" + pad(d); }
+
+  var seq = 0;
+  function render() {
+    var v = el.value;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(v)) { return; }
+    var y = +v.slice(0, 4), m = +v.slice(5, 7), d = +v.slice(8, 10);
+    var wd = new Date(Date.UTC(y, m - 1, d)).getUTCDay();
+    var label = DAYS[wd] + " " + d + " " + MONTHS[m - 1] + " " + y;
+    var nm = DATA.normals[m - 1] || {};
+    var md = mmdd(m, d);
+    var mine = ++seq;
+
+    function paint(fc) {
+      if (mine !== seq) { return; }
+      var rows = [], lines = [];
+      var wet = false;
+
+      /* 1. Closures: public holidays and the Ferragosto week. */
+      var ph = (DATA.public_holidays || {})[v] || "";
+      if (ph) {
+        rows.push(["Public holiday", ph]);
+        lines.push("This is an Italian public holiday. Some wineries and restaurants close or change their hours on holidays, so check that your tour runs on this date.");
+      } else if (y > 2028) {
+        rows.push(["Public holiday", "Not listed here beyond 2028; check the Italian calendar"]);
+      }
+      var fw = DATA.ferragosto_week || [];
+      if (fw.length && inRange(fw[0], fw[1], md)) {
+        rows.push(["Ferragosto week", "Some estates and restaurants close around 15 August, and the featured farmhouse tour pauses for about two weeks"]);
+        if (!ph) { lines.push("This is the week around Ferragosto, the 15 August holiday, when some Castelli Romani estates and restaurants take a break. Book ahead and check that your winery is open."); }
+      }
+
+      /* 2. The featured tour's usual weekdays (its booking calendar, read 13 October 2026), then the Saturday note. */
+      var winter = (m >= 11 || m <= 3);
+      if (winter && wd !== 0 && wd !== 2) {
+        rows.push(["Town walk and farmhouse lunch", (m <= 2 ? "Its January and February calendar usually lists Tuesdays and Sundays only" : "Fewer winter dates, mostly Tuesdays and Sundays") + "; check this date"]);
+        lines.push("The featured farmhouse tour runs on fewer days in winter, so check this date in the booking calendar or pick a Tuesday or Sunday.");
+      } else if (!winter && (wd === 1 || wd === 3 || wd === 5)) {
+        rows.push(["Town walk and farmhouse lunch", "Its calendar usually lists Tuesdays, Thursdays, Saturdays and Sundays, not " + DAYS[wd] + "s"]);
+        lines.push("The featured farmhouse tour does not usually run on " + DAYS[wd] + "s, so pick a neighbouring day or compare the other tours on this site.");
+      }
+      if (wd === 6) {
+        rows.push(["Saturday", "Suggested trains and meeting instructions differ; read your booking"]);
+      }
+
+      /* 3. Harvest and events. */
+      var H = DATA.harvest || {};
+      if (inRange(H.core[0], H.core[1], md)) {
+        rows.push(["Grape harvest", "Usually under way in these weeks"]);
+        lines.push("This date falls in the weeks when Frascati grapes are usually picked, although the dates move with each year’s weather. A normal tour visits the vineyard and cellar; it does not include picking.");
+      } else if (inRange(H.early[0], H.early[1], md)) {
+        rows.push(["Grape harvest", "Usually just before the start; in a hot year picking can begin in late August"]);
+      } else if (inRange(H.late[0], H.late[1], md)) {
+        rows.push(["Grape harvest", "Usually finished"]);
+      } else {
+        rows.push(["Grape harvest", "Not harvest time (it is usually September into early October)"]);
+      }
+      var sg = (DATA.sagra || {})[String(y)];
+      if (sg && sg.dates && sg.dates.indexOf(v) >= 0) {
+        var fnt = sg.fountains && sg.fountains.indexOf(v) >= 0;
+        rows.push(["Sagra dell’Uva, Marino", fnt ? "On this date, with the wine fountains in the afternoon" : "On this date"]);
+        lines.push("Marino’s grape festival is on this date, a short trip from Frascati. Expect busy roads, trains and restaurants around the Castelli Romani, so allow extra time.");
+      } else if (m === 9 || m === 10) {
+        if (sg && sg.note) { rows.push(["Sagra dell’Uva, Marino", sg.note.charAt(0).toUpperCase() + sg.note.slice(1)]); }
+        else { rows.push(["Sagra dell’Uva, Marino", "The " + y + " dates are not yet published; it is held around the first Sunday of October"]); }
+      }
+      var ca = (DATA.cantine_aperte || {})[String(y)];
+      if (ca && ca.dates && ca.dates.indexOf(v) >= 0) {
+        rows.push(["Cantine Aperte", "On this date: the open-cellar weekend at wineries that take part"]);
+      } else if (m === 5) {
+        if (ca && ca.note) { rows.push(["Cantine Aperte", "Open-cellar weekend: " + ca.note]); }
+        else { rows.push(["Cantine Aperte", "The " + y + " dates are not yet published; it is usually the last weekend of May"]); }
+      }
+
+      /* 4. What the vineyards look like. */
+      var vine = (DATA.vine || [])[m - 1];
+      if (vine) { rows.push(["The vines", vine]); }
+
+      /* 5. Weather: forecast inside about two weeks, averages beyond. */
+      if (fc) {
+        rows.push(["Forecast, 10 am to 3 pm", "about " + Math.round(fc.tmax) + "°C at the warmest, " + (fc.rain >= 0.5 ? fc.rain.toFixed(1) + " mm of rain" : "little or no rain")]);
+        wet = fc.rain >= 3;
+        if (fc.rain >= 3) { lines.push("Rain is forecast for the tour hours. The town walk and the vineyard visit are outdoors, so bring a waterproof layer and shoes with grip; the tasting and lunch are at the table."); }
+        else if (fc.tmax >= 30) { lines.push("A hot day is forecast, so bring a hat, sunscreen and water for the town walk and the vineyard."); }
+        src.textContent = "The forecast for " + label + " is from Open-Meteo for Frascati, in Italian time. Holidays and event dates can change, so confirm with your tour. For weather warnings, check the Italian Air Force weather service.";
+      } else {
+        rows.push(["Average in " + MONTHS[m - 1] + " at Ciampino, below Frascati", "high " + Math.round(nm.hi) + "°C, low " + Math.round(nm.lo) + "°C, about " + Math.round(nm.days) + " rainy days in the month"]);
+        wet = (m >= 11 || m <= 2);
+        if (nm.hi >= 30) { lines.push(MONTHS[m - 1] + " afternoons are usually hot, so bring a hat, sunscreen and water for the town walk and the vineyard. Frascati, higher up, is usually a little cooler than Ciampino."); }
+        else if (nm.rain >= 85) { lines.push(MONTHS[m - 1] + " is one of the wetter months, so bring a waterproof layer for the outdoor parts of the day. The cellar visit, tasting and lunch are not affected by rain."); }
+        else if (nm.lo <= 6) { lines.push("Mornings are cold at this time of year, so bring a warm layer for the town walk."); }
+        src.textContent = "Long-term averages for Roma Ciampino, about 8 km away and about 190 m lower, so Frascati is usually a little cooler; not a forecast for " + label + ". The forecast appears here about two weeks ahead. Holidays and event dates can change, so confirm with your tour.";
+      }
+
+      /* CTA follows the branch it is drawn from. */
+      if (cta) {
+        var url = URL_MAIN, txt2 = "Check town walk and farmhouse lunch dates";
+        if (wet && URL_PASTA) { url = URL_PASTA; txt2 = "Check farmhouse pasta class dates"; }
+        cta.setAttribute("data-gyg" + "-hr" + "ef", url);
+        cta.setAttribute("hr" + "ef", typeof window.gygDecorate === "function" ? window.gygDecorate(url) : url);
+        cta.textContent = txt2;
+      }
+
+      var html = "<p><strong>" + label + "</strong></p><ul class=\"cvd-rows\">";
+      for (var k2 = 0; k2 < rows.length; k2++) { html += "<li><span>" + rows[k2][0] + "<span class=\"sr-only\">: </span></span> <span>" + rows[k2][1] + "</span></li>"; }
+      html += "</ul>";
+      for (var j = 0; j < lines.length; j++) { html += "<p>" + lines[j] + "</p>"; }
+      out.innerHTML = html;
+    }
+
+    /* Forecast only inside the window Open-Meteo serves. */
+    var today = new Date();
+    var t0 = Date.UTC(today.getFullYear(), today.getMonth(), today.getDate());
+    var diff = (Date.UTC(y, m - 1, d) - t0) / 86400000;
+    if (diff < 0 || diff > 14) { paint(null); return; }
+    var url = "https://api.open-meteo.com/v1/forecast?latitude=" + DATA.lat + "&longitude=" + DATA.lon +
+      "&hourly=temperature_2m,precipitation&timezone=Europe%2FRome&start_date=" + v + "&end_date=" + v;
+    fetch(url).then(function (r) { return r.json(); }).then(function (j) {
+      var h = j.hourly; if (!h || !h.time) { paint(null); return; }
+      var rain = 0, tmax = -99, n = 0;
+      for (var i = 0; i < h.time.length; i++) {
+        var hr = +h.time[i].slice(11, 13);
+        if (hr < 10 || hr > 15) { continue; }
+        n++; rain += h.precipitation[i] || 0; tmax = Math.max(tmax, h.temperature_2m[i]);
+      }
+      paint(n ? {rain: rain, tmax: tmax} : null);
+    }).catch(function () { paint(null); });
+  }
+
+  var now = new Date();
+  el.value = now.getFullYear() + "-" + pad(now.getMonth() + 1) + "-" + pad(now.getDate());
+  el.addEventListener("change", render);
+  el.addEventListener("input", render);
+  render();
+})();
+</script>
