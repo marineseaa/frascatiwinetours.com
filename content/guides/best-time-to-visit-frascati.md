@@ -70,7 +70,7 @@ Frascati sits on the slopes of the Alban Hills, about 20 km south-east of Rome, 
 
 **Late October and November: falling leaves.** Once the grapes are in, the leaves turn and fall, and the rain arrives. November is the wettest month, so a waterproof layer earns its place in your bag.
 
-**December to February: bare vines and cellar days.** The vines are dormant and the vineyards are bare. It is the coolest part of the year, with highs around 12°C at Ciampino, and the day leans on the cellar, the tasting and a long, warm lunch.
+**December to February: bare vines and cellar days.** The vines are dormant and the vineyards are bare. For the Christmas Village and festive events, see our guide to [Frascati at Christmas 2026](/guides/frascati-christmas/). It is the coolest part of the year, with highs around 12°C at Ciampino, and the day leans on the cellar, the tasting and a long, warm lunch.
 
 **March to May: spring.** The vines wake up in early spring, new leaves appear in April, and by May the hills are fresh and green. May is the most comfortable spring month for the town walk, and Cantine Aperte, the national open-cellar weekend, falls at the end of the month.
 
@@ -115,7 +115,7 @@ So the safest window for harvest activity is September, while early October depe
 
 The featured town walk and farmhouse lunch keeps its own calendar, and it shows how the year changes the choice of days. On its booking calendar, read on 13 October 2026, it usually ran four days a week, on Tuesdays, Thursdays, Saturdays and Sundays, from April to October, but only on Tuesdays and Sundays in January and February. It listed no dates from 9 to 23 August 2027, around Ferragosto. On Saturdays the suggested train from Rome is earlier, so read your confirmation before you buy tickets.
 
-Most other Castelli Romani wineries take visitors by appointment, and some need a few days' notice; see our guide to [vineyards and wineries near Rome](/guides/vineyards-wineries-near-rome/). Italy's national public holidays include 1 and 6 January, Easter Monday, 25 April, 1 May, 2 June, 15 August, 1 November, 8 December and 25 and 26 December. Some wineries and restaurants close or change their hours on these days, so confirm that your tour runs.
+Most other Castelli Romani wineries take visitors by appointment, and some need a few days' notice; see our guide to [vineyards and wineries near Rome](/guides/vineyards-wineries-near-rome/). Italy's national public holidays include 1 and 6 January, Easter Monday, 25 April, 1 May, 2 June, 15 August, 1 November, 8 December and 25 and 26 December. Our Frascati Christmas guide lists the 2026 [Christmas Village dates](/guides/frascati-christmas/) and holiday-week events. Some wineries and restaurants close or change their hours on these days, so confirm that your tour runs.
 
 ## How busy is Frascati?
 

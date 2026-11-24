@@ -260,4 +260,3 @@ Usually from September into early October. Marino's grape festival is held in ea
 - [Rome to Frascati for a wine tour](/guides/rome-to-frascati-wine-tour/)
 - [Private Frascati wine tours](/private-frascati-wine-tours/)
 
-<!-- GK-AUDIT: Checked 2026-10-27. GYG tour facts: data/gyg_frascati_offers.json. Rail time: https://www.trenitalia.com/en/connections/castelli-romani-line.html . Pietra Porzia visits: https://www.tenutadipietraporzia.it/en/the-estate-historic-house/guided-tours/ ; tunnel length and age per FAI and Winedering, depth left out (sources conflict). Vigna Barberini: https://colosseo.it/en/?p=22266 and https://turismoroma.it/en/news/%E2%80%9Cwine-palatine%E2%80%9D-eno-archeology-archaeological-park-colosseum ; harvest year left out (sources conflict). Winery details are as described by each estate. GYG t947657 (Tor Vergata farmhouse) could not be confirmed live (403), so it is mentioned without a product link. -->

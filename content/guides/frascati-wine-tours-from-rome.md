@@ -170,7 +170,7 @@ Search for Frascati wine tours and you will find dozens of listings across GetYo
 | **Summer (July–August)** | Hot middays; some places close in August |
 | **Winter** | Bare vines, but cosy cellars and fewer visitors |
 
-Our guide to the [best time to visit Frascati](/guides/best-time-to-visit-frascati/) compares the months, the harvest and the Sagra dell'Uva weekend, and lets you check your own date.
+Our guide to the [best time to visit Frascati](/guides/best-time-to-visit-frascati/) compares the months, the harvest and the Sagra dell'Uva weekend, and lets you check your own date. For a December visit, our guide to [Frascati at Christmas](/guides/frascati-christmas/) pairs a winery tour with the Christmas Village.
 
 ## Practical tips
 

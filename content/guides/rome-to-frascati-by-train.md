@@ -39,7 +39,7 @@ If your tour has given you a meeting point, our guide to [getting from Rome to y
 
 ## What are the train times from Rome to Frascati?
 
-We don't print a fixed timetable, because the departures change with the day of the week, with engineering works and with each new timetable. The next change is on 13 December 2026. Search Roma Termini to Frascati in the Trenitalia app or on [trenitalia.com](https://www.trenitalia.com/) for your exact date.
+We don't print a fixed timetable, because the departures change with the day of the week, with engineering works and with each new timetable. The next change is on 13 December 2026. If you are travelling over the holidays, our [Frascati at Christmas guide](/guides/frascati-christmas/) covers the market dates and what to check on 24–26 and 31 December. Search Roma Termini to Frascati in the Trenitalia app or on [trenitalia.com](https://www.trenitalia.com/) for your exact date.
 
 ### Roma Termini → Frascati
 
