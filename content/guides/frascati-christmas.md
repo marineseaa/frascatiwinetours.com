@@ -88,7 +88,7 @@ The regional **Natale in Festa 2026** programme lists free entry to the Villa Gr
 
 ## Wine tasting in Frascati at Christmas: what is possible?
 
-**Wine tasting works well in winter, but wineries do not take walk-ins as a rule.** Frascati has established winery operators offering tours, tastings and food experiences, including [Minardi Frascati Winery](https://minardifrascatiwinery.com/wine-tours/) and [Merumalia](https://www.merumalia.it/wine-tours/). Their general programmes are online, but their Christmas 2026 departures, holiday hours and inclusions are not published, so confirm them before you book.
+**Wine tasting works well in winter, but wineries do not take walk-ins as a rule.** Frascati has established winery operators offering tours, tastings and food experiences, including [Minardi Frascati Winery](https://minardifrascatiwinery.com/wine-tours/) and [Merumalia](https://www.merumalia.it/wine-tours/). Their general programmes are online, but their Christmas 2026 departures, holiday hours and inclusions are not published, so confirm them before you book. For January and February, indoor tastings and short daylight, see [Frascati wine tours in winter](/guides/frascati-wine-tours-winter/).
 
 ### Pick the experience you want
 
